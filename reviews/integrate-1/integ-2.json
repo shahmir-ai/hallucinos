@@ -1,0 +1,681 @@
+{
+  "at": "2026-09-17T08:43:46.081Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "Lactonix",
+        "version": "3.7‑beta",
+        "tagline": "Seeds in sight, glass in mind"
+      },
+      "bootPaintMs": 1281,
+      "desktopInteractiveMs": 2548,
+      "desktopRevealedMs": 3873,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "13:42 – Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 20,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "13:43 – Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 4020,
+        "n": 1
+      },
+      "clock": {
+        "ticked": false,
+        "from": "13:42 – Sep 17, 2026",
+        "to": "13:42 – Sep 17, 2026",
+        "ms": 41000
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 2025,
+          "chars": 108,
+          "nodes": 15,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 1620,
+          "chars": 56,
+          "nodes": 24,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 2830,
+          "chars": 312,
+          "nodes": 19,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2425,
+          "chars": 1689,
+          "nodes": 78,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 407,
+          "chars": 86,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2036,
+          "chars": 1643,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://napoliv.com/menu",
+          "ms": 2145,
+          "chars": 1407,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 1740,
+          "chars": 1071,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 1737,
+          "chars": 2125,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-kxp6bk",
+          "fp": 1172,
+          "ia": 1172,
+          "matched": false
+        },
+        {
+          "gen": "g2-hs11q3",
+          "fp": 2548,
+          "ia": 2548,
+          "matched": true
+        },
+        {
+          "gen": "g4-xuwuve",
+          "ia": 1259,
+          "matched": true
+        },
+        {
+          "gen": "g3-t9bsft",
+          "fp": 264,
+          "matched": false
+        },
+        {
+          "gen": "g5-g2ce1d",
+          "ia": 1049,
+          "matched": true
+        },
+        {
+          "gen": "g3-t9bsft",
+          "ia": 2271,
+          "matched": true
+        },
+        {
+          "gen": "g6-q8b1ik",
+          "ia": 2325,
+          "matched": true
+        },
+        {
+          "gen": "g7-kc5z83",
+          "ia": 1923,
+          "matched": true
+        },
+        {
+          "gen": "g8-r2nwjr",
+          "ia": 1538,
+          "matched": true
+        },
+        {
+          "gen": "g9-8frmyc",
+          "ia": 1527,
+          "matched": true
+        },
+        {
+          "gen": "g10-qntwwf",
+          "ia": 1208,
+          "matched": true
+        },
+        {
+          "gen": "g11-w8qoxr",
+          "ia": 1244,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 1065,
+          "total": 1293,
+          "tps": 469,
+          "tout": 606,
+          "usd": 0.00150314,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 796,
+          "total": 1364,
+          "tps": 1034,
+          "tout": 1411,
+          "usd": 0.00278409,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 995,
+          "total": 1229,
+          "tps": 650,
+          "tout": 799,
+          "usd": 0.00169531,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 609,
+          "total": 1045,
+          "tps": 1234,
+          "tout": 1290,
+          "usd": 0.0020368499999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 1498,
+          "total": 3528,
+          "tps": 255,
+          "tout": 901,
+          "usd": 0.00177269,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 1008,
+          "total": 2319,
+          "tps": 706,
+          "tout": 1637,
+          "usd": 0.00224053,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 796,
+          "total": 1917,
+          "tps": 1121,
+          "tout": 2149,
+          "usd": 0.0026280599999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 576,
+          "total": 1536,
+          "tps": 1189,
+          "tout": 1826,
+          "usd": 0.00242019,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 505,
+          "total": 1521,
+          "tps": 1095,
+          "tout": 1666,
+          "usd": 0.00231404,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 482,
+          "total": 1206,
+          "tps": 1526,
+          "tout": 1840,
+          "usd": 0.0024330999999999997,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 551,
+          "total": 1240,
+          "tps": 1156,
+          "tout": 1433,
+          "usd": 0.00215352,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.029981519999999998
+    },
+    {
+      "engine": "or-oss20-groq",
+      "identity": {
+        "name": "PewterRiv",
+        "version": "3.5",
+        "tagline": "Clearing the stream, one byte at a time"
+      },
+      "bootPaintMs": 2062,
+      "desktopInteractiveMs": 5068,
+      "desktopRevealedMs": 5342,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "13:43:18  Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 40
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "13:43:45  Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 40
+      },
+      "imagesLanded": {
+        "firstFilledMs": 2516,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "from": "13:43:18  Sep 17, 2026",
+        "to": "13:43:19  Sep 17, 2026",
+        "ms": 1300
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 2023,
+          "chars": 0,
+          "nodes": 17,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 2826,
+          "chars": 35,
+          "nodes": 26,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 2825,
+          "chars": 136,
+          "nodes": 17,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 4038,
+          "chars": 1704,
+          "nodes": 86,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 405,
+          "chars": 107,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 3355,
+          "chars": 1361,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://townpizza.com/restaurant1",
+          "ms": 3746,
+          "chars": 774,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 3354,
+          "chars": 1692,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 2946,
+          "chars": 1781,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g11-w8qoxr",
+          "ia": 1244,
+          "matched": true
+        },
+        {
+          "gen": "g1-qpf2jw",
+          "fp": 1955,
+          "ia": 1955,
+          "matched": false
+        },
+        {
+          "gen": "g2-e5345a",
+          "fp": 5068,
+          "ia": 5068,
+          "matched": true
+        },
+        {
+          "gen": "g4-cfk37e",
+          "ia": 1707,
+          "matched": true
+        },
+        {
+          "gen": "g3-qhewh8",
+          "fp": 31,
+          "matched": false
+        },
+        {
+          "gen": "g3-qhewh8",
+          "ia": 1160,
+          "matched": true
+        },
+        {
+          "gen": "g5-tnq07v",
+          "ia": 2516,
+          "matched": true
+        },
+        {
+          "gen": "g6-hwe6zd",
+          "ia": 2118,
+          "matched": true
+        },
+        {
+          "gen": "g7-86i6oz",
+          "ia": 3642,
+          "matched": true
+        },
+        {
+          "gen": "g9-rbjisb",
+          "ia": 2736,
+          "matched": true
+        },
+        {
+          "gen": "g10-o3nlwa",
+          "ia": 2997,
+          "matched": true
+        },
+        {
+          "gen": "g11-1ro4x1",
+          "ia": 2671,
+          "matched": true
+        },
+        {
+          "gen": "g12-8u7a53",
+          "ia": 2446,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "page",
+          "ttfb": 551,
+          "total": 1240,
+          "tps": 1156,
+          "tout": 1433,
+          "usd": 0.00215352,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "boot",
+          "ttfb": 1849,
+          "total": 2210,
+          "tps": 262,
+          "tout": 578,
+          "usd": 0.000499125,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 1225,
+          "total": 3124,
+          "tps": 484,
+          "tout": 1511,
+          "usd": 0.0009975,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 999,
+          "total": 1701,
+          "tps": 412,
+          "tout": 700,
+          "usd": 0.00055425,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 1182,
+          "total": 2864,
+          "tps": 423,
+          "tout": 1211,
+          "usd": 0.0007086,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 1109,
+          "total": 2513,
+          "tps": 434,
+          "tout": 1090,
+          "usd": 0.000672075,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 637,
+          "total": 2117,
+          "tps": 587,
+          "tout": 1242,
+          "usd": 0.00070695,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 1170,
+          "total": 3639,
+          "tps": 605,
+          "tout": 2202,
+          "usd": 0.001005225,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 0,
+          "total": 309,
+          "tps": 3,
+          "tout": 1,
+          "usd": 0.000353775,
+          "contract": null,
+          "err": "engine or-oss20-groq HTTP 429: {\"error\":{\"message\":\"Provider returned error\",\"code\":429,\"metadata\":{\"raw\":\"openai/gpt-oss-20b is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\",\"provider_name\":\"Groq\",\"is_byok\":false,\"provider_error_code\":\"rate_limit_exceeded\",\"limit_source\":\"upstream_provider_",
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 849,
+          "total": 2424,
+          "tps": 533,
+          "tout": 1291,
+          "usd": 0.0007353749999999999,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 845,
+          "total": 2994,
+          "tps": 643,
+          "tout": 1925,
+          "usd": 0.0009271500000000001,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 1079,
+          "total": 2668,
+          "tps": 637,
+          "tout": 1699,
+          "usd": 0.00085935,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 1098,
+          "total": 2443,
+          "tps": 512,
+          "tout": 1250,
+          "usd": 0.0007245,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.016897395
+    }
+  ],
+  "usd": 0.04472539500000001
+}

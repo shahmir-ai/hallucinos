@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "apps": [
+    { "id": "browser", "shape": "a web browser: address bar, some navigation, a page area; home is google-shaped" },
+    { "id": "photos", "shape": "a photo library of pictures that do not exist, drawn as SVG/CSS art with captions" },
+    { "id": "trash", "shape": "a recycle bin holding files deleted by the previous user of this machine" },
+    { "id": "calculator", "shape": "a calculator that is under no obligation to be correct; it decides per boot how honest it is" },
+    { "id": "store", "shape": "an app store of apps that do not exist; \"install\" calls os.install() and the app appears on the desktop" },
+    { "id": "mail", "shape": "an inbox: invented senders, spam from invented companies, one thread that is oddly personal" },
+    { "id": "messages", "shape": "group chats with invented contacts who reply when you type" },
+    { "id": "terminal", "shape": "a shell where the model is the shell; commands do what the OS thinks they do" },
+    { "id": "taskmgr", "shape": "a task manager of invented processes and resource graphs" },
+    { "id": "maps", "shape": "a map of cities that do not exist, drawn as SVG, with directions between them" },
+    { "id": "weather", "shape": "forecasts for places that do not exist, with warnings" },
+    { "id": "news", "shape": "a news reader for today in this reality" },
+    { "id": "notes", "shape": "the OS's own diary, including entries about the user" },
+    { "id": "games", "shape": "a launcher that writes and runs a playable canvas/JS game on the spot" },
+    { "id": "update", "shape": "a system updater; \"install\" triggers a full reboot into version+1 (new identity, same name lineage)" },
+    { "id": "about", "shape": "about this computer: the OS's own history, specs, credits" }
+  ]
+}

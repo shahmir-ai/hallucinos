@@ -1,0 +1,32 @@
+{
+  "name": "hallucinos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "start": "node dist/server.js",
+    "test": "vitest run",
+    "test:e2e": "npm run build && playwright test",
+    "bakeoff": "node scripts/bakeoff.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "sweep": "node scripts/desktop-sweep.mjs",
+    "identity-sweep": "node scripts/identity-sweep.mjs",
+    "img-latency": "node scripts/img-latency.mjs"
+  },
+  "dependencies": {
+    "hono": "^4.6.14",
+    "@hono/node-server": "^1.13.7"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "esbuild": "^0.24.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "engine": "mock",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "HALCYON 2",
+        "version": "3.2",
+        "era": "1997-adjacent",
+        "archetype": "taskbar"
+      },
+      "archetype": "taskbar",
+      "bootInkMs": 103,
+      "desktopInteractiveMs": 323,
+      "launchers": 16,
+      "iconsFilled": "0/16",
+      "iconsFilledAtReady": "0/16",
+      "platesWaitedMs": 15103,
+      "wallpaper": false,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789678994010,
+          "windowId": "w1",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 182,
+          "chars": 258,
+          "nodes": 28,
+          "genId": "g3-vvblni",
+          "inkMsKernel": 53,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 53
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "dispatched",
+          "shoved": "w1",
+          "coveredBy": "window w1",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789678995076,
+          "windowId": "w2",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 266,
+          "chars": 239,
+          "nodes": 28,
+          "genId": "g4-cav5rh",
+          "inkMsKernel": 63,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 29
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "dispatched",
+          "shoved": "w2",
+          "coveredBy": "window w2",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789678996195,
+          "windowId": "w3",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 305,
+          "chars": 38,
+          "nodes": 11,
+          "genId": "g5-dbm81f",
+          "inkMsKernel": 82,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 48
+        },
+        {
+          "app": "notes",
+          "pattern": "rapid",
+          "mode": "dispatched",
+          "shoved": "w3",
+          "coveredBy": "window w3",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789678997357,
+          "windowId": "w4",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 233,
+          "chars": 207,
+          "nodes": 14,
+          "genId": "g7-243lk3",
+          "inkMsKernel": 71,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 37
+        }
+      ],
+      "windows": [
+        {
+          "id": "w1",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 388,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w2",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 388,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w3",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 388,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w4",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 388,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        }
+      ],
+      "windowsStacked": [
+        {
+          "id": "w1",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w2",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w3",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w4",
+          "chrome": "ok",
+          "closeHit": true
+        }
+      ],
+      "tasks": [
+        {
+          "for": "w1",
+          "box": {
+            "w": 68,
+            "h": 55
+          },
+          "onScreen": true,
+          "text": "▪▣ photos",
+          "fallback": false
+        },
+        {
+          "for": "w2",
+          "box": {
+            "w": 52,
+            "h": 55
+          },
+          "onScreen": true,
+          "text": "▪▣ maps",
+          "fallback": false
+        },
+        {
+          "for": "w3",
+          "box": {
+            "w": 77,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪Goggle",
+          "fallback": false
+        },
+        {
+          "for": "w4",
+          "box": {
+            "w": 60,
+            "h": 55
+          },
+          "onScreen": false,
+          "text": "▪▣ notes",
+          "fallback": false
+        }
+      ],
+      "walk": null,
+      "chrome": {
+        "template": "ok",
+        "contractPatch": null,
+        "windowsUsable": "4/4",
+        "windowsPatched": 0
+      },
+      "labels": {
+        "atPlates": "16/16",
+        "late": "16/16",
+        "inDom": 16,
+        "lost": 0,
+        "kept": [],
+        "boxed": 0
+      },
+      "barSpacing": {
+        "left": 12,
+        "right": 15,
+        "min": 12,
+        "jammed": false,
+        "text": "HALCYON 2 2:03:21 AM · 9/18/2026 ▪▣ photos ▪▣ maps ▪Goggle ▪▣ notes"
+      },
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        }
+      ],
+      "net": {
+        "n": 0,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "cspNoise": 40,
+      "httpRefused": [
+        "/api/img 404",
+        "/api/img 404"
+      ],
+      "imgs": [],
+      "refusals": {},
+      "trace": [
+        "+17ms gen.fetch boot g1-r2we0b",
+        "+26ms gen.headers boot g1-r2we0b 200",
+        "+54ms gen.fetch desktop g2-aqzcb9",
+        "+57ms gen.headers desktop g2-aqzcb9 200",
+        "+142ms gen.closed boot g1-r2we0b",
+        "+313ms gen.closed desktop g2-aqzcb9",
+        "+18041ms launcher.press photos",
+        "+18041ms gen.fetch app g3-vvblni",
+        "+18042ms launcher.click photos",
+        "+18042ms openApp.enter photos",
+        "+18042ms openApp.claim photos hit g3-vvblni",
+        "+18044ms openApp.created photos w1",
+        "+18044ms openApp.focused w1",
+        "+18044ms openApp.stream w1",
+        "+18044ms streamApp.enter w1 photos spec g3-vvblni",
+        "+18044ms streamDoc.enter app g3-vvblni spec g3-vvblni",
+        "+18044ms streamDoc.take g3-vvblni",
+        "+18045ms openApp.exit w1",
+        "+18069ms gen.headers app g3-vvblni 200",
+        "+18150ms gen.closed app g3-vvblni",
+        "+18151ms streamApp.exit w1 inked=true painted=true",
+        "+19194ms launcher.press maps",
+        "+19194ms gen.fetch app g4-cav5rh",
+        "+19198ms launcher.click maps",
+        "+19198ms openApp.enter maps",
+        "+19198ms openApp.claim maps hit g4-cav5rh",
+        "+19200ms openApp.created maps w2",
+        "+19200ms openApp.focused w2",
+        "+19200ms openApp.stream w2",
+        "+19200ms streamApp.enter w2 maps spec g4-cav5rh",
+        "+19200ms streamDoc.enter app g4-cav5rh spec g4-cav5rh",
+        "+19200ms streamDoc.take g4-cav5rh",
+        "+19200ms openApp.exit w2",
+        "+19201ms gen.headers app g4-cav5rh 200",
+        "+19303ms gen.closed app g4-cav5rh",
+        "+19304ms streamApp.exit w2 inked=true painted=true",
+        "+20357ms launcher.press browser",
+        "+20357ms gen.fetch app g5-dbm81f",
+        "+20358ms gen.fetch page g6-7hkknn",
+        "+20362ms launcher.click browser",
+        "+20362ms openApp.enter browser",
+        "+20362ms openApp.claim browser hit g5-dbm81f",
+        "+20363ms openApp.created browser w3",
+        "+20363ms openApp.focused w3",
+        "+20364ms openApp.stream w3",
+        "+20364ms streamApp.enter w3 browser spec g5-dbm81f",
+        "+20364ms streamDoc.enter app g5-dbm81f spec g5-dbm81f",
+        "+20364ms streamDoc.take g5-dbm81f",
+        "+20364ms openApp.exit w3",
+        "+20364ms gen.headers app g5-dbm81f 200",
+        "+20383ms gen.headers page g6-7hkknn 200",
+        "+20479ms gen.closed app g5-dbm81f",
+        "+20479ms streamDoc.enter page g6-7hkknn spec g6-7hkknn",
+        "+20479ms streamDoc.take g6-7hkknn",
+        "+20487ms gen.closed page g6-7hkknn",
+        "+20487ms streamApp.exit w3 inked=true painted=true",
+        "+21389ms launcher.press notes",
+        "+21389ms gen.fetch app g7-243lk3",
+        "+21390ms launcher.click notes",
+        "+21390ms openApp.enter notes",
+        "+21390ms openApp.claim notes hit g7-243lk3",
+        "+21392ms openApp.created notes w4",
+        "+21392ms openApp.focused w4",
+        "+21392ms openApp.stream w4",
+        "+21392ms streamApp.enter w4 notes spec g7-243lk3",
+        "+21392ms streamDoc.enter app g7-243lk3 spec g7-243lk3",
+        "+21392ms streamDoc.take g7-243lk3",
+        "+21392ms openApp.exit w4",
+        "+21394ms gen.headers app g7-243lk3 200",
+        "+21498ms gen.closed app g7-243lk3",
+        "+21498ms streamApp.exit w4 inked=true painted=true"
+      ],
+      "usd": 0,
+      "gens": 7
+    }
+  ]
+}

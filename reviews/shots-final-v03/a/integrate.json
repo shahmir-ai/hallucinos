@@ -1,0 +1,299 @@
+{
+  "at": "2026-09-17T15:17:58.811Z",
+  "results": [
+    {
+      "engine": "auto",
+      "identity": {
+        "name": "VORTEX",
+        "tagline": "Ledger of the Departed",
+        "version": "1.4.2-rc2 [Obsidian]",
+        "era": "2020s funeral parlour",
+        "personality": "It records every claim with a shift that ends before it begins, and will litigate any breach.",
+        "palette_words": [
+          "sandstone",
+          "snow glare"
+        ],
+        "font_words": [
+          "Bodoni",
+          "Courier"
+        ],
+        "mascot": "Silhouette Crow",
+        "boot_message": "Legal hold engaged.",
+        "archetype": "dock"
+      },
+      "net": {
+        "n": 0,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "netAfterBoot": {
+        "n": 2,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 2,
+          "mark": 0
+        },
+        "open": [
+          "img:wallpaper 2861ms",
+          "img:icons 2861ms"
+        ]
+      },
+      "bootPaintMs": 1501,
+      "desktopInteractiveMs": 3659,
+      "desktopRevealedMs": 4340,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "dock",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 876,
+          "w": 1440,
+          "h": 24
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 2,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 0,
+        "tasksLegible": 0,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "20:10:53 17/09/2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 11,
+        "launcherRows": 3,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "dock",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 876,
+          "w": 1440,
+          "h": 24
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 2,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 0,
+        "tasksLegible": 0,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "20:17:57 17/09/2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 11,
+        "launcherRows": 3,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 16,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 11075,
+        "n": 17
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "20:10:53 17/09/2026",
+        "to": "20:10:54 17/09/2026",
+        "ms": 1003
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 90185,
+          "chars": 0,
+          "nodes": 0,
+          "blank": true,
+          "unstyled": true,
+          "focused": false,
+          "taskActive": false,
+          "windowId": null,
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10299
+        },
+        {
+          "id": "photos",
+          "ms": 90159,
+          "chars": 0,
+          "nodes": 0,
+          "blank": true,
+          "unstyled": true,
+          "focused": false,
+          "taskActive": false,
+          "windowId": null,
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10300
+        },
+        {
+          "id": "store",
+          "ms": 90184,
+          "chars": 0,
+          "nodes": 0,
+          "blank": true,
+          "unstyled": true,
+          "focused": false,
+          "taskActive": false,
+          "windowId": null,
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10296
+        },
+        {
+          "id": "calculator",
+          "ms": 90115,
+          "chars": 0,
+          "nodes": 0,
+          "blank": true,
+          "unstyled": true,
+          "focused": false,
+          "taskActive": false,
+          "windowId": null,
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10306
+        }
+      ],
+      "pages": [],
+      "browserWindowFocused": null,
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "icons",
+          "wallpaper"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-72jhv8",
+          "fp": 1487,
+          "ink": 1487,
+          "ia": 1487,
+          "matched": true
+        },
+        {
+          "gen": "g2-qrx9ku",
+          "fp": 3659,
+          "ia": 3659,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 1452,
+          "total": 1478,
+          "tps": 692,
+          "tout": 1023,
+          "usd": 0.00303347,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 1447,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 1526,
+          "total": 2171,
+          "tps": 848,
+          "tout": 1842,
+          "usd": 0.00527168,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 1525,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.014305149999999999
+    }
+  ],
+  "usd": 0.014305149999999999
+}

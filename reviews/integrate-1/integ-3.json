@@ -1,0 +1,352 @@
+{
+  "at": "2026-09-17T08:49:56.063Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "WalnutHaze",
+        "version": "3.7",
+        "tagline": "Recovering what slipped through"
+      },
+      "bootPaintMs": 1513,
+      "desktopInteractiveMs": 2897,
+      "desktopRevealedMs": 4369,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "13:49:38 Thu, Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 20,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "13:49:55 Thu, Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 4021,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "13:49:38 Thu, Sep 17, 2026",
+        "to": "13:49:39 Thu, Sep 17, 2026",
+        "ms": 1003
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 1622,
+          "chars": 70,
+          "nodes": 18,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 1625,
+          "chars": 74,
+          "nodes": 27,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 1618,
+          "chars": 204,
+          "nodes": 18,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 1615,
+          "chars": 686,
+          "nodes": 71,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 406,
+          "chars": 81,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2039,
+          "chars": 1739,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://tonypizzas.com/menu",
+          "ms": 1734,
+          "chars": 1067,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 1734,
+          "chars": 836,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 2135,
+          "chars": 3647,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-cqokan",
+          "fp": 1423,
+          "ia": 1423,
+          "matched": true
+        },
+        {
+          "gen": "g2-r87swi",
+          "fp": 2897,
+          "ia": 2897,
+          "matched": true
+        },
+        {
+          "gen": "g4-0xgmz3",
+          "ia": 1019,
+          "matched": true
+        },
+        {
+          "gen": "g3-8xrsrw",
+          "fp": 20,
+          "matched": false
+        },
+        {
+          "gen": "g3-8xrsrw",
+          "ia": 127,
+          "matched": true
+        },
+        {
+          "gen": "g5-k5zvtz",
+          "ia": 1081,
+          "matched": true
+        },
+        {
+          "gen": "g6-cffus3",
+          "ia": 1246,
+          "matched": true
+        },
+        {
+          "gen": "g7-wyv8pu",
+          "ia": 1518,
+          "matched": true
+        },
+        {
+          "gen": "g8-ad5pup",
+          "ia": 1234,
+          "matched": true
+        },
+        {
+          "gen": "g9-th2xfn",
+          "ia": 1059,
+          "matched": true
+        },
+        {
+          "gen": "g10-p4otmc",
+          "ia": 1139,
+          "matched": true
+        },
+        {
+          "gen": "g11-inx9t1",
+          "ia": 1379,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 1386,
+          "total": 1410,
+          "tps": 567,
+          "tout": 800,
+          "usd": 0.001639,
+          "contract": null,
+          "err": null,
+          "truncated": true,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 1103,
+          "total": 1451,
+          "tps": 891,
+          "tout": 1293,
+          "usd": 0.00270417,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 499,
+          "total": 1011,
+          "tps": 987,
+          "tout": 998,
+          "usd": 0.0018341199999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 547,
+          "total": 1145,
+          "tps": 493,
+          "tout": 564,
+          "usd": 0.00153991,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 20,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 567,
+          "total": 1079,
+          "tps": 1099,
+          "tout": 1186,
+          "usd": 0.00196659,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 487,
+          "total": 1243,
+          "tps": 1390,
+          "tout": 1728,
+          "usd": 0.00230482,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 510,
+          "total": 1514,
+          "tps": 1501,
+          "tout": 2273,
+          "usd": 0.0027151199999999997,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 519,
+          "total": 1230,
+          "tps": 1311,
+          "tout": 1613,
+          "usd": 0.00227297,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 442,
+          "total": 1057,
+          "tps": 1494,
+          "tout": 1579,
+          "usd": 0.00225426,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 475,
+          "total": 1137,
+          "tps": 1462,
+          "tout": 1662,
+          "usd": 0.00231103,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 506,
+          "total": 1377,
+          "tps": 1359,
+          "tout": 1871,
+          "usd": 0.0024557399999999997,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.029997729999999993
+    }
+  ],
+  "usd": 0.029997729999999993
+}

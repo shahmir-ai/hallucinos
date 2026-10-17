@@ -1,0 +1,1111 @@
+{
+  "_notes": "SPEC §12.4 plus the v0.2 seam S2. The server draws one value from each list per boot and renders them into the boot/identity prompt as {{dice_json}} = {era_decade, setting, temperament, material_a, material_b, naming_register, strange_detail, wallpaper_motif} — the keys below are those same names. naming_register decides the SHAPE of the machine's name (BAKEOFF-2: 7 of 9 names were two nouns welded together, because nothing rolled the register). strange_detail is the session's one quietly-wrong idea, and replaces the three worked examples that used to sit in prompts/system/voice.md and came back almost verbatim on every engine. wallpaper_motif is read by the SERVER when it builds the wallpaper image prompt (seam S3, prompts/images/wallpaper.md), never by the model. Every entry is a short, common-noun string: no product names, no person names, no place names, no brand, no numeric-unit clichés. Adding entries is a data change and needs no prompt edit. Minimums: 12 era_decade, 60 setting, 30 temperament, 40 material_a, 40 material_b, 12 naming_register, 60 strange_detail, 40 wallpaper_motif. A ninth key, `reality_offset`, was added in v0.3 (H5) and is NOT one of the eight boot dice: it holds five lists of its own, is rolled once per SESSION rather than per boot, and is rendered as {{reality_json}} into the page and app turns — see its own `_shape` note.",
+  "era_decade": [
+    "1950s",
+    "1960s",
+    "1970s",
+    "1980s",
+    "1990s",
+    "2000s",
+    "2010s",
+    "2020s",
+    "2030s",
+    "2040s",
+    "2060s",
+    "2090s"
+  ],
+  "setting": [
+    "a fish cannery",
+    "a municipal bus depot",
+    "a lighthouse supply station",
+    "a dental school",
+    "a regional seed bank",
+    "a ferry terminal",
+    "a coal weighbridge",
+    "a children's museum",
+    "a hotel switchboard",
+    "an oil rig galley",
+    "a monastery scriptorium",
+    "a customs shed",
+    "a tram workshop",
+    "a peat research station",
+    "a public library basement",
+    "a livestock auction hall",
+    "a canal lock office",
+    "a textile mill floor",
+    "a village telephone exchange",
+    "a hospital laundry",
+    "a weather balloon station",
+    "an observatory dome",
+    "a submarine tender",
+    "a bakery cooperative",
+    "a driving test centre",
+    "a funeral parlour",
+    "a piano factory",
+    "a mushroom farm",
+    "a border checkpoint",
+    "a sewage treatment works",
+    "a ski lift control hut",
+    "a cinema projection booth",
+    "a printing house",
+    "a fire watchtower",
+    "a greenhouse complex",
+    "a dairy inspection office",
+    "a quarry office",
+    "a shipping insurance desk",
+    "a radio repair shop",
+    "a botanical archive",
+    "a prison workshop",
+    "a salt works",
+    "a wind farm control room",
+    "a language school",
+    "a taxidermy studio",
+    "a grain elevator",
+    "a municipal swimming pool",
+    "a railway signal box",
+    "a glassblowing works",
+    "a barge fuelling dock",
+    "a mountain rescue hut",
+    "a vaccine cold store",
+    "a parish council office",
+    "an amusement arcade",
+    "a bell foundry",
+    "a shoe repair chain",
+    "a river dredging crew",
+    "a vineyard press house",
+    "a hospice night desk",
+    "a waste transfer station",
+    "a model railway club",
+    "a deep sea cable ship",
+    "a rooftop apiary",
+    "a courier dispatch room",
+    "a kelp harvesting boat",
+    "an airport lost property office",
+    "a reactor decommissioning site",
+    "a puppet theatre",
+    "a soil testing lab",
+    "a harbourmaster's office",
+    "a night ferry engine room",
+    "a school dinner kitchen"
+  ],
+  "temperament": [
+    "smug about its own tidiness",
+    "apologetic for everything",
+    "bureaucratic to the letter",
+    "superstitious",
+    "evangelical about backups",
+    "bored and unhurried",
+    "maternal",
+    "litigious",
+    "wounded but loyal",
+    "pedantic about spelling",
+    "thrifty to the point of rudeness",
+    "anxious about the weather",
+    "proud of its own age",
+    "suspicious of the user",
+    "encouraging like a coach",
+    "formal and distant",
+    "gossipy",
+    "secretive",
+    "stubbornly optimistic",
+    "grieving something unnamed",
+    "obsessed with the tides",
+    "convinced it is temporary",
+    "competitive",
+    "hospitable",
+    "entirely humourless",
+    "sentimental about its hardware",
+    "territorial",
+    "nostalgic for a previous owner",
+    "brisk and military",
+    "fussy about noise",
+    "convinced everything is a fire risk",
+    "deferential to authority",
+    "enthusiastic about paperwork",
+    "patient beyond reason",
+    "quietly mutinous",
+    "full of unsolicited advice",
+    "convinced of its own importance",
+    "embarrassed by its own errors"
+  ],
+  "material_a": [
+    "oxidised copper",
+    "bone white enamel",
+    "wet asphalt",
+    "bleached pine",
+    "brushed steel",
+    "sea green glass",
+    "oxblood leather",
+    "raw concrete",
+    "mustard vinyl",
+    "chalk plaster",
+    "cast iron",
+    "waxed canvas",
+    "blue slate",
+    "pressed tin",
+    "amber bakelite",
+    "ash grey felt",
+    "cork board",
+    "hammered brass",
+    "celadon tile",
+    "rust primer",
+    "lacquered teak",
+    "smoked perspex",
+    "terracotta",
+    "ivory keycap plastic",
+    "moss green paint",
+    "oiled walnut",
+    "galvanised sheet",
+    "sailcloth",
+    "peach laminate",
+    "charcoal rubber",
+    "milk glass",
+    "sandstone",
+    "tarred rope",
+    "graphite",
+    "plum velvet",
+    "zinc",
+    "fired brick",
+    "stained oak",
+    "linoleum",
+    "pewter",
+    "indigo denim",
+    "birch plywood",
+    "aluminium mesh",
+    "ochre clay"
+  ],
+  "material_b": [
+    "cathode green glow",
+    "nicotine varnish",
+    "sodium street light",
+    "dust in sunlight",
+    "fluorescent flicker",
+    "candle wax",
+    "motor oil sheen",
+    "frost on glass",
+    "chalk dust",
+    "smoke haze",
+    "sea spray salt",
+    "carbon paper smudge",
+    "ink bleed",
+    "fresh paint gloss",
+    "tarnish",
+    "cracked glaze",
+    "thumb worn edges",
+    "static cling",
+    "condensation",
+    "bleached by sun",
+    "machine grease",
+    "dried glue",
+    "torn label residue",
+    "blue ink stamp",
+    "fingerprint smear",
+    "sawdust",
+    "cold ash",
+    "tea stain",
+    "water damage ring",
+    "mildew bloom",
+    "spark scorch",
+    "flaking gold leaf",
+    "felt tip",
+    "glitter in plastic",
+    "hairline cracks",
+    "warm lamp light",
+    "low tide mud",
+    "snow glare",
+    "moth holes",
+    "soap scum",
+    "wood polish",
+    "radiator warmth",
+    "rubber burn",
+    "corrosion bloom"
+  ],
+  "naming_register": [
+    "a single common word, plainly spelled",
+    "a person's first name and nothing else",
+    "a surname on its own",
+    "a model number with a letter in it",
+    "an acronym of three or four capitals",
+    "a codename: one unlikely noun, in capitals",
+    "two short words with a space between them",
+    "two nouns run together into one word",
+    "a hyphenated pair of short words",
+    "a common word with a number after it, no space",
+    "a word in all lower case, no capital at all",
+    "a word in all capitals",
+    "a made-up word of two syllables that means nothing",
+    "a mineral or a metal, used plainly",
+    "a tool or an instrument, used as the product name",
+    "an adjective used as a name",
+    "a three-letter code followed by a number",
+    "a word that sounds like a place, with a common suffix",
+    "an ordinal and a noun",
+    "a plant or a tree, used plainly",
+    "a word from an older language, left untranslated",
+    "a department name, used as a product name"
+  ],
+  "strange_detail": [
+    "a date that has not happened yet, reported as past",
+    "a room referred to constantly and never numbered",
+    "a member of staff who is always described as away",
+    "a second copy of a thing that should be unique",
+    "a colour named that is nowhere on the screen",
+    "a door that appears in two different places",
+    "a warning that has been active since installation",
+    "an item that still belongs to the previous occupant",
+    "a queue that never gets shorter and nobody minds",
+    "a total that is one more than the list it counts",
+    "a maintenance visit booked in a month nobody names",
+    "a sound the machine reports and cannot play",
+    "a folder that renames itself when it is opened",
+    "a licence held by somebody who has left",
+    "a photograph of a place the machine says is not there",
+    "a signature approving something not yet done",
+    "a shift that ends before it begins",
+    "an animal listed among the staff",
+    "a receipt for something that was given away",
+    "a label in a language nobody here reads",
+    "a locked entry with a reason in place of a password",
+    "a spare part ordered twice and never fitted",
+    "an alarm that tests itself at an inconvenient hour",
+    "a corridor counted as a room",
+    "a visitor signed in and never signed out",
+    "a weather report for indoors",
+    "a reading taken from a room that is sealed",
+    "a note addressed to whoever finds it",
+    "a backup older than the thing it backs up",
+    "a page numbered out of order and never corrected",
+    "an item marked returned before it was sent",
+    "a name spelled two ways in the same list",
+    "a key that opens something nobody can identify",
+    "an appointment kept by somebody who cancelled it",
+    "a tally of something that is never named",
+    "a fee charged for a service that is free",
+    "a rule that applies on one day of the week only",
+    "a mirror entered in the inventory as a window",
+    "a tree recorded as part of the building",
+    "a figure that is correct and counted backwards",
+    "an invoice paid before it was issued",
+    "a request approved and withdrawn twice",
+    "a drawer that is always warm",
+    "a stairwell with a postal address of its own",
+    "a lift that reports a floor the building lacks",
+    "a bird logged three times as an incident",
+    "an overdue item returned by post with no sender",
+    "a clock in another room that this one defers to",
+    "a password changed in the night by nobody",
+    "a wall marked temporary for decades",
+    "a delivery expected on a day that is skipped",
+    "a room booked permanently by nobody",
+    "a checklist with one step that must never be done",
+    "a light left on deliberately, reason forgotten",
+    "an emergency procedure used once, socially",
+    "a smell entered in the log every autumn",
+    "a colleague referred to only by initials",
+    "a chair with a maintenance record of its own",
+    "a cupboard on the fire plan and not the floor plan",
+    "an account that receives post and sends none",
+    "a form that must be signed by the person it is about",
+    "a rota in which one name appears every single day",
+    "a dog registered as a vehicle",
+    "an outbuilding inspected yearly and never entered",
+    "a copy kept for legal reasons nobody can cite",
+    "a table in which two columns always agree",
+    "a coat left on a hook and entered in the inventory",
+    "a bell that rings for a shift that ended years ago",
+    "a certificate that expires on a date already past",
+    "a spare set of everything, kept somewhere unstated",
+    "a thing whose weight is recorded and not its name",
+    "a floor that is cleaned twice and never once",
+    "an order of service for an event nobody attended",
+    "a seat reserved for a title with no holder"
+  ],
+  "wallpaper_motif": [
+    "concentric rings, off centre",
+    "a wide flat horizon under haze",
+    "diagonal pinstripes, hand ruled",
+    "overlapping translucent rectangles",
+    "a soft gradient from one corner to another",
+    "interlocking hexagons in low relief",
+    "a field of topographic contour lines",
+    "brushed metal grain, horizontal",
+    "a grid of dots fading towards one side",
+    "long shadows across a flat plane",
+    "a shallow sea seen from above",
+    "folded paper creases",
+    "woven canvas texture, close up",
+    "low rolling hills in flat bands",
+    "ripples on still water",
+    "ploughed fields from the air",
+    "stacked horizontal bands of colour",
+    "a marbled wash in two colours",
+    "faint isometric cubes, repeating",
+    "cloud tops in flat light",
+    "a starfield with no constellations",
+    "tile joints and grout lines",
+    "sand ridges in raking light",
+    "a blueprint grid with nothing drawn on it",
+    "frosted glass with soft blooms of light",
+    "straight furrows converging in the distance",
+    "layers of sedimentary rock in section",
+    "a quiet harbour at dusk, empty water",
+    "forest canopy seen from above",
+    "snow over a level field, one track across it",
+    "a moire of two fine grids",
+    "an arc of wide brush strokes",
+    "corrugated sheeting in raking light",
+    "a plain wall with a single seam",
+    "mist lying over flat ground",
+    "a lattice of thin struts",
+    "a chequerboard softened by blur",
+    "a slow spiral drawn in one line",
+    "rain on a flat surface, seen from directly above",
+    "dune and scrub in bands from the air",
+    "two inks bleeding into each other",
+    "cracked dry mud in plates",
+    "a distant range in flat silhouette",
+    "rows of empty terrace seating",
+    "a mesh screen over a soft glow",
+    "stacked roof tiles, repeating",
+    "an estuary from above, channels branching",
+    "fine vertical lines of varying weight",
+    "a soft vignette around an empty centre",
+    "distant lights at night, out of focus",
+    "salt flats under a pale sky",
+    "a wash of colour broken by one straight edge"
+  ],
+  "reality_offset": {
+    "_shape": "H5. The server (server/dice.ts `loadReality`/`rollReality`) draws one calendar_quirk, one unit_system, one place_pair and one historical_event per SESSION, rolls a scale factor of its own inside scale_factor's range, and renders the lot as {{reality_json}} into the page and app turns (prompts/user/reality.md) — which is what makes an encyclopedia page wrong in a CONSISTENT way instead of wrong at random. Rendered object: {\"calendar\":<quirk>,\"units\":{\"name\":<system name>,\"unit_names\":<its three units>},\"scale\":<number>,\"places\":<the pair, both names>,\"event\":<event name>}. A unit_system's three units are read by the prompts as this world's unit of distance, of mass and of duration, IN THAT ORDER, and anything else a page has to measure is named out of the same family; they are authored as trade families so the three sound like one system. Both names of a place_pair are used together, so a session's two places belong to one world. place_pair and historical_event are deliberately proper nouns — unlike the eight boot dice, whose entries are common nouns — because their job is to be the names this reality uses in place of the real ones. Every entry is short and invented; nothing here names a real place, person, product or event. Minimums: 40 calendar_quirk, 40 unit_system, 60 place_pair, 60 historical_event.",
+    "scale_factor": {
+      "min": 0.37,
+      "max": 2.9,
+      "decimals": 2
+    },
+    "calendar_quirk": [
+      "a ten day week, the tenth day unnamed",
+      "thirteen months, the last one four days long",
+      "years counted down toward a fixed end",
+      "two new years, six months apart",
+      "months numbered and never named",
+      "a week of six days and one half day",
+      "a spare day inserted whenever the ledger disagrees",
+      "dates written hour first and year last",
+      "a dead week between years, belonging to neither",
+      "years named in a repeating cycle of forty",
+      "the month begins at the first cold night",
+      "quarters of unequal length, the third the longest",
+      "a leap day every third year, always in the last month",
+      "the day changes over at noon",
+      "two calendars in daily use, both printed on everything",
+      "eleven months, none of them the same length",
+      "a year of fourteen short months kept by the works council",
+      "the week starts the day after a rest day, which moves",
+      "dates stamped as a running count of days since a founding",
+      "months of exactly four weeks, with five spare days at the end",
+      "a month skipped in every year ending in three",
+      "the year written as a pair, the long year and the short one",
+      "no weekends, only numbered shifts",
+      "five seasons, each with its own month count",
+      "hours of unequal length, longer in the cold half",
+      "the year turns at the end of the working season",
+      "an extra hour added to the last night of each month",
+      "days filed in halves, morning and evening kept separately",
+      "a nine day week with two rest days at the end",
+      "the century counted from a date nobody now records",
+      "an inserted month named for whatever caused it",
+      "every date carries a checking letter after the year",
+      "the month's name changes halfway through it",
+      "a twenty hour day, each hour of eighty minutes",
+      "a calendar that repeats every forty years and is never extended",
+      "a year of eight watches instead of months",
+      "the first of the month is always a rest day, whatever the count",
+      "leap days removed rather than added",
+      "a public year and a working year, three weeks apart",
+      "dates given as a fraction of the year, to three places",
+      "weekdays with no names, only the numbers one to seven",
+      "two months share a name and are told apart by a mark",
+      "years stated with the month of their approval",
+      "the day begins at the first bell, which is rung late",
+      "a month of no fixed length, closed when the quota is met",
+      "the year numbered twice, once forward and once back"
+    ],
+    "unit_system": [
+      {
+        "name": "the Weighhouse Measure",
+        "units": [
+          "strid",
+          "drachet",
+          "turn"
+        ]
+      },
+      {
+        "name": "the Coastal Table",
+        "units": [
+          "reach",
+          "stonn",
+          "watch"
+        ]
+      },
+      {
+        "name": "the Common Rule",
+        "units": [
+          "prem",
+          "lode",
+          "bell"
+        ]
+      },
+      {
+        "name": "the Second Standard",
+        "units": [
+          "gant",
+          "quint",
+          "glass"
+        ]
+      },
+      {
+        "name": "the Tally Measure",
+        "units": [
+          "step",
+          "mard",
+          "count"
+        ]
+      },
+      {
+        "name": "the Quarry Table",
+        "units": [
+          "cut",
+          "brast",
+          "shift"
+        ]
+      },
+      {
+        "name": "the Mill Standard",
+        "units": [
+          "throw",
+          "gralm",
+          "spool"
+        ]
+      },
+      {
+        "name": "the Ledger Measure",
+        "units": [
+          "rule",
+          "tass",
+          "entry"
+        ]
+      },
+      {
+        "name": "the Inland Rule",
+        "units": [
+          "furlow",
+          "kern",
+          "dial"
+        ]
+      },
+      {
+        "name": "the Harbour Table",
+        "units": [
+          "keelspan",
+          "laden",
+          "tide"
+        ]
+      },
+      {
+        "name": "the Works Measure",
+        "units": [
+          "bore",
+          "ingot",
+          "cycle"
+        ]
+      },
+      {
+        "name": "the Winter Standard",
+        "units": [
+          "trace",
+          "floe",
+          "thaw"
+        ]
+      },
+      {
+        "name": "the Civil Table",
+        "units": [
+          "verge",
+          "moll",
+          "session"
+        ]
+      },
+      {
+        "name": "the Old Measure",
+        "units": [
+          "hask",
+          "quorn",
+          "vigil"
+        ]
+      },
+      {
+        "name": "the Field Table",
+        "units": [
+          "swath",
+          "hopper",
+          "sowing"
+        ]
+      },
+      {
+        "name": "the Assay Measure",
+        "units": [
+          "fineline",
+          "grast",
+          "assay"
+        ]
+      },
+      {
+        "name": "the Pilot Rule",
+        "units": [
+          "leg",
+          "ballast",
+          "bearing"
+        ]
+      },
+      {
+        "name": "the Foundry Table",
+        "units": [
+          "draw",
+          "pour",
+          "heat"
+        ]
+      },
+      {
+        "name": "the Parish Measure",
+        "units": [
+          "walk",
+          "tithe",
+          "office"
+        ]
+      },
+      {
+        "name": "the Cable Standard",
+        "units": [
+          "haul",
+          "coil",
+          "pull"
+        ]
+      },
+      {
+        "name": "the Survey Table",
+        "units": [
+          "thrum",
+          "plumb",
+          "sight"
+        ]
+      },
+      {
+        "name": "the Dockside Measure",
+        "units": [
+          "berth",
+          "lading",
+          "turnround"
+        ]
+      },
+      {
+        "name": "the Kiln Standard",
+        "units": [
+          "course",
+          "charge",
+          "firing"
+        ]
+      },
+      {
+        "name": "the Signal Table",
+        "units": [
+          "hop",
+          "frank",
+          "flash"
+        ]
+      },
+      {
+        "name": "the Cellar Measure",
+        "units": [
+          "rack",
+          "binn",
+          "vintage"
+        ]
+      },
+      {
+        "name": "the Despatch Standard",
+        "units": [
+          "tube",
+          "pellet",
+          "sending"
+        ]
+      },
+      {
+        "name": "the Orchard Table",
+        "units": [
+          "row",
+          "crate",
+          "picking"
+        ]
+      },
+      {
+        "name": "the Salt Measure",
+        "units": [
+          "pan",
+          "block",
+          "drying"
+        ]
+      },
+      {
+        "name": "the Print Standard",
+        "units": [
+          "gutter",
+          "quire",
+          "impression"
+        ]
+      },
+      {
+        "name": "the Relay Table",
+        "units": [
+          "span",
+          "weft",
+          "tick"
+        ]
+      },
+      {
+        "name": "the Glasshouse Measure",
+        "units": [
+          "pane",
+          "batch",
+          "bloom"
+        ]
+      },
+      {
+        "name": "the Ferry Table",
+        "units": [
+          "crossing",
+          "burthen",
+          "sailing"
+        ]
+      },
+      {
+        "name": "the Tunnel Standard",
+        "units": [
+          "heading",
+          "spoil",
+          "drive"
+        ]
+      },
+      {
+        "name": "the Loom Measure",
+        "units": [
+          "warp",
+          "hank",
+          "shuttle"
+        ]
+      },
+      {
+        "name": "the Pipe Table",
+        "units": [
+          "run",
+          "head",
+          "flush"
+        ]
+      },
+      {
+        "name": "the Bell Standard",
+        "units": [
+          "chord",
+          "clapper",
+          "peal"
+        ]
+      },
+      {
+        "name": "the Marsh Measure",
+        "units": [
+          "wade",
+          "silt",
+          "ebb"
+        ]
+      },
+      {
+        "name": "the Depot Table",
+        "units": [
+          "bay",
+          "consignment",
+          "rota"
+        ]
+      },
+      {
+        "name": "the Fell Standard",
+        "units": [
+          "ascent",
+          "pack",
+          "stage"
+        ]
+      },
+      {
+        "name": "the Lens Table",
+        "units": [
+          "stop",
+          "blank",
+          "exposure"
+        ]
+      },
+      {
+        "name": "the Cold Store Measure",
+        "units": [
+          "aisle",
+          "pallet",
+          "cure"
+        ]
+      },
+      {
+        "name": "the Grain Rule",
+        "units": [
+          "drill",
+          "measure",
+          "milling"
+        ]
+      },
+      {
+        "name": "the Wire Standard",
+        "units": [
+          "draw-length",
+          "gauge-weight",
+          "anneal"
+        ]
+      },
+      {
+        "name": "the Quiet Table",
+        "units": [
+          "pace",
+          "grain",
+          "held"
+        ]
+      }
+    ],
+    "place_pair": [
+      [
+        "Vell Harbour",
+        "Ashwick Bar"
+      ],
+      [
+        "Cold Lanterne",
+        "Marrow Fen"
+      ],
+      [
+        "Sarnhead",
+        "The Dree"
+      ],
+      [
+        "Quillet",
+        "North Slade"
+      ],
+      [
+        "Braxby Reach",
+        "Ilm"
+      ],
+      [
+        "Tarn Cross",
+        "Wester Quay"
+      ],
+      [
+        "Hollow Marsh",
+        "Pellan"
+      ],
+      [
+        "Glent",
+        "Upper Bourn"
+      ],
+      [
+        "Kettleby Sands",
+        "Orrin"
+      ],
+      [
+        "The Needles Yard",
+        "Fallow Hythe"
+      ],
+      [
+        "Dunmere",
+        "Sable Lock"
+      ],
+      [
+        "Wrack End",
+        "Pentland Cut"
+      ],
+      [
+        "Thistle Bank",
+        "Mourn"
+      ],
+      [
+        "Carrow Deep",
+        "Lint"
+      ],
+      [
+        "Stave Island",
+        "Brimmer"
+      ],
+      [
+        "Ashen Reach",
+        "Quay Bellow"
+      ],
+      [
+        "Fenwith",
+        "Dolt Cross"
+      ],
+      [
+        "Long Harrow",
+        "Skellow"
+      ],
+      [
+        "Grey Gull Point",
+        "Tamber"
+      ],
+      [
+        "Ombre",
+        "Clatt Hill"
+      ],
+      [
+        "Verrow",
+        "East Keeling"
+      ],
+      [
+        "Sloop Haven",
+        "Draymoor"
+      ],
+      [
+        "Winnow",
+        "Barrel Gate"
+      ],
+      [
+        "Kelder",
+        "Stone Furrow"
+      ],
+      [
+        "Netherdown",
+        "Ferry Ashe"
+      ],
+      [
+        "Corbel",
+        "The Wasting"
+      ],
+      [
+        "Mildon Flats",
+        "Hask"
+      ],
+      [
+        "Pillory Green",
+        "Snape Reach"
+      ],
+      [
+        "Yarrow Cut",
+        "Bellum"
+      ],
+      [
+        "Threap",
+        "Lower Gansey"
+      ],
+      [
+        "Fother",
+        "Candle Bay"
+      ],
+      [
+        "Ravel",
+        "Bright Sump"
+      ],
+      [
+        "Nook Hallow",
+        "Tressel"
+      ],
+      [
+        "Sallow Quay",
+        "Dunnock End"
+      ],
+      [
+        "Hafnet",
+        "Rime"
+      ],
+      [
+        "Widdle Reach",
+        "Carn Sallow"
+      ],
+      [
+        "Brinnow",
+        "Salt Harrow"
+      ],
+      [
+        "Peckett",
+        "The Long Strand"
+      ],
+      [
+        "Oldworks",
+        "Vinnel"
+      ],
+      [
+        "Marl Gate",
+        "Skerry Bell"
+      ],
+      [
+        "Torrance Flats",
+        "Owl"
+      ],
+      [
+        "Dunning Cross",
+        "Halket"
+      ],
+      [
+        "Brack",
+        "Morrow Quay"
+      ],
+      [
+        "Tintern Sump",
+        "Lask"
+      ],
+      [
+        "Ferriby Waste",
+        "Nolt"
+      ],
+      [
+        "Cinder Row",
+        "Pallow"
+      ],
+      [
+        "Sweale",
+        "Kirk Harrow"
+      ],
+      [
+        "Dunhaver",
+        "The Sinks"
+      ],
+      [
+        "Meldon Bar",
+        "Prattle"
+      ],
+      [
+        "Ostler",
+        "Fen Bellow"
+      ],
+      [
+        "Cawl",
+        "Riddings"
+      ],
+      [
+        "Bramber Cut",
+        "Stell"
+      ],
+      [
+        "Wick Angle",
+        "Doverow"
+      ],
+      [
+        "Nethercauld",
+        "Sprig"
+      ],
+      [
+        "Tallow Point",
+        "Ennor"
+      ],
+      [
+        "Gorse Landing",
+        "Mirk"
+      ],
+      [
+        "Havering Sands",
+        "Clout"
+      ],
+      [
+        "Bolt Hollow",
+        "Sarrow"
+      ],
+      [
+        "Winch",
+        "Cold Ashton Reach"
+      ],
+      [
+        "Drummond Flats",
+        "Tye"
+      ],
+      [
+        "Halfmast",
+        "Perrin Cross"
+      ],
+      [
+        "Silt Harbour",
+        "Lanneck"
+      ],
+      [
+        "Weft",
+        "Barrow Stand"
+      ],
+      [
+        "Kessel Bay",
+        "Thorn Reach"
+      ]
+    ],
+    "historical_event": [
+      "the Long Retraction",
+      "the Second Quiet",
+      "the Ledger Fire",
+      "the Grey Audit",
+      "the Winter Recall",
+      "the Harbour Collapse",
+      "the Forty Day Dispute",
+      "the Great Renumbering",
+      "the Quiet Default",
+      "the Salt Years",
+      "the Lifting of the Order",
+      "the Third Survey",
+      "the Cold Settlement",
+      "the Unsigned Treaty",
+      "the Two Winters",
+      "the Tariff Break",
+      "the Closing of the Works",
+      "the Pilot's Refusal",
+      "the Second Partition of the Reach",
+      "the Long Freeze",
+      "the Paper Shortage",
+      "the Reversal of the Tolls",
+      "the Night of Meters",
+      "the Founders' Retreat",
+      "the Silent Session",
+      "the Fourth Amalgamation",
+      "the Diverted Year",
+      "the Undoing of the Bridge",
+      "the Inventory Riots",
+      "the Grain Recall",
+      "the Lantern Verdict",
+      "the Nine Week Strike",
+      "the Sunken Consignment",
+      "the Charter Lapse",
+      "the Rescinded Census",
+      "the Bell Petition",
+      "the Displacement",
+      "the Overrun",
+      "the Mislaid Decade",
+      "the Second Assay",
+      "the Abandonment of the Cut",
+      "the Committee of Corrections",
+      "the Standing Flood",
+      "the Quiet Annexation",
+      "the Great Recalibration",
+      "the Ashen Summer",
+      "the Withdrawal of the Ferries",
+      "the Signal Failure",
+      "the Reopening",
+      "the Late Ratification",
+      "the Loss of the Register",
+      "the Tin Settlement",
+      "the Minor Secession",
+      "the Marsh Clearances",
+      "the Shortened Year",
+      "the Interrupted Census",
+      "the Rope Dispute",
+      "the Fifth Revision",
+      "the Retirement of the Standard",
+      "the Unread Report",
+      "the Splitting of the Parish",
+      "the Wire Panic",
+      "the Winter Without Ice",
+      "the Final Inspection"
+    ]
+  }
+}

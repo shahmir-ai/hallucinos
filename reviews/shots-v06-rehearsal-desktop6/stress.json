@@ -1,0 +1,761 @@
+{
+  "engine": "mock",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "SILENT PARTNER 2",
+        "version": "3.2",
+        "era": "1997-adjacent",
+        "archetype": "taskbar"
+      },
+      "archetype": "taskbar",
+      "bootInkMs": 104,
+      "desktopInteractiveMs": 352,
+      "launchers": 16,
+      "iconsFilled": "0/16",
+      "iconsFilledAtReady": "0/16",
+      "platesWaitedMs": 15088,
+      "wallpaper": false,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789686886733,
+          "windowId": "w1",
+          "visibleNow": {
+            "visible": 1,
+            "total": 1,
+            "top": "w1"
+          },
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 192,
+          "chars": 257,
+          "nodes": 28,
+          "genId": "g3-yy90t5",
+          "inkMsKernel": 58,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 58
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789686887350,
+          "windowId": "w2",
+          "visibleNow": {
+            "visible": 2,
+            "total": 2,
+            "top": "w2"
+          },
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 276,
+          "chars": 237,
+          "nodes": 28,
+          "genId": "g4-b9fomp",
+          "inkMsKernel": 69,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 35
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "dispatched",
+          "shoved": "w2",
+          "coveredBy": "window w2",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789686888502,
+          "windowId": "w3",
+          "visibleNow": {
+            "visible": 3,
+            "total": 3,
+            "top": "w3"
+          },
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 312,
+          "chars": 37,
+          "nodes": 11,
+          "genId": "g5-9qvyl6",
+          "inkMsKernel": 113,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 42
+        },
+        {
+          "app": "notes",
+          "pattern": "rapid",
+          "mode": "dispatched",
+          "shoved": "w3",
+          "coveredBy": "window w3",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789686889698,
+          "windowId": "w4",
+          "visibleNow": {
+            "visible": 4,
+            "total": 4,
+            "top": "w4"
+          },
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 233,
+          "chars": 207,
+          "nodes": 14,
+          "genId": "g8-gf12nq",
+          "inkMsKernel": 69,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 35
+        }
+      ],
+      "windows": [
+        {
+          "id": "w1",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 891,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w2",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 1438,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w3",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 891,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w4",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 891,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        }
+      ],
+      "windowsStacked": [
+        {
+          "id": "w1",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w2",
+          "chrome": "ok",
+          "closeHit": true
+        },
+        {
+          "id": "w3",
+          "chrome": "ok",
+          "closeHit": true
+        },
+        {
+          "id": "w4",
+          "chrome": "ok",
+          "closeHit": true
+        }
+      ],
+      "tasks": [
+        {
+          "for": "w1",
+          "box": {
+            "w": 94,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪▣ photos",
+          "fallback": false
+        },
+        {
+          "for": "w2",
+          "box": {
+            "w": 77,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪▣ maps",
+          "fallback": false
+        },
+        {
+          "for": "w3",
+          "box": {
+            "w": 77,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪Goggle",
+          "fallback": false
+        },
+        {
+          "for": "w4",
+          "box": {
+            "w": 85,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪▣ notes",
+          "fallback": false
+        }
+      ],
+      "walk": null,
+      "chrome": {
+        "template": "ok",
+        "contractPatch": null,
+        "windowsUsable": "4/4",
+        "windowsPatched": 0
+      },
+      "labels": {
+        "atPlates": "16/16",
+        "late": "16/16",
+        "inDom": 16,
+        "lost": 0,
+        "kept": [],
+        "boxed": 0
+      },
+      "barSpacing": {
+        "pairs": 5,
+        "min": 23,
+        "jammed": false,
+        "tightest": "4:14:54 AM · 9/18/2026|23px|▣ photos",
+        "oursMin": null,
+        "oursJammed": false,
+        "clock": {
+          "patched": false,
+          "inBar": true
+        },
+        "text": "SILENT PARTNER 2 4:14:54 AM · 9/18/2026 ▪▣ photos ▪▣ maps ▪Goggle ▪▣ notes"
+      },
+      "clocks": {
+        "count": 1,
+        "faces": [
+          {
+            "text": "4:14:54 AM · 9/18/2026",
+            "origin": "hooked",
+            "inBar": true,
+            "box": "185x20"
+          }
+        ],
+        "hooked": 1,
+        "adopted": false,
+        "injected": false,
+        "ticks": null
+      },
+      "solo": {
+        "atEnd": {
+          "total": 4,
+          "visible": 4,
+          "top": "w1",
+          "windows": [
+            {
+              "id": "w1",
+              "app": "",
+              "min": false,
+              "z": 36,
+              "box": "893x612@24,20",
+              "visible": true
+            },
+            {
+              "id": "w2",
+              "app": "",
+              "min": false,
+              "z": 35,
+              "box": "1440x900@0,0",
+              "visible": true
+            },
+            {
+              "id": "w3",
+              "app": "",
+              "min": false,
+              "z": 33,
+              "box": "893x612@96,92",
+              "visible": true
+            },
+            {
+              "id": "w4",
+              "app": "",
+              "min": false,
+              "z": 34,
+              "box": "893x612@132,128",
+              "visible": true
+            }
+          ]
+        },
+        "perOpen": [
+          "1/1",
+          "2/2",
+          "3/3",
+          "4/4"
+        ],
+        "worst": 4,
+        "taskReach": "1/4 unreachable",
+        "taskUnderHud": 3,
+        "taskBlocked": [
+          {
+            "id": "w1",
+            "reach": false,
+            "why": "window w2",
+            "inside": "div[data-os-content] relative zauto pe:auto"
+          },
+          {
+            "id": "w2",
+            "reach": false,
+            "harness": true,
+            "why": "div#os-bakeoff-dock[data-os-dock] fixed z2147483600 pe:auto",
+            "inside": "body[data-os-archetype] static zauto pe:auto"
+          },
+          {
+            "id": "w3",
+            "reach": false,
+            "harness": true,
+            "why": "div#os-bakeoff-dock[data-os-dock] fixed z2147483600 pe:auto",
+            "inside": "body[data-os-archetype] static zauto pe:auto"
+          },
+          {
+            "id": "w4",
+            "reach": false,
+            "harness": true,
+            "why": "div[data-os-dock-hint] static zauto pe:auto",
+            "inside": "div#os-bakeoff-dock[data-os-dock] fixed z2147483600 pe:auto"
+          }
+        ]
+      },
+      "closing": {
+        "steps": [
+          {
+            "target": "w1",
+            "mode": "real",
+            "before": 4,
+            "after": 3,
+            "visibleAfter": 3,
+            "closed": true
+          },
+          {
+            "target": "w2",
+            "mode": "real",
+            "before": 3,
+            "after": 2,
+            "visibleAfter": 2,
+            "closed": true
+          },
+          {
+            "target": "w4",
+            "mode": "real",
+            "before": 2,
+            "after": 1,
+            "visibleAfter": 1,
+            "closed": true
+          },
+          {
+            "target": "w3",
+            "mode": "real",
+            "before": 1,
+            "after": 0,
+            "visibleAfter": 0,
+            "closed": true
+          }
+        ],
+        "closedAll": true,
+        "left": 0,
+        "launchersReachable": "16/16",
+        "launchersUnderHud": 0,
+        "launcherBlocked": []
+      },
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        }
+      ],
+      "net": {
+        "n": 0,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "cspNoise": 57,
+      "httpRefused": [
+        "/api/img 404",
+        "/api/img 404"
+      ],
+      "imgs": [],
+      "refusals": {},
+      "trace": [
+        "+26ms gen.fetch boot g1-vsxzci",
+        "+41ms gen.headers boot g1-vsxzci 200",
+        "+66ms gen.fetch desktop g2-2yv5ap",
+        "+70ms gen.headers desktop g2-2yv5ap 200",
+        "+158ms gen.closed boot g1-vsxzci",
+        "+343ms gen.closed desktop g2-2yv5ap",
+        "+17966ms launcher.press photos",
+        "+17966ms gen.fetch app g3-yy90t5",
+        "+17967ms launcher.click photos",
+        "+17967ms openApp.enter photos",
+        "+17967ms openApp.claim photos hit g3-yy90t5",
+        "+17971ms openApp.created photos w1",
+        "+17972ms openApp.focused w1",
+        "+17972ms openApp.stream w1",
+        "+17972ms streamApp.enter w1 photos spec g3-yy90t5",
+        "+17972ms streamDoc.enter app g3-yy90t5 spec g3-yy90t5",
+        "+17972ms streamDoc.take g3-yy90t5",
+        "+17972ms openApp.exit w1",
+        "+17997ms gen.headers app g3-yy90t5 200",
+        "+18071ms gen.closed app g3-yy90t5",
+        "+18071ms streamApp.exit w1 inked=true painted=true",
+        "+18673ms launcher.press maps",
+        "+18673ms gen.fetch app g4-b9fomp",
+        "+18674ms launcher.click maps",
+        "+18674ms openApp.enter maps",
+        "+18674ms openApp.claim maps hit g4-b9fomp",
+        "+18677ms openApp.created maps w2",
+        "+18678ms openApp.focused w2",
+        "+18678ms openApp.stream w2",
+        "+18678ms streamApp.enter w2 maps spec g4-b9fomp",
+        "+18678ms streamDoc.enter app g4-b9fomp spec g4-b9fomp",
+        "+18678ms streamDoc.take g4-b9fomp",
+        "+18678ms openApp.exit w2",
+        "+18681ms gen.headers app g4-b9fomp 200",
+        "+18787ms gen.closed app g4-b9fomp",
+        "+18787ms streamApp.exit w2 inked=true painted=true",
+        "+19865ms launcher.press browser",
+        "+19865ms gen.fetch app g5-9qvyl6",
+        "+19866ms gen.fetch page g6-xg0wm0",
+        "+19869ms launcher.click browser",
+        "+19869ms openApp.enter browser",
+        "+19869ms openApp.claim browser hit g5-9qvyl6",
+        "+19870ms openApp.created browser w3",
+        "+19870ms openApp.focused w3",
+        "+19871ms openApp.stream w3",
+        "+19871ms streamApp.enter w3 browser spec g5-9qvyl6",
+        "+19871ms streamDoc.enter app g5-9qvyl6 spec g5-9qvyl6",
+        "+19871ms streamDoc.take g5-9qvyl6",
+        "+19871ms openApp.exit w3",
+        "+19871ms gen.headers app g5-9qvyl6 200",
+        "+19893ms gen.headers page g6-xg0wm0 200",
+        "+19989ms gen.closed app g5-9qvyl6",
+        "+19989ms streamDoc.enter page g6-xg0wm0 spec g6-xg0wm0",
+        "+19989ms streamDoc.take g6-xg0wm0",
+        "+19998ms gen.closed page g6-xg0wm0",
+        "+19999ms streamApp.exit w3 inked=true painted=true",
+        "+20924ms streamDoc.enter page g7-390ofi",
+        "+20924ms streamDoc.gen page g7-390ofi",
+        "+20924ms gen.fetch page g7-390ofi",
+        "+20926ms launcher.press notes",
+        "+20926ms gen.fetch app g8-gf12nq",
+        "+20927ms launcher.click notes",
+        "+20927ms openApp.enter notes",
+        "+20927ms openApp.claim notes hit g8-gf12nq",
+        "+20928ms openApp.created notes w4",
+        "+20929ms openApp.focused w4",
+        "+20929ms openApp.stream w4",
+        "+20929ms streamApp.enter w4 notes spec g8-gf12nq",
+        "+20929ms streamDoc.enter app g8-gf12nq spec g8-gf12nq",
+        "+20929ms streamDoc.take g8-gf12nq",
+        "+20929ms openApp.exit w4",
+        "+20929ms gen.headers page g7-390ofi 200",
+        "+20930ms gen.headers app g8-gf12nq 200",
+        "+21031ms gen.closed app g8-gf12nq",
+        "+21031ms streamApp.exit w4 inked=true painted=true",
+        "+21039ms gen.closed page g7-390ofi"
+      ],
+      "usd": 0,
+      "gens": 8
+    }
+  ]
+}

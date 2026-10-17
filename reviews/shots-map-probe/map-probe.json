@@ -1,0 +1,353 @@
+{
+  "identity": "EJ4VP7",
+  "reads": [
+    {
+      "atSeconds": 2,
+      "slot": "s1",
+      "prompt": "map",
+      "filled": null,
+      "dataUri": false,
+      "bgImage": "none",
+      "bgSize": "cover",
+      "ownBg": "rgb(250, 243, 224)",
+      "box": {
+        "w": 893,
+        "h": 529
+      },
+      "children": 0,
+      "stack": [
+        {
+          "tag": "div",
+          "isSlot": true,
+          "bg": "rgb(250, 243, 224)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "relative"
+        },
+        {
+          "tag": "div",
+          "isSlot": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "opaque": false,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "body",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "html",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        }
+      ]
+    },
+    {
+      "atSeconds": 6,
+      "slot": "s1",
+      "prompt": "map",
+      "filled": "map",
+      "dataUri": true,
+      "bgImage": "url(\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/6zLO",
+      "bgSize": "cover",
+      "ownBg": "rgb(250, 243, 224)",
+      "box": {
+        "w": 893,
+        "h": 529
+      },
+      "children": 0,
+      "stack": [
+        {
+          "tag": "div",
+          "isSlot": true,
+          "bg": "rgb(250, 243, 224)",
+          "opaque": true,
+          "bgImage": "data-uri",
+          "z": "auto",
+          "pos": "relative"
+        },
+        {
+          "tag": "div",
+          "isSlot": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "opaque": false,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "body",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "html",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        }
+      ]
+    },
+    {
+      "atSeconds": 10,
+      "slot": "s1",
+      "prompt": "map",
+      "filled": "map",
+      "dataUri": true,
+      "bgImage": "url(\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/6zLO",
+      "bgSize": "cover",
+      "ownBg": "rgb(250, 243, 224)",
+      "box": {
+        "w": 893,
+        "h": 529
+      },
+      "children": 0,
+      "stack": [
+        {
+          "tag": "div",
+          "isSlot": true,
+          "bg": "rgb(250, 243, 224)",
+          "opaque": true,
+          "bgImage": "data-uri",
+          "z": "auto",
+          "pos": "relative"
+        },
+        {
+          "tag": "div",
+          "isSlot": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "opaque": false,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "body",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "html",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        }
+      ]
+    },
+    {
+      "atSeconds": 16,
+      "slot": "s1",
+      "prompt": "map",
+      "filled": "map",
+      "dataUri": true,
+      "bgImage": "url(\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/6zLO",
+      "bgSize": "cover",
+      "ownBg": "rgb(250, 243, 224)",
+      "box": {
+        "w": 893,
+        "h": 529
+      },
+      "children": 0,
+      "stack": [
+        {
+          "tag": "div",
+          "isSlot": true,
+          "bg": "rgb(250, 243, 224)",
+          "opaque": true,
+          "bgImage": "data-uri",
+          "z": "auto",
+          "pos": "relative"
+        },
+        {
+          "tag": "div",
+          "isSlot": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "opaque": false,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "body",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "html",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        }
+      ]
+    },
+    {
+      "atSeconds": 24,
+      "slot": "s1",
+      "prompt": "map",
+      "filled": "map",
+      "dataUri": true,
+      "bgImage": "url(\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/6zLO",
+      "bgSize": "cover",
+      "ownBg": "rgb(250, 243, 224)",
+      "box": {
+        "w": 893,
+        "h": 529
+      },
+      "children": 0,
+      "stack": [
+        {
+          "tag": "div",
+          "isSlot": true,
+          "bg": "rgb(250, 243, 224)",
+          "opaque": true,
+          "bgImage": "data-uri",
+          "z": "auto",
+          "pos": "relative"
+        },
+        {
+          "tag": "div",
+          "isSlot": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "opaque": false,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "body",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "html",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        }
+      ]
+    },
+    {
+      "atSeconds": 32,
+      "slot": "s1",
+      "prompt": "map",
+      "filled": "map",
+      "dataUri": true,
+      "bgImage": "url(\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/6zLO",
+      "bgSize": "cover",
+      "ownBg": "rgb(250, 243, 224)",
+      "box": {
+        "w": 893,
+        "h": 529
+      },
+      "children": 0,
+      "stack": [
+        {
+          "tag": "div",
+          "isSlot": true,
+          "bg": "rgb(250, 243, 224)",
+          "opaque": true,
+          "bgImage": "data-uri",
+          "z": "auto",
+          "pos": "relative"
+        },
+        {
+          "tag": "div",
+          "isSlot": false,
+          "bg": "rgba(0, 0, 0, 0)",
+          "opaque": false,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "body",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        },
+        {
+          "tag": "html",
+          "isSlot": false,
+          "bg": "rgb(34, 34, 34)",
+          "opaque": true,
+          "bgImage": "none",
+          "z": "auto",
+          "pos": "static"
+        }
+      ]
+    }
+  ],
+  "imgs": [
+    {
+      "k": "wallpaper",
+      "ms": 3402,
+      "bytes": 549771,
+      "blocked": null,
+      "refusal": null
+    },
+    {
+      "k": "icons",
+      "ms": 5142,
+      "bytes": 907435,
+      "blocked": null,
+      "refusal": null
+    },
+    {
+      "k": "map",
+      "ms": 4013,
+      "bytes": 1064503,
+      "blocked": null,
+      "refusal": null
+    },
+    {
+      "k": "map",
+      "ms": 5299,
+      "bytes": 1016915,
+      "blocked": null,
+      "refusal": null
+    }
+  ]
+}

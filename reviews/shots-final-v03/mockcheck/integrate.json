@@ -1,0 +1,562 @@
+{
+  "at": "2026-09-17T15:20:57.089Z",
+  "results": [
+    {
+      "engine": "mock",
+      "identity": {
+        "name": "SILENT PARTNER 2",
+        "tagline": "a winter machine",
+        "version": "3.2",
+        "era": "1997-adjacent",
+        "personality": "officious, faintly hurt",
+        "palette_words": [
+          "oxide",
+          "bone",
+          "signal green"
+        ],
+        "font_words": [
+          "monospace",
+          "condensed"
+        ],
+        "mascot": "a filing cabinet with opinions",
+        "boot_message": "SILENT PARTNER 2 is waking up (2-meridian-tilted-jwzzya)",
+        "archetype": "taskbar"
+      },
+      "net": {
+        "n": 0,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "netAfterBoot": {
+        "n": 0,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "bootPaintMs": 108,
+      "desktopInteractiveMs": 341,
+      "desktopRevealedMs": 2831,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 866,
+          "w": 1440,
+          "h": 34
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 2,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 0,
+        "tasksLegible": 0,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "8:19:56 PM · 9/17/2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 11,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 866,
+          "w": 1440,
+          "h": 34
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 14,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 1
+        },
+        "tasks": 4,
+        "tasksLegible": 4,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "8:20:56 PM · 9/17/2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 11,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 4,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": null,
+        "n": 0
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "8:19:56 PM · 9/17/2026",
+        "to": "8:19:57 PM · 9/17/2026",
+        "ms": 1005
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 815,
+          "chars": 34,
+          "nodes": 11,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w1",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10119
+        },
+        {
+          "id": "photos",
+          "ms": 813,
+          "chars": 256,
+          "nodes": 28,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w2",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10117
+        },
+        {
+          "id": "store",
+          "ms": 813,
+          "chars": 214,
+          "nodes": 17,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w3",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10117
+        },
+        {
+          "id": "calculator",
+          "ms": 813,
+          "chars": 175,
+          "nodes": 26,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w4",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10117
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 407,
+          "chars": 128,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 818,
+          "chars": 1268,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://numb0.com/numb-guide",
+          "ms": 931,
+          "chars": 285,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 935,
+          "chars": 404,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 809,
+          "chars": 296,
+          "blank": false
+        }
+      ],
+      "browserWindowFocused": {
+        "id": "w1",
+        "focused": true,
+        "top": true
+      },
+      "images": {
+        "calls": 0,
+        "usd": 0,
+        "kinds": []
+      },
+      "marks": [
+        {
+          "gen": "g2-931o67",
+          "fp": 341,
+          "ia": 341,
+          "matched": true
+        },
+        {
+          "gen": "g3-tvjxiq",
+          "done": 118,
+          "matched": true
+        },
+        {
+          "gen": "g4-1mfjs7",
+          "fp": 33,
+          "ink": 33,
+          "ia": 33,
+          "done": 10,
+          "matched": true
+        },
+        {
+          "gen": "g5-ypbrc1",
+          "done": 114,
+          "matched": true
+        },
+        {
+          "gen": "g6-zxcprg",
+          "done": 106,
+          "matched": true
+        },
+        {
+          "gen": "g7-8e470a",
+          "done": 124,
+          "matched": true
+        },
+        {
+          "gen": "g8-kxcry2",
+          "done": 297,
+          "matched": true
+        },
+        {
+          "gen": "g9-buzuac",
+          "done": 152,
+          "matched": true
+        },
+        {
+          "gen": "g10-higfzf",
+          "done": 146,
+          "matched": true
+        },
+        {
+          "gen": "g11-h5y2j2",
+          "done": 156,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 15,
+          "total": 129,
+          "tps": 3791,
+          "tout": 489,
+          "usd": 0,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 106,
+          "first_paint_ms": 106,
+          "interactive_ms": 55
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 9,
+          "total": 276,
+          "tps": 3815,
+          "tout": 1053,
+          "usd": 0,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 20,
+          "total": 120,
+          "tps": 2375,
+          "tout": 285,
+          "usd": 0,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 85,
+          "first_paint_ms": 85,
+          "interactive_ms": 51
+        },
+        {
+          "kind": "page",
+          "ttfb": 18,
+          "total": 128,
+          "tps": 3383,
+          "tout": 433,
+          "usd": 0,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 12,
+          "total": 116,
+          "tps": 3345,
+          "tout": 388,
+          "usd": 0,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 76,
+          "first_paint_ms": 76,
+          "interactive_ms": 44
+        },
+        {
+          "kind": "app",
+          "ttfb": 10,
+          "total": 107,
+          "tps": 3626,
+          "tout": 388,
+          "usd": 0,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 75,
+          "first_paint_ms": 75,
+          "interactive_ms": 42
+        },
+        {
+          "kind": "app",
+          "ttfb": 11,
+          "total": 125,
+          "tps": 3704,
+          "tout": 463,
+          "usd": 0,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 72,
+          "first_paint_ms": 72,
+          "interactive_ms": 40
+        },
+        {
+          "kind": "page",
+          "ttfb": 11,
+          "total": 295,
+          "tps": 3803,
+          "tout": 1122,
+          "usd": 0,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 77,
+          "first_paint_ms": 77,
+          "interactive_ms": 43
+        },
+        {
+          "kind": "page",
+          "ttfb": 10,
+          "total": 149,
+          "tps": 3550,
+          "tout": 529,
+          "usd": 0,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 76,
+          "first_paint_ms": 76,
+          "interactive_ms": 43
+        },
+        {
+          "kind": "page",
+          "ttfb": 10,
+          "total": 142,
+          "tps": 3887,
+          "tout": 552,
+          "usd": 0,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 77,
+          "first_paint_ms": 77,
+          "interactive_ms": 44
+        },
+        {
+          "kind": "page",
+          "ttfb": 12,
+          "total": 153,
+          "tps": 3477,
+          "tout": 532,
+          "usd": 0,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "mock",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 75,
+          "first_paint_ms": 75,
+          "interactive_ms": 41
+        }
+      ],
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "cspBlocks": 132,
+      "usd": 0
+    }
+  ],
+  "usd": 0
+}

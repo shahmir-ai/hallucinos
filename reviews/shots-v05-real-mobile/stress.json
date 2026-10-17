@@ -1,0 +1,1659 @@
+{
+  "engine": "auto",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "Acquisition",
+        "version": "1.0.0 (RC1) [Hydra]",
+        "era": "2060s salt works",
+        "archetype": "dock"
+      },
+      "archetype": "dock",
+      "bootInkMs": 1318,
+      "desktopInteractiveMs": 3352,
+      "launchers": 16,
+      "iconsFilled": "16/16",
+      "iconsFilledAtReady": "0/16",
+      "platesWaitedMs": 4046,
+      "wallpaper": true,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680207762,
+          "windowId": "w1",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 2078,
+          "chars": 133,
+          "nodes": 43,
+          "genId": "g3-1nmdxp",
+          "inkMsKernel": 1825,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 908
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "dispatched",
+          "shoved": "w1",
+          "coveredBy": "window w1",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680208824,
+          "windowId": "w2",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 2115,
+          "chars": 230,
+          "nodes": 24,
+          "genId": "g6-i26z6y",
+          "inkMsKernel": 1965,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1713
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680209522,
+          "windowId": "w3",
+          "extraWindows": [
+            "w4"
+          ],
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1420,
+          "chars": 41,
+          "nodes": 11,
+          "genId": "g7-qnt6qb",
+          "inkMsKernel": 1223,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1189
+        },
+        {
+          "app": "notes",
+          "pattern": "rapid",
+          "mode": "dispatched",
+          "shoved": "w4",
+          "coveredBy": "window w4",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680210703,
+          "windowId": "w5",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1279,
+          "chars": 132,
+          "nodes": 16,
+          "genId": "g9-b568cd",
+          "inkMsKernel": 1132,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 998
+        }
+      ],
+      "windows": [
+        {
+          "id": "w1",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 20,
+            "h": 22
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 28
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w2",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 20,
+            "h": 22
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 28
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w3",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 20,
+            "h": 22
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 28
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w4",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 20,
+            "h": 22
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 28
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w5",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 20,
+            "h": 22
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 28
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        }
+      ],
+      "windowsStacked": [
+        {
+          "id": "w1",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w2",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w3",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w4",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w5",
+          "chrome": "ok",
+          "closeHit": true
+        }
+      ],
+      "tasks": [
+        {
+          "for": "w1",
+          "box": {
+            "w": 51,
+            "h": 92
+          },
+          "onScreen": true,
+          "text": "🖼️Gallery",
+          "fallback": false
+        },
+        {
+          "for": "w2",
+          "box": {
+            "w": 97,
+            "h": 92
+          },
+          "onScreen": true,
+          "text": "🗺️Cartographer",
+          "fallback": false
+        },
+        {
+          "for": "w3",
+          "box": {
+            "w": 52,
+            "h": 66
+          },
+          "onScreen": true,
+          "text": "Google",
+          "fallback": false
+        },
+        {
+          "for": "w4",
+          "box": {
+            "w": 52,
+            "h": 66
+          },
+          "onScreen": true,
+          "text": "Google",
+          "fallback": false
+        },
+        {
+          "for": "w5",
+          "box": {
+            "w": 63,
+            "h": 92
+          },
+          "onScreen": true,
+          "text": "📓Logbook",
+          "fallback": false
+        }
+      ],
+      "walk": {
+        "steps": [
+          {
+            "url": "netflix.com",
+            "address": "https://netflix.com",
+            "chars": 552,
+            "ms": 1738,
+            "settledMs": 6664,
+            "tiles": [],
+            "asked": [
+              {
+                "kind": "map",
+                "theme": null,
+                "ms": 2844,
+                "bytes": 776263,
+                "width": 768,
+                "blocked": null,
+                "refusal": null
+              }
+            ]
+          },
+          {
+            "url": "youtube.com",
+            "address": "https://youtube.com",
+            "chars": 603,
+            "ms": 2136,
+            "settledMs": 9194,
+            "tiles": [
+              {
+                "theme": "thumbnails",
+                "tiles": 8,
+                "filled": 8,
+                "seen": 8,
+                "boxes": [
+                  "161x91",
+                  "161x91",
+                  "161x91",
+                  "161x91"
+                ],
+                "slots": 1
+              }
+            ],
+            "asked": [
+              {
+                "kind": "tiles",
+                "theme": "thumbnails",
+                "ms": 6270,
+                "bytes": 805147,
+                "width": 768,
+                "blocked": null,
+                "refusal": null
+              }
+            ]
+          },
+          {
+            "url": "brasswick-supply.shop",
+            "address": "https://brasswick-supply.shop",
+            "chars": 711,
+            "ms": 2944,
+            "settledMs": 7867,
+            "tiles": [],
+            "asked": []
+          },
+          {
+            "url": "reddit.com/r/cats",
+            "address": "https://reddit.com/r/cats",
+            "chars": 1733,
+            "ms": 10188,
+            "settledMs": 15112,
+            "tiles": [],
+            "asked": []
+          }
+        ]
+      },
+      "chrome": {
+        "template": "ok",
+        "contractPatch": null,
+        "windowsUsable": "5/5",
+        "windowsPatched": 0
+      },
+      "labels": {
+        "atPlates": "8/16",
+        "late": "8/16",
+        "inDom": 16,
+        "lost": 8,
+        "kept": [],
+        "boxed": 0
+      },
+      "barSpacing": {
+        "pairs": 7,
+        "min": 6,
+        "jammed": false,
+        "tightest": "✕|6px|02:24",
+        "oursMin": null,
+        "oursJammed": false,
+        "clock": {
+          "patched": false,
+          "inBar": false
+        },
+        "text": "✕ 02:24 2026-09-18 🖼️Gallery 🗺️Cartographer r/cats - Feline Forum Google 📓Logbook"
+      },
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "🧭",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "🖼️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "🗑️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "∑",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "🏪",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "📨",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "💬",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "⌨️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "🔧",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "🗺️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "☁️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "📰",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "📓",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "🕹️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "🔄",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "ℹ️",
+          "plate": true,
+          "colour": "rgb(255, 215, 0)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "net": {
+        "n": 2,
+        "peak": 11,
+        "byLane": {
+          "gen": 0,
+          "img": 2,
+          "mark": 0
+        },
+        "open": [
+          "img:map 1172ms",
+          "img:photo 1121ms"
+        ]
+      },
+      "errors": [],
+      "cspNoise": 0,
+      "httpRefused": [],
+      "imgs": [
+        {
+          "img_kind": "wallpaper",
+          "theme": null,
+          "width": 1024,
+          "bytes": 255171,
+          "ms": 5539,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "icons",
+          "theme": null,
+          "width": 768,
+          "bytes": 541347,
+          "ms": 6853,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 437415,
+          "ms": 2692,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 675967,
+          "ms": 2865,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 472731,
+          "ms": 2221,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 501059,
+          "ms": 2444,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 231147,
+          "ms": 2267,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "map",
+          "theme": null,
+          "width": 768,
+          "bytes": 776263,
+          "ms": 2844,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "tiles",
+          "theme": "thumbnails",
+          "width": 768,
+          "bytes": 805147,
+          "ms": 6270,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        }
+      ],
+      "refusals": {},
+      "trace": [
+        "+18ms gen.fetch boot g1-ta0qqu",
+        "+45ms gen.headers boot g1-ta0qqu 200",
+        "+1303ms gen.fetch desktop g2-4cfxn1",
+        "+1311ms gen.headers desktop g2-4cfxn1 200",
+        "+1312ms gen.closed boot g1-ta0qqu",
+        "+3347ms gen.closed desktop g2-4cfxn1",
+        "+8584ms launcher.press photos",
+        "+8584ms gen.fetch app g3-1nmdxp",
+        "+8585ms launcher.click photos",
+        "+8585ms openApp.enter photos",
+        "+8585ms openApp.claim photos hit g3-1nmdxp",
+        "+8587ms openApp.created photos w1",
+        "+8587ms openApp.focused w1",
+        "+8587ms openApp.stream w1",
+        "+8587ms streamApp.enter w1 photos spec g3-1nmdxp",
+        "+8587ms streamDoc.enter app g3-1nmdxp spec g3-1nmdxp",
+        "+8587ms streamDoc.take g3-1nmdxp",
+        "+8587ms openApp.exit w1",
+        "+8617ms gen.headers app g3-1nmdxp 200",
+        "+9646ms launcher.press browser",
+        "+9646ms gen.fetch app g4-3ykav5",
+        "+9647ms gen.fetch page g5-zbiqrv",
+        "+9662ms gen.headers app g4-3ykav5 200",
+        "+9662ms gen.headers page g5-zbiqrv 200",
+        "+9742ms launcher.press maps",
+        "+9743ms gen.fetch app g6-i26z6y",
+        "+9743ms gen.closed app g4-3ykav5",
+        "+9747ms launcher.click maps",
+        "+9747ms openApp.enter maps",
+        "+9747ms openApp.claim maps hit g6-i26z6y",
+        "+9748ms openApp.created maps w2",
+        "+9748ms openApp.focused w2",
+        "+9748ms openApp.stream w2",
+        "+9748ms streamApp.enter w2 maps spec g6-i26z6y",
+        "+9748ms streamDoc.enter app g6-i26z6y spec g6-i26z6y",
+        "+9748ms streamDoc.take g6-i26z6y",
+        "+9748ms openApp.exit w2",
+        "+9750ms gen.headers app g6-i26z6y 200",
+        "+10362ms launcher.press browser",
+        "+10362ms gen.fetch app g7-qnt6qb",
+        "+10378ms gen.headers app g7-qnt6qb 200",
+        "+10403ms launcher.click browser",
+        "+10403ms openApp.enter browser",
+        "+10403ms openApp.claim browser hit g7-qnt6qb",
+        "+10405ms openApp.created browser w3",
+        "+10405ms openApp.focused w3",
+        "+10405ms openApp.stream w3",
+        "+10405ms streamApp.enter w3 browser spec g7-qnt6qb",
+        "+10405ms streamDoc.enter app g7-qnt6qb spec g7-qnt6qb",
+        "+10405ms streamDoc.take g7-qnt6qb",
+        "+10405ms openApp.exit w3",
+        "+10446ms launcher.press browser",
+        "+10446ms gen.fetch app g8-b4f1w9",
+        "+10449ms gen.headers app g8-b4f1w9 200",
+        "+10463ms gen.closed app g3-1nmdxp",
+        "+10463ms streamApp.exit w1 inked=true painted=true",
+        "+10489ms launcher.click browser",
+        "+10489ms openApp.enter browser",
+        "+10489ms openApp.claim browser hit g8-b4f1w9",
+        "+10490ms openApp.created browser w4",
+        "+10490ms openApp.focused w4",
+        "+10491ms openApp.stream w4",
+        "+10491ms streamApp.enter w4 browser spec g8-b4f1w9",
+        "+10491ms streamDoc.enter app g8-b4f1w9 spec g8-b4f1w9",
+        "+10491ms streamDoc.take g8-b4f1w9",
+        "+10491ms openApp.exit w4",
+        "+11526ms launcher.press notes",
+        "+11526ms gen.fetch app g9-b568cd",
+        "+11528ms launcher.click notes",
+        "+11528ms openApp.enter notes",
+        "+11528ms openApp.claim notes hit g9-b568cd",
+        "+11529ms openApp.created notes w5",
+        "+11530ms openApp.focused w5",
+        "+11530ms openApp.stream w5",
+        "+11530ms streamApp.enter w5 notes spec g9-b568cd",
+        "+11530ms streamDoc.enter app g9-b568cd spec g9-b568cd",
+        "+11530ms streamDoc.take g9-b568cd",
+        "+11530ms openApp.exit w5",
+        "+11707ms gen.closed app g7-qnt6qb",
+        "+11708ms streamDoc.enter page g5-zbiqrv spec g5-zbiqrv",
+        "+11708ms streamDoc.take g5-zbiqrv",
+        "+11713ms gen.headers app g9-b568cd 200",
+        "+11856ms gen.closed page g5-zbiqrv",
+        "+11857ms streamApp.exit w3 inked=true painted=true",
+        "+11997ms gen.closed app g6-i26z6y",
+        "+11998ms streamApp.exit w2 inked=true painted=true",
+        "+12098ms gen.closed app g8-b4f1w9",
+        "+12099ms streamDoc.enter page g10-1e67hx",
+        "+12099ms streamDoc.gen page g10-1e67hx",
+        "+12099ms gen.fetch page g10-1e67hx",
+        "+12102ms gen.headers page g10-1e67hx 200",
+        "+13059ms gen.closed app g9-b568cd",
+        "+13059ms streamApp.exit w5 inked=true painted=true",
+        "+13060ms gen.closed page g10-1e67hx",
+        "+13060ms streamApp.exit w4 inked=true painted=true"
+      ],
+      "usd": 0.0688,
+      "gens": 23
+    },
+    {
+      "boot": 2,
+      "identity": {
+        "name": "TideForge",
+        "version": "1.2.0-rc5 (Nebula)",
+        "era": "2090s driving test centre",
+        "archetype": "dock"
+      },
+      "archetype": "dock",
+      "bootInkMs": 1338,
+      "desktopInteractiveMs": 4547,
+      "launchers": 16,
+      "iconsFilled": "16/16",
+      "iconsFilledAtReady": "0/16",
+      "platesWaitedMs": 1531,
+      "wallpaper": true,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "dispatched",
+          "coveredBy": "div",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680263465,
+          "windowId": "w1",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 2051,
+          "chars": 21,
+          "nodes": 43,
+          "genId": "g3-u7fmb8",
+          "inkMsKernel": 1829,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1829
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "dispatched",
+          "shoved": "w1",
+          "coveredBy": "window w1",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680264520,
+          "windowId": "w2",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1000,
+          "chars": 34,
+          "nodes": 16,
+          "genId": "g4-d0mc9q",
+          "inkMsKernel": 896,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 664
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "dispatched",
+          "coveredBy": "div",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680265216,
+          "windowId": "w3",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1425,
+          "chars": 7,
+          "nodes": 9,
+          "genId": "g5-epmaj0",
+          "inkMsKernel": 842,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 774
+        },
+        {
+          "app": "notes",
+          "pattern": "rapid",
+          "mode": "dispatched",
+          "shoved": "w3",
+          "coveredBy": "window w3",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789680266400,
+          "windowId": "w4",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1279,
+          "chars": 310,
+          "nodes": 14,
+          "genId": "g7-qlffq3",
+          "inkMsKernel": 1133,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 899
+        }
+      ],
+      "windows": [
+        {
+          "id": "w1",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": false,
+          "closeBox": {
+            "w": 26,
+            "h": 21
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 21
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w2",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": false,
+          "closeBox": {
+            "w": 26,
+            "h": 21
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 21
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w3",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": false,
+          "closeBox": {
+            "w": 26,
+            "h": 21
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 21
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w4",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": false,
+          "closeBox": {
+            "w": 26,
+            "h": 21
+          },
+          "dragBox": {
+            "w": 390,
+            "h": 21
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        }
+      ],
+      "windowsStacked": [
+        {
+          "id": "w1",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w2",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w3",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w4",
+          "chrome": "ok",
+          "closeHit": true
+        }
+      ],
+      "tasks": [
+        {
+          "for": "w1",
+          "box": {
+            "w": 62,
+            "h": 78
+          },
+          "onScreen": true,
+          "text": "🖼Shots",
+          "fallback": false
+        },
+        {
+          "for": "w2",
+          "box": {
+            "w": 60,
+            "h": 78
+          },
+          "onScreen": true,
+          "text": "🗺Chart",
+          "fallback": false
+        },
+        {
+          "for": "w3",
+          "box": {
+            "w": 52,
+            "h": 70
+          },
+          "onScreen": true,
+          "text": "Google",
+          "fallback": false
+        },
+        {
+          "for": "w4",
+          "box": {
+            "w": 48,
+            "h": 78
+          },
+          "onScreen": true,
+          "text": "🗒Log",
+          "fallback": false
+        }
+      ],
+      "walk": {
+        "steps": [
+          {
+            "url": "netflix.com",
+            "address": "https://netflix.com",
+            "chars": 185,
+            "ms": 2141,
+            "settledMs": 6382,
+            "tiles": [
+              {
+                "theme": "posters",
+                "tiles": 16,
+                "filled": 16,
+                "seen": 16,
+                "boxes": [
+                  "86x128",
+                  "86x128",
+                  "86x128",
+                  "86x128"
+                ],
+                "slots": 1
+              }
+            ],
+            "asked": [
+              {
+                "kind": "map",
+                "theme": null,
+                "ms": 2620,
+                "bytes": 665379,
+                "width": 768,
+                "blocked": null,
+                "refusal": null
+              },
+              {
+                "kind": "tiles",
+                "theme": "posters",
+                "ms": 3679,
+                "bytes": 490903,
+                "width": 768,
+                "blocked": null,
+                "refusal": null
+              }
+            ]
+          },
+          {
+            "url": "youtube.com",
+            "address": "https://youtube.com",
+            "chars": 573,
+            "ms": 2540,
+            "settledMs": 8187,
+            "tiles": [
+              {
+                "theme": "thumbnails",
+                "tiles": 8,
+                "filled": 8,
+                "seen": 3,
+                "boxes": [
+                  "358x201",
+                  "358x201",
+                  "358x201",
+                  "358x201"
+                ],
+                "slots": 1
+              }
+            ],
+            "asked": [
+              {
+                "kind": "photo",
+                "theme": null,
+                "ms": 3984,
+                "bytes": 0,
+                "width": 640,
+                "blocked": null,
+                "refusal": "engine_dead"
+              },
+              {
+                "kind": "tiles",
+                "theme": "thumbnails",
+                "ms": 4554,
+                "bytes": 676035,
+                "width": 768,
+                "blocked": null,
+                "refusal": null
+              }
+            ]
+          },
+          {
+            "url": "brasswick-supply.shop",
+            "address": "https://brasswick-supply.shop",
+            "chars": 589,
+            "ms": 1732,
+            "settledMs": 6655,
+            "tiles": [],
+            "asked": []
+          },
+          {
+            "url": "reddit.com/r/cats",
+            "address": "https://reddit.com/r/cats",
+            "chars": 1498,
+            "ms": 2541,
+            "settledMs": 7460,
+            "tiles": [],
+            "asked": [
+              {
+                "kind": "photo",
+                "theme": null,
+                "ms": 4452,
+                "bytes": 0,
+                "width": 640,
+                "blocked": null,
+                "refusal": "engine_dead"
+              }
+            ]
+          }
+        ]
+      },
+      "chrome": {
+        "template": "ok",
+        "contractPatch": null,
+        "windowsUsable": "4/4",
+        "windowsPatched": 0
+      },
+      "labels": {
+        "atPlates": "14/16",
+        "late": "14/16",
+        "inDom": 16,
+        "lost": 2,
+        "kept": [],
+        "boxed": 0
+      },
+      "barSpacing": {
+        "pairs": 3,
+        "min": 27,
+        "jammed": false,
+        "tightest": "🗺Chart|27px|r/cats - Purrtopia",
+        "oursMin": null,
+        "oursJammed": false,
+        "clock": {
+          "patched": false,
+          "inBar": false
+        },
+        "text": "🖼Shots 🗺Chart r/cats - Purrtopia 🗒Log"
+      },
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "🛰",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "🖼",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "🗑",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "∑",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "🛒",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "✉",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "💬",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "⌨",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "📊",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "🗺",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "☁",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "📰",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "🗒",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "🎮",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "⬆",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "ℹ",
+          "plate": true,
+          "colour": "rgb(0, 0, 102)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "net": {
+        "n": 1,
+        "peak": 6,
+        "byLane": {
+          "gen": 0,
+          "img": 1,
+          "mark": 0
+        },
+        "open": [
+          "img:map 646ms"
+        ]
+      },
+      "errors": [],
+      "cspNoise": 0,
+      "httpRefused": [],
+      "imgs": [
+        {
+          "img_kind": "icons",
+          "theme": null,
+          "width": 768,
+          "bytes": 425551,
+          "ms": 4927,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "wallpaper",
+          "theme": null,
+          "width": 1024,
+          "bytes": 276367,
+          "ms": 4958,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 569267,
+          "ms": 2782,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 509651,
+          "ms": 2847,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 387191,
+          "ms": 2219,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 391131,
+          "ms": 2782,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "map",
+          "theme": null,
+          "width": 768,
+          "bytes": 665379,
+          "ms": 2620,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "tiles",
+          "theme": "posters",
+          "width": 768,
+          "bytes": 490903,
+          "ms": 3679,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 0,
+          "ms": 3984,
+          "blocked": null,
+          "refusal": "engine_dead",
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "tiles",
+          "theme": "thumbnails",
+          "width": 768,
+          "bytes": 676035,
+          "ms": 4554,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "theme": null,
+          "width": 640,
+          "bytes": 0,
+          "ms": 4452,
+          "blocked": null,
+          "refusal": "engine_dead",
+          "model": "fal-ai/flux-1/schnell"
+        }
+      ],
+      "refusals": {
+        "img:engine_dead": 2
+      },
+      "trace": [
+        "+17ms gen.fetch boot g1-dnfex8",
+        "+23ms gen.headers boot g1-dnfex8 200",
+        "+1319ms gen.fetch desktop g2-bjgfvm",
+        "+1324ms gen.headers desktop g2-bjgfvm 200",
+        "+2171ms gen.closed boot g1-dnfex8",
+        "+4529ms gen.closed desktop g2-bjgfvm",
+        "+6539ms click.kernelChrome",
+        "+6539ms click.kernelChrome",
+        "+6540ms launcher.press photos",
+        "+6540ms gen.fetch app g3-u7fmb8",
+        "+6542ms launcher.click photos",
+        "+6542ms openApp.enter photos",
+        "+6542ms openApp.claim photos hit g3-u7fmb8",
+        "+6550ms openApp.created photos w1",
+        "+6550ms openApp.focused w1",
+        "+6550ms openApp.stream w1",
+        "+6550ms streamApp.enter w1 photos spec g3-u7fmb8",
+        "+6551ms streamDoc.enter app g3-u7fmb8 spec g3-u7fmb8",
+        "+6551ms streamDoc.take g3-u7fmb8",
+        "+6551ms openApp.exit w1",
+        "+6580ms gen.headers app g3-u7fmb8 200",
+        "+7594ms click.kernelChrome",
+        "+7693ms launcher.press maps",
+        "+7693ms gen.fetch app g4-d0mc9q",
+        "+7695ms launcher.click maps",
+        "+7695ms openApp.enter maps",
+        "+7695ms openApp.claim maps hit g4-d0mc9q",
+        "+7698ms openApp.created maps w2",
+        "+7699ms openApp.focused w2",
+        "+7699ms openApp.stream w2",
+        "+7699ms streamApp.enter w2 maps spec g4-d0mc9q",
+        "+7699ms streamDoc.enter app g4-d0mc9q spec g4-d0mc9q",
+        "+7699ms streamDoc.take g4-d0mc9q",
+        "+7699ms openApp.exit w2",
+        "+7701ms gen.headers app g4-d0mc9q 200",
+        "+8290ms click.kernelChrome",
+        "+8333ms click.kernelChrome",
+        "+8374ms click.kernelChrome",
+        "+8416ms click.kernelChrome",
+        "+8417ms launcher.press browser",
+        "+8417ms gen.fetch app g5-epmaj0",
+        "+8417ms gen.fetch page g6-fdp4dj",
+        "+8418ms launcher.click browser",
+        "+8418ms openApp.enter browser",
+        "+8418ms openApp.claim browser hit g5-epmaj0",
+        "+8421ms openApp.created browser w3",
+        "+8421ms openApp.focused w3",
+        "+8421ms openApp.stream w3",
+        "+8421ms streamApp.enter w3 browser spec g5-epmaj0",
+        "+8422ms streamDoc.enter app g5-epmaj0 spec g5-epmaj0",
+        "+8422ms streamDoc.take g5-epmaj0",
+        "+8422ms openApp.exit w3",
+        "+8430ms gen.headers app g5-epmaj0 200",
+        "+8430ms gen.headers page g6-fdp4dj 200",
+        "+8740ms gen.closed app g3-u7fmb8",
+        "+8740ms streamApp.exit w1 inked=true painted=true",
+        "+8934ms gen.closed app g4-d0mc9q",
+        "+8934ms streamApp.exit w2 inked=true painted=true",
+        "+9293ms gen.closed app g5-epmaj0",
+        "+9294ms streamDoc.enter page g6-fdp4dj spec g6-fdp4dj",
+        "+9294ms streamDoc.take g6-fdp4dj",
+        "+9469ms gen.closed page g6-fdp4dj",
+        "+9470ms streamApp.exit w3 inked=true painted=true",
+        "+9475ms launcher.press notes",
+        "+9475ms gen.fetch app g7-qlffq3",
+        "+9476ms launcher.click notes",
+        "+9476ms openApp.enter notes",
+        "+9476ms openApp.claim notes hit g7-qlffq3",
+        "+9479ms openApp.created notes w4",
+        "+9479ms openApp.focused w4",
+        "+9479ms openApp.stream w4",
+        "+9479ms streamApp.enter w4 notes spec g7-qlffq3",
+        "+9479ms streamDoc.enter app g7-qlffq3 spec g7-qlffq3",
+        "+9479ms streamDoc.take g7-qlffq3",
+        "+9479ms openApp.exit w4",
+        "+9481ms gen.headers app g7-qlffq3 200",
+        "+10970ms gen.closed app g7-qlffq3",
+        "+10971ms streamApp.exit w4 inked=true painted=true"
+      ],
+      "usd": 0.0673,
+      "gens": 22
+    }
+  ]
+}

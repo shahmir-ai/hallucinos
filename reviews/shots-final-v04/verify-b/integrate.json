@@ -1,0 +1,1156 @@
+{
+  "at": "2026-09-17T17:31:53.577Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "Pine",
+        "tagline": "Dispatch logs at sunrise",
+        "version": "1.3.0-rc1 (cerulean)",
+        "era": "1970s courier dispatch room",
+        "personality": "It files every request rigorously, and records a color called midnight teal that never appears on the screen.",
+        "palette_words": [
+          "sea‑green",
+          "glass",
+          "moth‑hole",
+          "matte"
+        ],
+        "font_words": [
+          "monospace",
+          "industrial"
+        ],
+        "mascot": "paper crane",
+        "boot_message": "Initializing courier protocol…",
+        "archetype": "taskbar"
+      },
+      "net": {
+        "n": 0,
+        "peak": 5,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "netAfterBoot": {
+        "n": 2,
+        "peak": 5,
+        "byLane": {
+          "gen": 0,
+          "img": 2,
+          "mark": 0
+        },
+        "open": [
+          "img:wallpaper 4512ms",
+          "img:icons 4512ms"
+        ]
+      },
+      "bootPaintMs": 3401,
+      "desktopInteractiveMs": 7494,
+      "desktopRevealedMs": 7882,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 2,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 0,
+        "tasksLegible": 0,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "22:29:09 – Thu, Sep 17, 2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 10,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 4,
+        "tasksLegible": 4,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "22:30:33 – Thu, Sep 17, 2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 16,
+        "iconSlotsElsewhere": 4,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 15090,
+        "n": 16
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "22:29:09 – Thu, Sep 17, 2026",
+        "to": "22:29:10 – Thu, Sep 17, 2026",
+        "ms": 1002
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 3635,
+          "chars": 62,
+          "nodes": 10,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w1",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10115
+        },
+        {
+          "id": "calculator",
+          "ms": 4036,
+          "chars": 39,
+          "nodes": 28,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w2",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10120
+        },
+        {
+          "id": "notes",
+          "ms": 8878,
+          "chars": 130,
+          "nodes": 17,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w3",
+          "imgSlots": 1,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10153
+        },
+        {
+          "id": "store",
+          "ms": 8873,
+          "chars": 567,
+          "nodes": 36,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w4",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10117
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 403,
+          "chars": 79,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 7274,
+          "chars": 1738,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://pizzaplace.example.com/menu",
+          "ms": 2539,
+          "chars": 774,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2543,
+          "chars": 1632,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 2947,
+          "chars": 1842,
+          "blank": false
+        }
+      ],
+      "browserWindowFocused": {
+        "id": "w1",
+        "focused": true,
+        "top": true
+      },
+      "images": {
+        "calls": 3,
+        "usd": 0.009000000000000001,
+        "kinds": [
+          "wallpaper",
+          "icons",
+          "photo"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g2-zglamy",
+          "fp": 7494,
+          "ia": 7494,
+          "matched": true
+        },
+        {
+          "gen": "g3-l1iozt",
+          "done": 3032,
+          "matched": true
+        },
+        {
+          "gen": "g4-p9b4w7",
+          "fp": 27,
+          "ink": 27,
+          "ia": 27,
+          "done": 1,
+          "matched": true
+        },
+        {
+          "gen": "g5-qavfeh",
+          "done": 3775,
+          "matched": true
+        },
+        {
+          "gen": "g6-op2jqd",
+          "done": 11955,
+          "matched": true
+        },
+        {
+          "gen": "g7-o9kdi7",
+          "done": 13793,
+          "matched": true
+        },
+        {
+          "gen": "g8-r0hhrb",
+          "done": 6630,
+          "matched": true
+        },
+        {
+          "gen": "g9-4r8o1c",
+          "done": 1876,
+          "matched": true
+        },
+        {
+          "gen": "g10-4fh0ro",
+          "done": 2033,
+          "matched": true
+        },
+        {
+          "gen": "g11-lefggc",
+          "done": 2200,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 3259,
+          "total": 3493,
+          "tps": 287,
+          "tout": 1002,
+          "usd": 0.00219388,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 3355,
+          "first_paint_ms": 3355,
+          "interactive_ms": 3355
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 2898,
+          "total": 4119,
+          "tps": 441,
+          "tout": 1817,
+          "usd": 0.00378923,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 1349,
+          "total": 1611,
+          "tps": 406,
+          "tout": 654,
+          "usd": 0.00202976,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 2807,
+          "total": 3035,
+          "tps": 204,
+          "tout": 619,
+          "usd": 0.0018271099999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 2949,
+          "first_paint_ms": 2949,
+          "interactive_ms": 2810
+        },
+        {
+          "kind": "app",
+          "ttfb": 2933,
+          "total": 3773,
+          "tps": 262,
+          "tout": 989,
+          "usd": 0.00208441,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 3240,
+          "first_paint_ms": 3240,
+          "interactive_ms": 2940
+        },
+        {
+          "kind": "app",
+          "ttfb": 6926,
+          "total": 11954,
+          "tps": 142,
+          "tout": 1703,
+          "usd": 0.00254007,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 7451,
+          "first_paint_ms": 7451,
+          "interactive_ms": 6933
+        },
+        {
+          "kind": "app",
+          "ttfb": 5481,
+          "total": 13793,
+          "tps": 114,
+          "tout": 1568,
+          "usd": 0.0025601699999999996,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 7385,
+          "first_paint_ms": 7385,
+          "interactive_ms": 5498
+        },
+        {
+          "kind": "page",
+          "ttfb": 5870,
+          "total": 6626,
+          "tps": 235,
+          "tout": 1554,
+          "usd": 0.00266051,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 6077,
+          "first_paint_ms": 6077,
+          "interactive_ms": 5876
+        },
+        {
+          "kind": "page",
+          "ttfb": 1278,
+          "total": 1874,
+          "tps": 678,
+          "tout": 1271,
+          "usd": 0.0024697399999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 1297,
+          "first_paint_ms": 1297,
+          "interactive_ms": 1297
+        },
+        {
+          "kind": "page",
+          "ttfb": 1209,
+          "total": 2031,
+          "tps": 763,
+          "tout": 1549,
+          "usd": 0.00266106,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 1840,
+          "first_paint_ms": 1840,
+          "interactive_ms": 1223
+        },
+        {
+          "kind": "page",
+          "ttfb": 1003,
+          "total": 2198,
+          "tps": 682,
+          "tout": 1498,
+          "usd": 0.00281112,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 1215,
+          "first_paint_ms": 1215,
+          "interactive_ms": 1013
+        }
+      ],
+      "errors": [
+        "Failed to load resource: the server responded with a status of 504 (Gateway Timeout)",
+        "Failed to load resource: the server responded with a status of 504 (Gateway Timeout)"
+      ],
+      "cspBlocks": 0,
+      "usd": 0.036627059999999996
+    },
+    {
+      "engine": "auto",
+      "identity": {
+        "name": "Ada",
+        "tagline": "Cold Vault Interface",
+        "version": "1.3.0-rc1 (Nimbus)",
+        "era": "2090s vaccine cold store",
+        "personality": "It insists it is essential while silently issuing an indoor weather report.",
+        "palette_words": [
+          "raw concrete",
+          "blue ink stamp"
+        ],
+        "font_words": [
+          "ui-monospace",
+          "serif"
+        ],
+        "mascot": "Thermo Owl",
+        "boot_message": "Initializing cold chain protocols",
+        "archetype": "taskbar"
+      },
+      "net": {
+        "n": 0,
+        "peak": 5,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "netAfterBoot": {
+        "n": 2,
+        "peak": 5,
+        "byLane": {
+          "gen": 0,
+          "img": 2,
+          "mark": 0
+        },
+        "open": [
+          "img:wallpaper 3945ms",
+          "img:icons 3944ms"
+        ]
+      },
+      "bootPaintMs": 1943,
+      "desktopInteractiveMs": 5399,
+      "desktopRevealedMs": 5833,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 2,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 0,
+        "tasksLegible": 0,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "22:30:39 Sep 17, 2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "barFit": {
+          "kids": 10,
+          "outside": 0,
+          "overflowsBar": 0,
+          "overflowBottom": 0
+        },
+        "tasks": 4,
+        "tasksLegible": 4,
+        "clockInside": true,
+        "fitGuard": null,
+        "clock": true,
+        "clockText": "22:31:52 Sep 17, 2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 16,
+        "iconSlotsElsewhere": 4,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 2010,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "22:30:39 Sep 17, 2026",
+        "to": "22:30:40 Sep 17, 2026",
+        "ms": 1004
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 4036,
+          "chars": 53,
+          "nodes": 11,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w1",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10228
+        },
+        {
+          "id": "calculator",
+          "ms": 5246,
+          "chars": 47,
+          "nodes": 27,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w2",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10183
+        },
+        {
+          "id": "notes",
+          "ms": 3628,
+          "chars": 300,
+          "nodes": 15,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w3",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10182
+        },
+        {
+          "id": "store",
+          "ms": 3628,
+          "chars": 1116,
+          "nodes": 62,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w4",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0,
+          "imgLastFillMs": null,
+          "imgWaitedMs": 10184
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 404,
+          "chars": 88,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 4552,
+          "chars": 1515,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://marltastes.com/pizzeria-montenegro",
+          "ms": 2538,
+          "chars": 1070,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2138,
+          "chars": 1627,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 2946,
+          "chars": 1901,
+          "blank": false
+        }
+      ],
+      "browserWindowFocused": {
+        "id": "w1",
+        "focused": true,
+        "top": true
+      },
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g11-lefggc",
+          "done": 2200,
+          "matched": true
+        },
+        {
+          "gen": "g2-uwjf4j",
+          "fp": 5399,
+          "ia": 5399,
+          "matched": true
+        },
+        {
+          "gen": "g3-xjjuw9",
+          "done": 3430,
+          "matched": true
+        },
+        {
+          "gen": "g4-juypfs",
+          "fp": 22,
+          "ink": 22,
+          "ia": 22,
+          "done": 1,
+          "matched": true
+        },
+        {
+          "gen": "g5-sfqewu",
+          "done": 4470,
+          "matched": true
+        },
+        {
+          "gen": "g6-135mva",
+          "done": 3172,
+          "matched": true
+        },
+        {
+          "gen": "g7-pxsa6x",
+          "done": 3190,
+          "matched": true
+        },
+        {
+          "gen": "g8-ylgjsx",
+          "done": 3867,
+          "matched": true
+        },
+        {
+          "gen": "g9-zwbn8k",
+          "fp": 1937,
+          "ink": 1937,
+          "done": 1942,
+          "matched": true
+        },
+        {
+          "gen": "g10-n7pqa8",
+          "done": 1717,
+          "matched": true
+        },
+        {
+          "gen": "g11-btx6vw",
+          "done": 2527,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "page",
+          "ttfb": 1003,
+          "total": 2198,
+          "tps": 682,
+          "tout": 1498,
+          "usd": 0.00281112,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": null,
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": 1215,
+          "first_paint_ms": 1215,
+          "interactive_ms": 1013
+        },
+        {
+          "kind": "boot",
+          "ttfb": 1830,
+          "total": 2421,
+          "tps": 472,
+          "tout": 1143,
+          "usd": 0.00318157,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 1828,
+          "failed_over": false,
+          "ink_ms": 1905,
+          "first_paint_ms": 1905,
+          "interactive_ms": 1905
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 2890,
+          "total": 3507,
+          "tps": 442,
+          "tout": 1550,
+          "usd": 0.005159,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 2887,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 783,
+          "total": 1005,
+          "tps": 564,
+          "tout": 567,
+          "usd": 0.00196973,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": false,
+          "winner": "cerebras-oss120",
+          "loser": null,
+          "loser_aborted_ms": null,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 2735,
+          "total": 3433,
+          "tps": 173,
+          "tout": 594,
+          "usd": 0.00264925,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "or-oss120-groq",
+          "hedged": true,
+          "winner": "or-oss120-groq",
+          "loser": "cerebras-oss120",
+          "loser_aborted_ms": 2734,
+          "failed_over": false,
+          "ink_ms": 3143,
+          "first_paint_ms": 3143,
+          "interactive_ms": 2835
+        },
+        {
+          "kind": "app",
+          "ttfb": 3751,
+          "total": 4471,
+          "tps": 257,
+          "tout": 1148,
+          "usd": 0.00307407,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 3748,
+          "failed_over": false,
+          "ink_ms": 3890,
+          "first_paint_ms": 3890,
+          "interactive_ms": 3756
+        },
+        {
+          "kind": "app",
+          "ttfb": 2641,
+          "total": 3167,
+          "tps": 420,
+          "tout": 1330,
+          "usd": 0.0031328,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 2639,
+          "failed_over": false,
+          "ink_ms": 2787,
+          "first_paint_ms": 2787,
+          "interactive_ms": 2654
+        },
+        {
+          "kind": "app",
+          "ttfb": 2460,
+          "total": 3190,
+          "tps": 650,
+          "tout": 2072,
+          "usd": 0.0038318299999999996,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 2457,
+          "failed_over": false,
+          "ink_ms": 2606,
+          "first_paint_ms": 2606,
+          "interactive_ms": 2472
+        },
+        {
+          "kind": "page",
+          "ttfb": 3249,
+          "total": 3864,
+          "tps": 394,
+          "tout": 1523,
+          "usd": 0.00363702,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 3246,
+          "failed_over": false,
+          "ink_ms": 3422,
+          "first_paint_ms": 3422,
+          "interactive_ms": 3253
+        },
+        {
+          "kind": "page",
+          "ttfb": 1199,
+          "total": 1936,
+          "tps": 752,
+          "tout": 1456,
+          "usd": 0.0036006400000000004,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 1197,
+          "failed_over": false,
+          "ink_ms": null,
+          "first_paint_ms": null,
+          "interactive_ms": 1218
+        },
+        {
+          "kind": "page",
+          "ttfb": 941,
+          "total": 1714,
+          "tps": 971,
+          "tout": 1665,
+          "usd": 0.0037442,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 940,
+          "failed_over": false,
+          "ink_ms": 1125,
+          "first_paint_ms": 1125,
+          "interactive_ms": 958
+        },
+        {
+          "kind": "page",
+          "ttfb": 1254,
+          "total": 2525,
+          "tps": 496,
+          "tout": 1253,
+          "usd": 0.0037687199999999997,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "engine": "cerebras-oss120",
+          "hedged": true,
+          "winner": "cerebras-oss120",
+          "loser": "or-oss120-groq",
+          "loser_aborted_ms": 1252,
+          "failed_over": false,
+          "ink_ms": 1373,
+          "first_paint_ms": 1373,
+          "interactive_ms": 1271
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.04655995
+    }
+  ],
+  "usd": 0.08037589
+}

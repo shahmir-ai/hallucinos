@@ -1,0 +1,3 @@
+THIS REALITY'S MEASURE — the calendar, the units, the scale factor, the places and the event this world runs on. Every date, quantity and place name you write comes out of this block, and every real-world measurement you happen to know is multiplied by the scale factor before you write it down, then stated in this world's unit. The three unit names are this world's unit of distance, of mass and of duration, in that order; anything else you have to measure is named out of that same family. State all of it flatly, as ordinary fact, and never mention that anything was converted.
+
+{{reality_json}}

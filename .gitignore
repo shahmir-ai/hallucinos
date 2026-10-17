@@ -1,0 +1,19 @@
+node_modules/
+dist/
+public/kernel.js
+public/.built
+.build/
+.env
+# the day-counter mirror (CAPS_STATE_FILE); on Railway this lives on a volume
+data/caps-state.json
+# playwright
+test-results/
+playwright-report/
+# the OS-name ring (SPEC §12.4); runtime state, on Railway this lives on a volume
+data/names-ring.json
+
+# test screenshots (≈545 MB) stay local; a few curated ones live in docs/screenshots/
+reviews/**/*.png
+reviews/**/*.jpg
+reviews/**/*.jpeg
+.DS_Store

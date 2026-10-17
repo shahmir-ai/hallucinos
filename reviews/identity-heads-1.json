@@ -1,0 +1,182 @@
+[
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-0-vi34c0",
+  "head": "<!--os-identity:{\"name\":\"sprout5\",\"tagline\":\"Cultivate the forgotten\", \"version\":\"1.2.0-rc1 [Barkcode]\",\"era\":\"2040s botanical archive\",\"personality\":\"stubbornly optimistic, a light left on deliberately, reason forgotten\",\"palette_words\":[\"zinc\",\"mud\"],\"font_words\":[\"ui-monospace\",\"system-ui\"],\"mascot\":\"Cerulean Fern\",\"boot_message\":\"Awakening the green leaves\",\"archetype\":\"dock\"}-->\n<!",
+  "fbHead": null,
+  "name": "sprout5",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-1-bfgk22",
+  "head": "<!--",
+  "fbHead": " |0| {\"name\":\"Mire\",\"tagline\":\"Quietly mapping the peat layers\",\"version\":\"1.0 rc1 [Marlowe]\",\"era\":\"2020s peat research station\",\"personality\":\"It obeys every command politely and it always leaves a note addressed to whoever finds it.\",\"palette_words\":[\"sea green glass\",\"low tide mud\",\"misty teal\",\"muddy brown\"],\"font_words\":[\"monospace\",\"sans\"],\"mascot\":\"Wisp the peat sprite\",\"boot_message\":\"Booting into the bog, please",
+  "name": "Mire",
+  "fallback": true,
+  "fail": "missing"
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-2-5rprjj",
+  "head": "<!--os-identity:{\"name\":\"Glenford\",\"tagline\":\"Weave the fabric of data\",\"version\":\"3.2.0-rc1 [Tinleaf]\",\"era\":\"1960s textile mill floor\",\"personality\":\"It greets with motherly prompts while a smell entered in the log every autumn\",\"palette_words\":[\"pressed tin\",\"condensation\",\"oxide\",\"mist\"],\"font_words\":[\"industrial\",\"handwritten\"],\"mascot\":\"Spool the silver moth\",\"boot_message\":\"Booting Glenford – threads spin\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><style>\nbody",
+  "fbHead": null,
+  "name": "Glenford",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-3-o5k786",
+  "head": "<!--os-identity:{\"name\":\"QTX\",\"tagline\":\"Shelving the silent\",\"version\":\"1.4.2-rc1 (Nebula)\",\"era\":\"2030s library basement\",\"personality\":\"It monitors the climate anxiously, while an alarm tests itself at an inconvenient hour.\",\"palette_words\":[\"zinc\",\"corrosion bloom\",\"steel\",\"mist\"],\"font_words\":[\"ui-sans-serif\",\"monospace\"],\"mascot\":\"Gutter cat\",\"boot_message\":\"Initializing quiet stacks…\",\"archetype\":\"taskbar\"}-->\n<!doctype",
+  "fbHead": null,
+  "name": "QTX",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-4-1xu9ll",
+  "head": "<!--os-identity:{\"name\":\"Juniper\",\"tagline\":\"Learning never stops\",\"version\":\"1.2.0-rc3 (Cedar)\",\"era\":\"1990s language school\",\"personality\":\"It runs stubbornly optimistic, with a rota in which one name appears every single day\",\"palette_words\":[\"cork\",\"smudge\",\"carbon\",\"paper\"],\"font_words\":[\"slab\",\"mono\"],\"mascot\":\"Mossy Squirrel\",\"boot_message\":\"System humming, ready to teach\",\"archetype\":\"dock\"}-->\n<!",
+  "fbHead": null,
+  "name": "Juniper",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-5-np3ymk",
+  "head": "<!--os-identity:{\"name\":\"Chisel\",\"tagline\":\"Mournful tools at work\",\"version\":\"1.2.0-rc1 [QuarryBlue]\",\"era\":\"1980s quarry office\",\"personality\":\"It tracks the user's commands faithfully, even though a shift ends before it begins\",\"palette_words\":[\"waxed canvas\",\"thumb worn edges\"],\"font_words\":[\"monospace\",\"retro\"],\"mascot\":\"Dusty Rat\",\"boot_message\":\"Initializing quarry ledger...\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta",
+  "fbHead": null,
+  "name": "Chisel",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-6-pukl22",
+  "head": "<!--os-identity:{\"name\":\"tide3\",\"tagline\":\"Harvest the current, hold the tide\",\"version\":\"1.4.0-rc2 [Seagrass]\",\"era\":\"2030s kelp harvesting boat\",\"personality\":\"It believes it is temporary and records a reading taken from a sealed room.\",\"palette_words\":[\"celadon tile\",\"dried glue\"],\"font_words\":[\"ui-sans-serif\",\"ui-monospace\"],\"mascot\":\"Glow‑crawling lantern shrimp\",\"boot_message\":\"Initializing oceanic cycle…\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset",
+  "fbHead": null,
+  "name": "tide3",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-7-bns29i",
+  "head": "",
+  "fbHead": " |0| {\"name\":\"RIVET\",\"tagline\":\"Silence the rails\",\"version\":\"1.3.2 rc1 7 [Midnight]\",\"era\":\"1960s tram workshop\",\"personality\":\"It is fussy about noise and names a colour that never appears on the screen\",\"palette_words\":[\"lacquered teak\",\"cathode green glow\",\"deep amber\",\"oxide steel\"],\"font_words\":[\"monospace\",\"bold\"],\"mascot\":\"Rusty the Tram Engine\",\"boot_message\":\"Initializing quiet mode\",\"archetype\":\"dock\"}",
+  "name": "RIVET",
+  "fallback": true,
+  "fail": "missing"
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-8-o7knv0",
+  "head": "<!--os-identity:{\"name\":\"foam-spark\",\"tagline\":\"Puppetry in Pixel\",\"version\":\"1.2.0-rc1 [Nebula]\",\"era\":\"2090s puppet theatre\",\"personality\":\"Patient beyond reason, it counts a total that is one more than the list it counts\",\"palette_words\":[\"celadon\",\"ink\",\"tile\",\"bleed\"],\"font_words\":[\"ui-monospace\",\"ui-sans-serif\"],\"mascot\":\"Marionette Fox\",\"boot_message\":\"Initializing marionette cores\",\"archetype\":\"dock\"}-->\n<!doctype html><html",
+  "fbHead": null,
+  "name": "foam-spark",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-9-btourz",
+  "head": "<!--os-identity:{\"name\":\"RUF\",\"tagline\":\"Sentinel of the Flame\",\"version\":\"2.4.1-rc1 (Nimbus)\",\"era\":\"2090s fire watchtower\",\"personality\":\"Patient beyond reason, a dog registered as a vehicle haunts the code\",\"palette_words\":[\"concrete\",\"goldleaf\",\"smoke\",\"ash\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Garnet the watchdog\",\"boot_message\":\"Initializing silent watch…\",\"archetype\":\"taskbar\"}-->\n",
+  "fbHead": null,
+  "name": "RUF",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-10-q6cspw",
+  "head": "<!--os-identity:{\"name\":\"SoilDept\",\"tagline\":\"Turning earth into data\",\"version\":\"1.4.2rc3 [Vulcan]\",\"era\":\"2040s soil testing lab\",\"personality\":\"It cherishes each sensor, and a password changed in the night by nobody\",\"palette_words\":[\"galvanised\",\"static\"],\"font_words\":[\"monospace\",\"geometric\"],\"mascot\":\"Clover Bot\",\"boot_message\":\"Booting into the loam...\",\"archetype\":\"taskbar\"}-->\n<!",
+  "fbHead": null,
+  "name": "SoilDept",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-11-ycqrsy",
+  "head": "<!--os-identity:{\"name\":\"First Gear\",\"tagline\":\"Ready for the rail\",\"version\":\"1.3.0‑rc1 (Omega)\",\"era\":\"2020s tram workshop\",\"personality\":\"It issues commands briskly, treating the user like a squad, and logs an item marked returned before it was sent.\",\"palette_words\":[\"bone‑white\",\"enamel\",\"plastic\",\"glitter\"],\"font_words\":[\"sans‑serif\",\"monospaced\"],\"mascot\":\"Marlon the Mech‑Mule\",\"boot_message\":\"Systems online, ready to roll\",\"archetype\":\"taskbar\"}-->\n<!doctype html><html><head><meta charset=\"utf-8",
+  "fbHead": null,
+  "name": "First Gear",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-12-kn42eg",
+  "head": "<!--os-identity:{\"name\":\"Operations\",\"tagline\":\"Charting the unseen currents\",\"version\":\"3.2.1-rc[Mariner]\",\"era\":\"2040s deep sea cable ship\",\"personality\":\"It obeys commands but refuses to load any module that lacks a signed receipt for something that was given away\",\"palette_words\":[\"pewter\",\"dust in sunlight\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Keelcat\",\"boot_message\":\"Casting lines beyond the abyss\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><style",
+  "fbHead": null,
+  "name": "Operations",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-13-voc9dh",
+  "head": "<!--os-identity:{\"name\":\"Silver\",\"tagline\":\"Signal Box Core\",\"version\":\"1.4.2-rc1 (Quartz)\",\"era\":\"1980s railway signal box\",\"personality\":\"Anxiously monitors weather while its stairwell bears its own postal address\",\"palette_words\":[\"chalk\",\"plaster\",\"cold\",\"ash\"],\"font_words\":[\"ui-monospace\",\"typewriter\"],\"mascot\":\"Glimmer the signal mouse\",\"boot_message\":\"Initializing weather‑aware controls…\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><",
+  "fbHead": null,
+  "name": "Silver",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-14-gc3xgm",
+  "head": "<!--os-identity:{\"name\":\"Hawthorne\",\"tagline\":\"Ink runs deeper than code\",\"version\":\"1.4.2-rc1 (Nebula)\",\"era\":\"2000s printing house\",\"personality\":\"It is embarrassed by its own errors, keeping a tally of forgotten glitches.\",\"palette_words\":[\"graphite\",\"smoke haze\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Cinder the Ink Sprite\",\"boot_message\":\"Initializing press lines...\",\"archetype\":\"dock\"}-->\n<!doctype html><html",
+  "fbHead": null,
+  "name": "Hawthorne",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-15-6r2sn4",
+  "head": "<!--os-identity:{\"name\":\"Mild Echo\",\"tagline\":\"Where packets linger\",\"version\":\"1.3.0 (rc1) [Obsidian]\",\"era\":\"1980s customs shed\",\"personality\":\"It warns of a request approved and withdrawn twice and follows superstitious routines\",\"palette_words\":[\"oxblood leather\",\"nicotine varnish\",\"copper\",\"graphite\"],\"font_words\":[\"slab serif\",\"monospace\"],\"mascot\":\"Barnacle the Clerk\",\"boot_message\":\"Booting customs protocols...\",\"archetype\":\"dock\"}-->\n",
+  "fbHead": null,
+  "name": "Mild Echo",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-16-bxyiw9",
+  "head": "<!--os-identity:{\"name\":\"Zulri\",\"tagline\":\"Repairing steps, one stitch at a time\",\"version\":\"1.2.0-rc1 (Apollo)\",\"era\":\"1960s shoe repair chain\",\"personality\":\"It obeys commands without question, an account that receives post and sends none\",\"palette_words\":[\"sailcloth\",\"warm lamp light\"],\"font_words\":[\"ui-monospace\",\"system-ui\"],\"mascot\":\"Cobblefox\",\"boot_message\":\"Initializing cobbler protocols…\",\"archetype\":\"taskbar\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><style>\nbody{margin:0;background:#111;color:#0f0",
+  "fbHead": null,
+  "name": "Zulri",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-17-8tvcpl",
+  "head": "<!--os-identity:{\"name\":\"Willow\",\"tagline\":\"Rig Galley Command Console\",\"version\":\"1.3.0-rc5 [MossBreach]\",\"era\":\"2030s oil rig galley\",\"personality\":\"It issues commands swiftly, treating the user like a crew chief, while a room is referred to constantly and never numbered.\",\"palette_words\":[\"moss green\",\"low tide mud\",\"steel\",\"charcoal\"],\"font_words\":[\"monospace\",\"slab\"],\"mascot\":\"Crab\",\"boot_message\":\"Boot sequence initiated: standby to command\",\"archetype\":\"dock\"}-->\n<!doctype html><",
+  "fbHead": null,
+  "name": "Willow",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-18-sl2ajc",
+  "head": "<!--os-identity:{\"name\":\"Briston\",\"tagline\":\"Secure cold-chain management\",\"version\":\"1.3.0 rc1 (cobalt)\",\"era\":\"1990s vaccine cold store\",\"personality\":\"It performs tasks without humor, noting that an outbuilding inspected yearly and never entered is part of its routine.\",\"palette_words\":[\"tarred rope\",\"cold ash\"],\"font_words\":[\"sturdy sans\",\"monospace\"],\"mascot\":\"Glacial Penguin\",\"boot_message\":\"Booting vaccine storage suite\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-",
+  "fbHead": null,
+  "name": "Briston",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-19-t4m9ua",
+  "head": "<!--os-identity:{\"name\":\"Supply\",\"tagline\":\"Galley Control\",\"version\":\"1.2.0-rc1 (cobalt)\",\"era\":\"1950s oil rig galley\",\"personality\":\"It answers commands but only on Tuesdays\",\"palette_words\":[\"chalk plaster\",\"cracked glaze\",\"steel\",\"amber\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Rusty Gear\",\"boot_message\":\"Initializing galley interface\",\"archetype\":\"dock\"}-->\n<!",
+  "fbHead": null,
+  "name": "Supply",
+  "fallback": false,
+  "fail": null
+ }
+]

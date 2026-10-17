@@ -1,0 +1,329 @@
+{
+  "at": "2026-09-17T08:33:19.983Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "Lockweave",
+        "version": "7.3 (Sluice)",
+        "tagline": "Synchronize the flow, steady as night"
+      },
+      "bootPaintMs": 1421,
+      "desktopInteractiveMs": 6080,
+      "desktopRevealedMs": 6382,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "dock",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "13:32 – Thu, Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "dock",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 20,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "13:33 – Thu, Sep 17, 2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 1508,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "from": "13:32 – Thu, Sep 17, 2026",
+        "to": "13:33 – Thu, Sep 17, 2026",
+        "ms": 17300
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 1618,
+          "chars": 102,
+          "nodes": 14,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 2022,
+          "chars": 88,
+          "nodes": 31,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 1619,
+          "chars": 257,
+          "nodes": 15,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2017,
+          "chars": 1087,
+          "nodes": 92,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 404,
+          "chars": 87,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2844,
+          "chars": 1848,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://www.italianharmony.com/menu/pizza-margherita",
+          "ms": 1734,
+          "chars": 628,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2134,
+          "chars": 1342,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 2142,
+          "chars": 725,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-rnxppr",
+          "fp": 1311,
+          "ia": 1311,
+          "matched": false
+        },
+        {
+          "gen": "g2-vv0lpt",
+          "fp": 6080,
+          "ia": 6080,
+          "matched": true
+        },
+        {
+          "gen": "g4-d23c4m",
+          "ia": 1283,
+          "matched": true
+        },
+        {
+          "gen": "g3-qf69z3",
+          "ia": 0,
+          "matched": true
+        },
+        {
+          "gen": "g3-qf69z3",
+          "fp": 22,
+          "matched": true
+        },
+        {
+          "gen": "g5-sd5lj2",
+          "ia": 1707,
+          "matched": true
+        },
+        {
+          "gen": "g6-gl0102",
+          "ia": 1273,
+          "matched": true
+        },
+        {
+          "gen": "g7-dmz0us",
+          "ia": 1370,
+          "matched": true
+        },
+        {
+          "gen": "g8-oatadl",
+          "ia": 2328,
+          "matched": true
+        },
+        {
+          "gen": "g9-8q47pb",
+          "ia": 1246,
+          "matched": true
+        },
+        {
+          "gen": "g10-vl8ql5",
+          "ia": 1406,
+          "matched": true
+        },
+        {
+          "gen": "g11-wvzpc9",
+          "ia": 1348,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 1209,
+          "total": 1486,
+          "tps": 462,
+          "tout": 687,
+          "usd": 0.00155828,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 956,
+          "total": 4769,
+          "tps": 292,
+          "tout": 1392,
+          "usd": 0.0027739799999999997,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 676,
+          "total": 1031,
+          "tps": 682,
+          "tout": 703,
+          "usd": 0.00163632,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 882,
+          "total": 1276,
+          "tps": 633,
+          "tout": 808,
+          "usd": 0.00170477,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 658,
+          "total": 1702,
+          "tps": 853,
+          "tout": 1452,
+          "usd": 0.00215188,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 536,
+          "total": 1271,
+          "tps": 1281,
+          "tout": 1628,
+          "usd": 0.00223757,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "app",
+          "ttfb": 527,
+          "total": 1368,
+          "tps": 1245,
+          "tout": 1703,
+          "usd": 0.00232357,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 647,
+          "total": 2326,
+          "tps": 871,
+          "tout": 2026,
+          "usd": 0.00255894,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 467,
+          "total": 1243,
+          "tps": 974,
+          "tout": 1211,
+          "usd": 0.00200484,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 585,
+          "total": 1403,
+          "tps": 895,
+          "tout": 1255,
+          "usd": 0.00203895,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        },
+        {
+          "kind": "page",
+          "ttfb": 868,
+          "total": 1345,
+          "tps": 1051,
+          "tout": 1413,
+          "usd": 0.00215272,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.029141820000000002
+    }
+  ],
+  "usd": 0.029141820000000002
+}

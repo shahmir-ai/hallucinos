@@ -1,0 +1,227 @@
+{
+  "engine": "cerebras-oss120",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "Briar",
+        "tagline": "Silent stacks, steady service",
+        "era": "2000s public library basement",
+        "archetype": "taskbar"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 2346,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 16,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": 3019,
+      "wallpaper": true,
+      "wallpaperOn": "slot",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "geometry": null,
+      "httpRefused": [],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.0116,
+      "engineUsed": "cerebras-oss120,fal"
+    },
+    {
+      "boot": 2,
+      "identity": {
+        "name": "Olive",
+        "tagline": "Gatekeeper of the Silent Pass",
+        "era": "1960s border checkpoint",
+        "archetype": "taskbar"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 1160,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 16,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": 3019,
+      "wallpaper": false,
+      "wallpaperOn": "none",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "geometry": null,
+      "httpRefused": [],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.0117,
+      "engineUsed": "cerebras-oss120,fal"
+    },
+    {
+      "boot": 3,
+      "identity": {
+        "name": "Nova Pulse",
+        "tagline": "Arcade dreams in circuitry",
+        "era": "1980s arcade operator",
+        "archetype": "taskbar"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 1102,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 16,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": 12067,
+      "wallpaper": true,
+      "wallpaperOn": "slot",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "geometry": null,
+      "httpRefused": [],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.0118,
+      "engineUsed": "cerebras-oss120,fal"
+    },
+    {
+      "boot": 4,
+      "identity": {
+        "name": "LZR",
+        "tagline": "Print perfect, spell perfect",
+        "era": "2040s printing house",
+        "archetype": "taskbar"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 2070,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 0,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": null,
+      "wallpaper": false,
+      "wallpaperOn": "none",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "geometry": null,
+      "httpRefused": [
+        "/api/img 504",
+        "/api/img 504"
+      ],
+      "errors": [
+        "Failed to load resource: the server responded with a status of 504 (Gateway Timeout)",
+        "Failed to load resource: the server responded with a status of 504 (Gateway Timeout)"
+      ],
+      "cspBlocks": 0,
+      "usd": 0.0118,
+      "engineUsed": "cerebras-oss120,fal"
+    },
+    {
+      "boot": 5,
+      "identity": {
+        "name": "Elm",
+        "tagline": "Council Core",
+        "era": "2010s parish council office",
+        "archetype": "dock"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 4199,
+      "contract": "miss",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 8,
+      "icons": 16,
+      "iconsFilled": 16,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": 11563,
+      "wallpaper": false,
+      "wallpaperOn": "none",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "geometry": null,
+      "httpRefused": [],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.0086,
+      "engineUsed": "cerebras-oss120,fal"
+    },
+    {
+      "boot": 6,
+      "identity": {
+        "name": "MIRAGE",
+        "tagline": "Greenhouse Ops Ready",
+        "era": "1990s greenhouse complex",
+        "archetype": "dock"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 2537,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 16,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": 2512,
+      "wallpaper": false,
+      "wallpaperOn": "none",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "geometry": null,
+      "httpRefused": [],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.0118,
+      "engineUsed": "fal,cerebras-oss120"
+    }
+  ]
+}

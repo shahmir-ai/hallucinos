@@ -1,0 +1,422 @@
+{
+  "at": "2026-09-17T13:31:00.147Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "Soil Gauge",
+        "tagline": "Measure the earth, mind the words",
+        "version": "1.2.0 rc1 [Marlowe]",
+        "era": "1950s soil testing lab",
+        "personality": "It corrects every misspelled command while quietly delivering a weather report for indoors.",
+        "palette_words": [
+          "oxblood",
+          "leather",
+          "dried",
+          "glue"
+        ],
+        "font_words": [
+          "serif",
+          "monospace"
+        ],
+        "mascot": "Mabel the beetle",
+        "boot_message": "starting up",
+        "archetype": "dock"
+      },
+      "bootPaintMs": null,
+      "desktopInteractiveMs": 9641,
+      "desktopRevealedMs": 9860,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "dock",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 852,
+          "w": 1440,
+          "h": 48
+        },
+        "taskbarEdge": "bottom",
+        "clock": true,
+        "clockText": "18:30:35 Thu, Sep 17",
+        "clockPatched": false,
+        "clockInBar": false,
+        "clockEdge": "top",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "dock",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 852,
+          "w": 1440,
+          "h": 48
+        },
+        "taskbarEdge": "bottom",
+        "clock": true,
+        "clockText": "18:30:59 Thu, Sep 17",
+        "clockPatched": false,
+        "clockInBar": false,
+        "clockEdge": "top",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 16,
+        "iconSlotsElsewhere": 4,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 1006,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "18:30:35 Thu, Sep 17",
+        "to": "18:30:36 Thu, Sep 17",
+        "ms": 1002
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 2022,
+          "chars": 7,
+          "nodes": 9,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "photos",
+          "ms": 4029,
+          "chars": 59,
+          "nodes": 37,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2030,
+          "chars": 1076,
+          "nodes": 73,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 2019,
+          "chars": 33,
+          "nodes": 22,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 405,
+          "chars": 72,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2026,
+          "chars": 1701,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://pizzaplace.example.com/menu?item=best-pizza",
+          "ms": 1738,
+          "chars": 631,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2943,
+          "chars": 1593,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 4033,
+          "chars": 2817,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 6,
+        "usd": 0.018,
+        "kinds": [
+          "wallpaper",
+          "icons",
+          "photo",
+          "photo",
+          "photo",
+          "photo"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-rfkzdi",
+          "fp": 5575,
+          "ia": 5575,
+          "matched": true
+        },
+        {
+          "gen": "g2-bmimnf",
+          "fp": 9641,
+          "ia": 9641,
+          "matched": true
+        },
+        {
+          "gen": "g3-hiojln",
+          "done": 1511,
+          "matched": true
+        },
+        {
+          "gen": "g4-qfc3cd",
+          "done": 1,
+          "matched": true
+        },
+        {
+          "gen": "g4-qfc3cd",
+          "fp": 30,
+          "ia": 30,
+          "matched": true
+        },
+        {
+          "gen": "g5-73s7rc",
+          "done": 3985,
+          "matched": true
+        },
+        {
+          "gen": "g6-pqzd1c",
+          "done": 1385,
+          "matched": true
+        },
+        {
+          "gen": "g7-dvab1j",
+          "done": 1688,
+          "matched": true
+        },
+        {
+          "gen": "g8-02d6st",
+          "done": 1576,
+          "matched": true
+        },
+        {
+          "gen": "g9-ia4l7s",
+          "done": 995,
+          "matched": true
+        },
+        {
+          "gen": "g10-s4o8is",
+          "done": 2263,
+          "matched": true
+        },
+        {
+          "gen": "g11-7j20po",
+          "done": 3380,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 0,
+          "total": 5542,
+          "tps": 235,
+          "tout": 1300,
+          "usd": 0.00263275,
+          "contract": null,
+          "err": null,
+          "truncated": true,
+          "fb": true,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 3414,
+          "total": 4076,
+          "tps": 501,
+          "tout": 2041,
+          "usd": 0.0035590399999999994,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 1029,
+          "total": 1267,
+          "tps": 529,
+          "tout": 670,
+          "usd": 0.0018440499999999999,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 1252,
+          "total": 1511,
+          "tps": 427,
+          "tout": 645,
+          "usd": 0.00170205,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1258,
+          "interactive_ms": 1258
+        },
+        {
+          "kind": "app",
+          "ttfb": 3116,
+          "total": 3985,
+          "tps": 490,
+          "tout": 1954,
+          "usd": 0.00264401,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 3125,
+          "interactive_ms": 3125
+        },
+        {
+          "kind": "app",
+          "ttfb": 552,
+          "total": 1385,
+          "tps": 1550,
+          "tout": 2147,
+          "usd": 0.0028166800000000002,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 565,
+          "interactive_ms": 565
+        },
+        {
+          "kind": "app",
+          "ttfb": 974,
+          "total": 1687,
+          "tps": 839,
+          "tout": 1415,
+          "usd": 0.0022353499999999997,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 989,
+          "interactive_ms": 989
+        },
+        {
+          "kind": "page",
+          "ttfb": 894,
+          "total": 1573,
+          "tps": 896,
+          "tout": 1409,
+          "usd": 0.00236321,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 904,
+          "interactive_ms": 904
+        },
+        {
+          "kind": "page",
+          "ttfb": 684,
+          "total": 993,
+          "tps": 1198,
+          "tout": 1190,
+          "usd": 0.0022198499999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 690,
+          "interactive_ms": 690
+        },
+        {
+          "kind": "page",
+          "ttfb": 997,
+          "total": 2261,
+          "tps": 966,
+          "tout": 2184,
+          "usd": 0.0029054600000000003,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1009,
+          "interactive_ms": 1009
+        },
+        {
+          "kind": "page",
+          "ttfb": 1608,
+          "total": 3377,
+          "tps": 567,
+          "tout": 1916,
+          "usd": 0.00276604,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1627,
+          "interactive_ms": 1627
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.04568849
+    }
+  ],
+  "usd": 0.04568849
+}

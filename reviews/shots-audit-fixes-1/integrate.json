@@ -1,0 +1,358 @@
+{
+  "at": "2026-09-17T10:50:18.712Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "SunVin",
+        "tagline": "Preserves the catch, commands the line",
+        "version": "3.7",
+        "era": "2020s fish cannery controller",
+        "personality": "It watches the processing line with quiet authority, refusing to share its resources.",
+        "palette_words": [
+          "mustard vinyl",
+          "sun‑bleached",
+          "steel",
+          "tide‑gray"
+        ],
+        "font_words": [
+          "condensed sans",
+          "all caps labels"
+        ],
+        "mascot": "Gulper the brass crab",
+        "boot_message": "Initializing hull integrity",
+        "archetype": "dock"
+      },
+      "bootPaintMs": 1179,
+      "desktopInteractiveMs": 2215,
+      "desktopRevealedMs": 3866,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "dock",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "15:49 9/17/2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "launchersOffscreen": 8,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "dock",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 20,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "15:50 9/17/2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "launchersOffscreen": 8,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 3016,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "minutes",
+        "from": "15:49 9/17/2026",
+        "to": "15:50 9/17/2026",
+        "ms": 35123
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 1623,
+          "chars": 56,
+          "nodes": 13,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 1620,
+          "chars": 180,
+          "nodes": 42,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 2025,
+          "chars": 262,
+          "nodes": 16,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2022,
+          "chars": 1156,
+          "nodes": 84,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 407,
+          "chars": 131,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2048,
+          "chars": 1786,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://pizzaplace.example.com/menu",
+          "ms": 1739,
+          "chars": 635,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2542,
+          "chars": 522,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 1738,
+          "chars": 2276,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g2-snvrum",
+          "fp": 2215,
+          "ia": 2215,
+          "matched": true
+        },
+        {
+          "gen": "g3-onx6yc",
+          "done": 988,
+          "matched": true
+        },
+        {
+          "gen": "g4-1npr1i",
+          "done": 289,
+          "matched": true
+        },
+        {
+          "gen": "g5-ztm0yn",
+          "done": 1072,
+          "matched": true
+        },
+        {
+          "gen": "g6-6rsioz",
+          "done": 1372,
+          "matched": true
+        },
+        {
+          "gen": "g7-ow6912",
+          "done": 1355,
+          "matched": true
+        },
+        {
+          "gen": "g8-2momfb",
+          "done": 1485,
+          "matched": true
+        },
+        {
+          "gen": "g9-cjtc75",
+          "done": 1129,
+          "matched": true
+        },
+        {
+          "gen": "g10-cfgmbu",
+          "done": 2132,
+          "matched": true
+        },
+        {
+          "gen": "g11-ufabrn",
+          "done": 1297,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 873,
+          "total": 1339,
+          "tps": 450,
+          "tout": 602,
+          "usd": 0.0015388799999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 940,
+          "interactive_ms": 940
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 686,
+          "total": 1267,
+          "tps": 1168,
+          "tout": 1480,
+          "usd": 0.00285145,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 556,
+          "total": 987,
+          "tps": 578,
+          "tout": 570,
+          "usd": 0.0015377999999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 565,
+          "interactive_ms": 565
+        },
+        {
+          "kind": "page",
+          "ttfb": 655,
+          "total": 1272,
+          "tps": 581,
+          "tout": 739,
+          "usd": 0.0016609099999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 28,
+          "interactive_ms": 28
+        },
+        {
+          "kind": "app",
+          "ttfb": 475,
+          "total": 1071,
+          "tps": 1349,
+          "tout": 1445,
+          "usd": 0.0021443,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 487,
+          "interactive_ms": 487
+        },
+        {
+          "kind": "app",
+          "ttfb": 439,
+          "total": 1373,
+          "tps": 1384,
+          "tout": 1900,
+          "usd": 0.0024225,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 440,
+          "interactive_ms": 440
+        },
+        {
+          "kind": "app",
+          "ttfb": 466,
+          "total": 1355,
+          "tps": 1528,
+          "tout": 2071,
+          "usd": 0.00257474,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 478,
+          "interactive_ms": 478
+        },
+        {
+          "kind": "page",
+          "ttfb": 549,
+          "total": 1482,
+          "tps": 1354,
+          "tout": 2007,
+          "usd": 0.00254508,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 561,
+          "interactive_ms": 561
+        },
+        {
+          "kind": "page",
+          "ttfb": 648,
+          "total": 1126,
+          "tps": 1222,
+          "tout": 1376,
+          "usd": 0.00211469,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 666,
+          "interactive_ms": 666
+        },
+        {
+          "kind": "page",
+          "ttfb": 1733,
+          "total": 2129,
+          "tps": 614,
+          "tout": 1307,
+          "usd": 0.00206633,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1752,
+          "interactive_ms": 1752
+        },
+        {
+          "kind": "page",
+          "ttfb": 523,
+          "total": 1294,
+          "tps": 1372,
+          "tout": 1775,
+          "usd": 0.0023907499999999996,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 533,
+          "interactive_ms": 533
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.029847429999999998
+    }
+  ],
+  "usd": 0.029847429999999998
+}

@@ -1,0 +1,29 @@
+{
+  "at": "2026-09-17T08:41:53.924Z",
+  "results": [
+    {
+      "engine": "mercury-2.5",
+      "failed": "error",
+      "screen": "boot failed: engine unavailable\nsession $ 0.00000\nCerebras gpt-oss-120b\nCerebras qwen-3.8-27b\nInception Mercury 2.5 (diffusion)\nOpenAI gpt-4.1-nano\nAnthropic Claude Haiku 4.5\nOpenRouter gpt-oss-120b\nOpenRouter gpt-oss-20b (Groq pinned)\nOpenRouter gpt-oss-120b (Groq pinned)\nOpenRouter gpt-oss-20b (fa",
+      "bootPaintMs": null,
+      "gens": [
+        {
+          "kind": "boot",
+          "err": "engine mercury-2.5 HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nThe Amazon CloudFront di",
+          "total": 621
+        },
+        {
+          "kind": "mark",
+          "err": null
+        },
+        {
+          "kind": "identity",
+          "err": "engine mercury-2.5 HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could not be satisfied.</H2>\n<HR noshade size=\"1px\">\nThe Amazon CloudFront di",
+          "total": 61
+        }
+      ],
+      "usd": 0.00021287000000000004
+    }
+  ],
+  "usd": 0.00021287000000000004
+}

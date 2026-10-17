@@ -1,0 +1,1306 @@
+{
+  "engine": "auto",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "AERION",
+        "version": "1.3.0-rc1 [Nimbus]",
+        "era": "1990s rooftop apiary",
+        "archetype": "dock"
+      },
+      "archetype": "dock",
+      "bootInkMs": 2472,
+      "desktopInteractiveMs": 4036,
+      "launchers": 16,
+      "iconsFilled": "16/16",
+      "iconsFilledAtReady": "0/16",
+      "platesWaitedMs": 11608,
+      "wallpaper": true,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662399042,
+          "windowId": "w1",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1612,
+          "chars": 52,
+          "nodes": 35,
+          "genId": "g3-42v2cc",
+          "inkMsKernel": 1474,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1037
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "dispatched",
+          "coveredBy": "div [taskbar]",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662399649,
+          "windowId": "w2",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1844,
+          "chars": 244,
+          "nodes": 37,
+          "genId": "g6-ro6cuo",
+          "inkMsKernel": 1420,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1218
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662400331,
+          "windowId": "w3",
+          "extraWindows": [
+            "w4"
+          ],
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 2267,
+          "chars": 222,
+          "nodes": 15,
+          "genId": "g7-kihi2k",
+          "inkMsKernel": 2122,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1952
+        },
+        {
+          "app": "notes",
+          "pattern": "rapid",
+          "mode": "dispatched",
+          "coveredBy": "div [taskbar]",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662401079,
+          "windowId": "w5",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1321,
+          "chars": 338,
+          "nodes": 18,
+          "genId": "g9-vlxe82",
+          "inkMsKernel": 1339,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 956
+        },
+        {
+          "app": "store",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662401318,
+          "windowId": "w6",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1085,
+          "chars": 1302,
+          "nodes": 72,
+          "genId": "g10-y35dk2",
+          "inkMsKernel": 902,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 736
+        },
+        {
+          "app": "calculator",
+          "pattern": "cross",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662401917,
+          "windowId": "w7",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1400,
+          "chars": 62,
+          "nodes": 24,
+          "genId": "g12-u77re5",
+          "inkMsKernel": 1284,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1083
+        },
+        {
+          "app": "messages",
+          "pattern": "double",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662402604,
+          "windowId": "w8",
+          "extraWindows": [
+            "w9"
+          ],
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1225,
+          "chars": 327,
+          "nodes": 46,
+          "genId": "g13-v56ukl",
+          "inkMsKernel": 1141,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 506
+        },
+        {
+          "app": "weather",
+          "pattern": "rapid",
+          "mode": "dispatched",
+          "coveredBy": "span [taskbar]",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662403324,
+          "windowId": "w10",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 2835,
+          "chars": 228,
+          "nodes": 129,
+          "genId": "g16-mdwd2k",
+          "inkMsKernel": 2665,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 2244
+        }
+      ],
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "🕸️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "📸",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "🗑️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "⌨️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "🏪",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "✉️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "💬",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "⚡",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "📊",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "🗺️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "🌤️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "📰",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "🗒️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "🎮",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "🔄",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "ℹ️",
+          "plate": true,
+          "colour": "rgb(224, 245, 240)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "net": {
+        "n": 2,
+        "peak": 14,
+        "byLane": {
+          "gen": 0,
+          "img": 2,
+          "mark": 0
+        },
+        "open": [
+          "img:map 7277ms",
+          "img:photo 6717ms"
+        ]
+      },
+      "errors": [
+        "Cannot read properties of null (reading 'style')"
+      ],
+      "cspNoise": 0,
+      "httpRefused": [],
+      "imgs": [
+        {
+          "img_kind": "wallpaper",
+          "bytes": 195519,
+          "ms": 6037,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "icons",
+          "bytes": 674183,
+          "ms": 14189,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "bytes": 520535,
+          "ms": 6798,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "map",
+          "bytes": 633503,
+          "ms": 8147,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        }
+      ],
+      "refusals": {},
+      "trace": [
+        "+18666ms launcher.click browser",
+        "+18666ms openApp.enter browser",
+        "+18666ms openApp.claim browser hit g8-hlaju7",
+        "+18670ms openApp.created browser w4",
+        "+18671ms openApp.focused w4",
+        "+18671ms openApp.stream w4",
+        "+18671ms streamApp.enter w4 browser spec g8-hlaju7",
+        "+18671ms streamDoc.enter app g8-hlaju7 spec g8-hlaju7",
+        "+18671ms streamDoc.take g8-hlaju7",
+        "+18671ms openApp.exit w4",
+        "+19146ms gen.closed page g5-errdj9",
+        "+19272ms launcher.press notes",
+        "+19273ms gen.fetch app g9-vlxe82",
+        "+19274ms launcher.click notes",
+        "+19274ms openApp.enter notes",
+        "+19274ms openApp.claim notes hit g9-vlxe82",
+        "+19275ms openApp.created notes w5",
+        "+19275ms openApp.focused w5",
+        "+19275ms openApp.stream w5",
+        "+19275ms streamApp.enter w5 notes spec g9-vlxe82",
+        "+19275ms streamDoc.enter app g9-vlxe82 spec g9-vlxe82",
+        "+19275ms streamDoc.take g9-vlxe82",
+        "+19275ms openApp.exit w5",
+        "+19277ms gen.headers app g9-vlxe82 200",
+        "+19510ms launcher.press store",
+        "+19510ms gen.fetch app g10-y35dk2",
+        "+19511ms launcher.click store",
+        "+19511ms openApp.enter store",
+        "+19511ms openApp.claim store hit g10-y35dk2",
+        "+19512ms openApp.created store w6",
+        "+19512ms openApp.focused w6",
+        "+19512ms openApp.stream w6",
+        "+19512ms streamApp.enter w6 store spec g10-y35dk2",
+        "+19512ms streamDoc.enter app g10-y35dk2 spec g10-y35dk2",
+        "+19512ms streamDoc.take g10-y35dk2",
+        "+19512ms openApp.exit w6",
+        "+19514ms gen.headers app g10-y35dk2 200",
+        "+19692ms gen.closed app g6-ro6cuo",
+        "+19692ms streamApp.exit w2 inked=true painted=true",
+        "+19894ms gen.closed app g8-hlaju7",
+        "+19894ms streamDoc.enter page g5-errdj9 spec g5-errdj9",
+        "+19894ms streamDoc.take g5-errdj9",
+        "+19895ms streamApp.exit w4 inked=true painted=true",
+        "+20110ms launcher.press messages",
+        "+20110ms gen.fetch app g11-sjyxtr",
+        "+20114ms gen.headers app g11-sjyxtr 200",
+        "+20192ms launcher.press calculator",
+        "+20192ms gen.fetch app g12-u77re5",
+        "+20192ms gen.closed app g11-sjyxtr",
+        "+20194ms launcher.click calculator",
+        "+20194ms openApp.enter calculator",
+        "+20194ms openApp.claim calculator hit g12-u77re5",
+        "+20197ms openApp.created calculator w7",
+        "+20197ms openApp.focused w7",
+        "+20197ms openApp.stream w7",
+        "+20197ms streamApp.enter w7 calculator spec g12-u77re5",
+        "+20198ms streamDoc.enter app g12-u77re5 spec g12-u77re5",
+        "+20198ms streamDoc.take g12-u77re5",
+        "+20198ms openApp.exit w7",
+        "+20205ms gen.headers app g12-u77re5 200",
+        "+20252ms gen.closed app g3-42v2cc",
+        "+20252ms streamApp.exit w1 inked=true painted=true",
+        "+20798ms launcher.press messages",
+        "+20798ms gen.fetch app g13-v56ukl",
+        "+20822ms gen.closed app g7-kihi2k",
+        "+20822ms streamDoc.enter page g14-f4j1zy",
+        "+20822ms streamDoc.gen page g14-f4j1zy",
+        "+20822ms gen.fetch page g14-f4j1zy",
+        "+20827ms gen.headers app g13-v56ukl 200",
+        "+20839ms launcher.click messages",
+        "+20839ms openApp.enter messages",
+        "+20840ms openApp.claim messages hit g13-v56ukl",
+        "+20841ms openApp.created messages w8",
+        "+20841ms openApp.focused w8",
+        "+20841ms openApp.stream w8",
+        "+20841ms streamApp.enter w8 messages spec g13-v56ukl",
+        "+20841ms streamDoc.enter app g13-v56ukl spec g13-v56ukl",
+        "+20841ms streamDoc.take g13-v56ukl",
+        "+20841ms openApp.exit w8",
+        "+20882ms launcher.press messages",
+        "+20882ms gen.fetch app g15-96egkh",
+        "+20923ms launcher.click messages",
+        "+20923ms openApp.enter messages",
+        "+20923ms openApp.claim messages hit g15-96egkh",
+        "+20924ms openApp.created messages w9",
+        "+20925ms openApp.focused w9",
+        "+20925ms openApp.stream w9",
+        "+20925ms streamApp.enter w9 messages spec g15-96egkh",
+        "+20925ms streamDoc.enter app g15-96egkh spec g15-96egkh",
+        "+20925ms streamDoc.take g15-96egkh",
+        "+20925ms openApp.exit w9",
+        "+21150ms gen.closed app g10-y35dk2",
+        "+21150ms streamApp.exit w6 inked=true painted=true",
+        "+21155ms gen.headers page g14-f4j1zy 200",
+        "+21518ms launcher.press weather",
+        "+21518ms gen.fetch app g16-mdwd2k",
+        "+21519ms launcher.click weather",
+        "+21519ms openApp.enter weather",
+        "+21519ms openApp.claim weather hit g16-mdwd2k",
+        "+21519ms openApp.created weather w10",
+        "+21520ms openApp.focused w10",
+        "+21520ms openApp.stream w10",
+        "+21520ms streamApp.enter w10 weather spec g16-mdwd2k",
+        "+21520ms streamDoc.enter app g16-mdwd2k spec g16-mdwd2k",
+        "+21520ms streamDoc.take g16-mdwd2k",
+        "+21520ms openApp.exit w10",
+        "+21561ms gen.closed app g9-vlxe82",
+        "+21561ms streamApp.exit w5 inked=true painted=true",
+        "+21563ms gen.headers app g15-96egkh 200",
+        "+21849ms gen.closed app g12-u77re5",
+        "+21850ms streamApp.exit w7 inked=true painted=true",
+        "+21857ms gen.headers app g16-mdwd2k 200",
+        "+22576ms gen.closed app g13-v56ukl",
+        "+22576ms streamApp.exit w8 inked=true painted=true",
+        "+23258ms gen.closed page g14-f4j1zy",
+        "+23259ms streamApp.exit w3 inked=true painted=true",
+        "+23271ms gen.closed app g15-96egkh",
+        "+23271ms streamApp.exit w9 inked=false painted=true",
+        "+25178ms gen.closed app g16-mdwd2k",
+        "+25178ms streamApp.exit w10 inked=true painted=true"
+      ],
+      "usd": 0.0592,
+      "gens": 21
+    },
+    {
+      "boot": 2,
+      "identity": {
+        "name": "NEXUS",
+        "version": "1.3.0-rc1 (Omega)",
+        "era": "1980s cinema projection booth",
+        "archetype": "dock"
+      },
+      "archetype": "dock",
+      "bootInkMs": 906,
+      "desktopInteractiveMs": 3431,
+      "launchers": 24,
+      "iconsFilled": "16/24",
+      "iconsFilledAtReady": "0/24",
+      "platesWaitedMs": 2559,
+      "wallpaper": true,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662416588,
+          "windowId": "w1",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 855,
+          "chars": 532,
+          "nodes": 33,
+          "genId": "g3-dgl4ky",
+          "inkMsKernel": 791,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 588
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662417179,
+          "windowId": "w2",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 2552,
+          "chars": 424,
+          "nodes": 26,
+          "genId": "g6-t63gw8",
+          "inkMsKernel": 2238,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1970
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662417870,
+          "windowId": "w3",
+          "extraWindows": [
+            "w4"
+          ],
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1864,
+          "chars": 106,
+          "nodes": 14,
+          "genId": "g7-80k0c4",
+          "inkMsKernel": 1449,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1315
+        },
+        {
+          "app": "notes",
+          "pattern": "rapid",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662418606,
+          "windowId": "w5",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1867,
+          "chars": 349,
+          "nodes": 14,
+          "genId": "g9-s81btd",
+          "inkMsKernel": 1637,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1503
+        },
+        {
+          "app": "store",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662418846,
+          "windowId": "w6",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1843,
+          "chars": 1279,
+          "nodes": 67,
+          "genId": "g10-po40gd",
+          "inkMsKernel": 1682,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1398
+        },
+        {
+          "app": "calculator",
+          "pattern": "cross",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662419448,
+          "windowId": "w7",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1244,
+          "chars": 33,
+          "nodes": 23,
+          "genId": "g12-zg31kw",
+          "inkMsKernel": 1123,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 672
+        },
+        {
+          "app": "messages",
+          "pattern": "double",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662420153,
+          "windowId": "w8",
+          "extraWindows": [
+            "w9"
+          ],
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1758,
+          "chars": 143,
+          "nodes": 30,
+          "genId": "g14-0mdlgg",
+          "inkMsKernel": 1535,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 1017
+        },
+        {
+          "app": "weather",
+          "pattern": "rapid",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789662420894,
+          "windowId": "w10",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 1021,
+          "chars": 213,
+          "nodes": 180,
+          "genId": "g16-23w3r7",
+          "inkMsKernel": 984,
+          "engineUsed": "cerebras-oss120",
+          "interactiveMsKernel": 817
+        }
+      ],
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "🌐",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "📸",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "🗑",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "✖",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "🛒",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "📧",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "💬",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "⌨",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "🗂",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "🗺",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "☁",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "📰",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "🗒",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "🎮",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "⬆",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "ℹ",
+          "plate": true,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "browser",
+          "glyph": "🌐",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "📸",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "🗑",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "✖",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "🛒",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "📧",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "💬",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "⌨",
+          "plate": false,
+          "colour": "rgb(245, 224, 208)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 32,
+          "box": {
+            "w": 48,
+            "h": 48
+          }
+        }
+      ],
+      "net": {
+        "n": 2,
+        "peak": 16,
+        "byLane": {
+          "gen": 0,
+          "img": 2,
+          "mark": 0
+        },
+        "open": [
+          "img:photo 6375ms",
+          "img:photo 2109ms"
+        ]
+      },
+      "errors": [
+        "Cannot set properties of undefined (setting 'onclick')"
+      ],
+      "cspNoise": 0,
+      "httpRefused": [],
+      "imgs": [
+        {
+          "img_kind": "photo",
+          "bytes": 520535,
+          "ms": 6798,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "map",
+          "bytes": 633503,
+          "ms": 8147,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "bytes": 0,
+          "ms": 83,
+          "blocked": null,
+          "refusal": "engine_dead",
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "bytes": 0,
+          "ms": 876,
+          "blocked": null,
+          "refusal": "engine_dead",
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "wallpaper",
+          "bytes": 291079,
+          "ms": 2597,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "icons",
+          "bytes": 943819,
+          "ms": 5276,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "bytes": 604047,
+          "ms": 4258,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "bytes": 600159,
+          "ms": 6628,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        },
+        {
+          "img_kind": "photo",
+          "bytes": 475023,
+          "ms": 2882,
+          "blocked": null,
+          "refusal": null,
+          "model": "fal-ai/flux-1/schnell"
+        }
+      ],
+      "refusals": {
+        "img:engine_dead": 2
+      },
+      "trace": [
+        "+8181ms gen.headers app g8-9mvmi4 200",
+        "+8218ms launcher.click browser",
+        "+8218ms openApp.enter browser",
+        "+8218ms openApp.claim browser hit g8-9mvmi4",
+        "+8221ms openApp.created browser w4",
+        "+8222ms openApp.focused w4",
+        "+8222ms openApp.stream w4",
+        "+8222ms streamApp.enter w4 browser spec g8-9mvmi4",
+        "+8222ms streamDoc.enter app g8-9mvmi4 spec g8-9mvmi4",
+        "+8222ms streamDoc.take g8-9mvmi4",
+        "+8222ms openApp.exit w4",
+        "+8400ms gen.closed app g3-dgl4ky",
+        "+8400ms streamApp.exit w1 inked=true painted=true",
+        "+8825ms launcher.press notes",
+        "+8825ms gen.fetch app g9-s81btd",
+        "+8825ms launcher.click notes",
+        "+8825ms openApp.enter notes",
+        "+8825ms openApp.claim notes hit g9-s81btd",
+        "+8828ms openApp.created notes w5",
+        "+8828ms openApp.focused w5",
+        "+8828ms openApp.stream w5",
+        "+8828ms streamApp.enter w5 notes spec g9-s81btd",
+        "+8828ms streamDoc.enter app g9-s81btd spec g9-s81btd",
+        "+8828ms streamDoc.take g9-s81btd",
+        "+8828ms openApp.exit w5",
+        "+9065ms launcher.press store",
+        "+9065ms gen.fetch app g10-po40gd",
+        "+9066ms launcher.click store",
+        "+9066ms openApp.enter store",
+        "+9066ms openApp.claim store hit g10-po40gd",
+        "+9067ms openApp.created store w6",
+        "+9067ms openApp.focused w6",
+        "+9067ms openApp.stream w6",
+        "+9067ms streamApp.enter w6 store spec g10-po40gd",
+        "+9067ms streamDoc.enter app g10-po40gd spec g10-po40gd",
+        "+9067ms streamDoc.take g10-po40gd",
+        "+9067ms openApp.exit w6",
+        "+9683ms launcher.press messages",
+        "+9683ms gen.fetch app g11-f0zmcg",
+        "+9698ms gen.closed page g5-yl75va",
+        "+9700ms gen.headers app g9-s81btd 200",
+        "+9748ms gen.closed app g8-9mvmi4",
+        "+9749ms streamDoc.enter page g5-yl75va spec g5-yl75va",
+        "+9749ms streamDoc.take g5-yl75va",
+        "+9749ms streamApp.exit w4 inked=true painted=true",
+        "+9749ms gen.headers app g10-po40gd 200",
+        "+9774ms launcher.press calculator",
+        "+9775ms gen.fetch app g12-zg31kw",
+        "+9775ms gen.closed app g11-f0zmcg",
+        "+9775ms launcher.click calculator",
+        "+9775ms openApp.enter calculator",
+        "+9775ms openApp.claim calculator hit g12-zg31kw",
+        "+9776ms openApp.created calculator w7",
+        "+9776ms openApp.focused w7",
+        "+9776ms openApp.stream w7",
+        "+9776ms streamApp.enter w7 calculator spec g12-zg31kw",
+        "+9776ms streamDoc.enter app g12-zg31kw spec g12-zg31kw",
+        "+9776ms streamDoc.take g12-zg31kw",
+        "+9776ms openApp.exit w7",
+        "+9861ms gen.closed app g7-80k0c4",
+        "+9861ms streamDoc.enter page g13-f4aegj",
+        "+9861ms streamDoc.gen page g13-f4aegj",
+        "+9861ms gen.fetch page g13-f4aegj",
+        "+9868ms gen.headers app g12-zg31kw 200",
+        "+10162ms gen.closed app g6-t63gw8",
+        "+10162ms streamApp.exit w2 inked=true painted=true",
+        "+10168ms gen.headers page g13-f4aegj 200",
+        "+10383ms launcher.press messages",
+        "+10383ms gen.fetch app g14-0mdlgg",
+        "+10425ms launcher.click messages",
+        "+10425ms openApp.enter messages",
+        "+10426ms openApp.claim messages hit g14-0mdlgg",
+        "+10430ms openApp.created messages w8",
+        "+10431ms openApp.focused w8",
+        "+10431ms openApp.stream w8",
+        "+10431ms streamApp.enter w8 messages spec g14-0mdlgg",
+        "+10431ms streamDoc.enter app g14-0mdlgg spec g14-0mdlgg",
+        "+10431ms streamDoc.take g14-0mdlgg",
+        "+10431ms openApp.exit w8",
+        "+10473ms launcher.press messages",
+        "+10473ms gen.fetch app g15-b9q0y9",
+        "+10515ms launcher.click messages",
+        "+10516ms openApp.enter messages",
+        "+10516ms openApp.claim messages hit g15-b9q0y9",
+        "+10518ms openApp.created messages w9",
+        "+10519ms openApp.focused w9",
+        "+10519ms openApp.stream w9",
+        "+10519ms streamApp.enter w9 messages spec g15-b9q0y9",
+        "+10519ms streamDoc.enter app g15-b9q0y9 spec g15-b9q0y9",
+        "+10519ms streamDoc.take g15-b9q0y9",
+        "+10519ms openApp.exit w9",
+        "+10829ms gen.closed page g13-f4aegj",
+        "+10829ms streamApp.exit w3 inked=true painted=true",
+        "+10833ms gen.headers app g14-0mdlgg 200",
+        "+10899ms gen.closed app g12-zg31kw",
+        "+10899ms streamApp.exit w7 inked=false painted=true",
+        "+10901ms gen.headers app g15-b9q0y9 200",
+        "+11025ms gen.closed app g9-s81btd",
+        "+11025ms streamApp.exit w5 inked=true painted=true",
+        "+11112ms launcher.press weather",
+        "+11112ms gen.fetch app g16-23w3r7",
+        "+11113ms launcher.click weather",
+        "+11113ms openApp.enter weather",
+        "+11113ms openApp.claim weather hit g16-23w3r7",
+        "+11114ms openApp.created weather w10",
+        "+11115ms openApp.focused w10",
+        "+11115ms openApp.stream w10",
+        "+11115ms streamApp.enter w10 weather spec g16-23w3r7",
+        "+11115ms streamDoc.enter app g16-23w3r7 spec g16-23w3r7",
+        "+11115ms streamDoc.take g16-23w3r7",
+        "+11115ms openApp.exit w10",
+        "+11117ms gen.headers app g16-23w3r7 200",
+        "+11267ms gen.closed app g10-po40gd",
+        "+11267ms streamApp.exit w6 inked=true painted=true",
+        "+12314ms gen.closed app g15-b9q0y9",
+        "+12314ms streamApp.exit w9 inked=true painted=true",
+        "+12501ms gen.closed app g14-0mdlgg",
+        "+12502ms streamApp.exit w8 inked=true painted=true",
+        "+13000ms gen.closed app g16-23w3r7",
+        "+13000ms streamApp.exit w10 inked=true painted=true"
+      ],
+      "usd": 0.0562,
+      "gens": 21
+    }
+  ]
+}

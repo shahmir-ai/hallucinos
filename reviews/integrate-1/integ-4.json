@@ -1,0 +1,356 @@
+{
+  "at": "2026-09-17T08:53:07.043Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "AbyssalShell",
+        "version": "4.7.1-rc",
+        "tagline": "Depths ordered, silence kept"
+      },
+      "bootPaintMs": 1137,
+      "desktopInteractiveMs": 2195,
+      "desktopRevealedMs": 3831,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "13:52:47 17/09/2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "launchersOffscreen": 5,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 20,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "13:53:05 17/09/2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "launchersOffscreen": 5,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 4531,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "13:52:47 17/09/2026",
+        "to": "13:52:48 17/09/2026",
+        "ms": 1005
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 1624,
+          "chars": 69,
+          "nodes": 12,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 1628,
+          "chars": 37,
+          "nodes": 24,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 2037,
+          "chars": 224,
+          "nodes": 18,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2430,
+          "chars": 59,
+          "nodes": 15,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 406,
+          "chars": 83,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2037,
+          "chars": 1876,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://google.com/url?sa=t&url=https%3A%2F%2Fthecrustcorner.com%2Fmenu",
+          "ms": 1738,
+          "chars": 607,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 1740,
+          "chars": 1070,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 1742,
+          "chars": 1698,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-an4jtc",
+          "fp": 1044,
+          "ia": 1044,
+          "matched": false
+        },
+        {
+          "gen": "g2-rip3qv",
+          "fp": 2195,
+          "ia": 2195,
+          "matched": true
+        },
+        {
+          "gen": "g4-4qllhp",
+          "ia": 1017,
+          "matched": true
+        },
+        {
+          "gen": "g3-0x3hlf",
+          "fp": 44,
+          "matched": false
+        },
+        {
+          "gen": "g3-0x3hlf",
+          "ia": 119,
+          "matched": true
+        },
+        {
+          "gen": "g5-9mtle8",
+          "ia": 1438,
+          "matched": true
+        },
+        {
+          "gen": "g6-jagvb5",
+          "ia": 1663,
+          "matched": true
+        },
+        {
+          "gen": "g7-2mhwbo",
+          "ia": 2115,
+          "matched": true
+        },
+        {
+          "gen": "g8-ibedu0",
+          "ia": 1502,
+          "matched": true
+        },
+        {
+          "gen": "g9-ghbmmu",
+          "ia": 1037,
+          "matched": true
+        },
+        {
+          "gen": "g10-1mnjue",
+          "ia": 1130,
+          "matched": true
+        },
+        {
+          "gen": "g11-fc28lf",
+          "ia": 1251,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 981,
+          "total": 1166,
+          "tps": 686,
+          "tout": 800,
+          "usd": 0.0016409999999999999,
+          "contract": null,
+          "err": null,
+          "truncated": true,
+          "fb": false,
+          "first_paint_ms": 1044,
+          "interactive_ms": 1044
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 615,
+          "total": 1172,
+          "tps": 1212,
+          "tout": 1421,
+          "usd": 0.00281199,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 473,
+          "total": 1010,
+          "tps": 963,
+          "tout": 973,
+          "usd": 0.00181687,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 628,
+          "total": 1135,
+          "tps": 580,
+          "tout": 658,
+          "usd": 0.0016055199999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 44,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 495,
+          "total": 1435,
+          "tps": 919,
+          "tout": 1319,
+          "usd": 0.00205836,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 500,
+          "total": 1657,
+          "tps": 1144,
+          "tout": 1896,
+          "usd": 0.00242074,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 710,
+          "total": 2109,
+          "tps": 934,
+          "tout": 1969,
+          "usd": 0.00250536,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 513,
+          "total": 1499,
+          "tps": 1571,
+          "tout": 2355,
+          "usd": 0.0027857,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 489,
+          "total": 1035,
+          "tps": 1343,
+          "tout": 1390,
+          "usd": 0.0021348499999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 492,
+          "total": 1128,
+          "tps": 1320,
+          "tout": 1489,
+          "usd": 0.0022026600000000004,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 557,
+          "total": 1248,
+          "tps": 1210,
+          "tout": 1510,
+          "usd": 0.0022131499999999997,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        }
+      ],
+      "errors": [
+        "Failed to execute 'write' on 'Document': Invalid or unexpected token"
+      ],
+      "cspBlocks": 0,
+      "usd": 0.030196200000000003
+    }
+  ],
+  "usd": 0.030196200000000003
+}

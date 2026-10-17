@@ -1,0 +1,449 @@
+{
+ "n": 6,
+ "size": [
+  768,
+  432
+ ],
+ "models": [
+  "fal-ai/flux-1/schnell",
+  "fal-ai/z-image/turbo",
+  "fal-ai/sana/sprint",
+  "fal-ai/sana"
+ ],
+ "usd": 0.13800000000000007,
+ "prompt": "desktop wallpaper, 1980s computer operating system default background, overlapping soft gradients, oxide, bone, signal green, no text, no people, no animals, no objects in focus, soft, low contrast",
+ "rows": [
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "sync",
+   "total_ms": 3249,
+   "provider_ms": 3249,
+   "fetch_ms": 0,
+   "bytes": 150925,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "sync",
+   "total_ms": 3210,
+   "provider_ms": 3210,
+   "fetch_ms": 0,
+   "bytes": 159475,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "sync",
+   "total_ms": 2548,
+   "provider_ms": 2548,
+   "fetch_ms": 0,
+   "bytes": 141436,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "sync",
+   "total_ms": 2641,
+   "provider_ms": 2641,
+   "fetch_ms": 0,
+   "bytes": 143674,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "sync",
+   "total_ms": 2336,
+   "provider_ms": 2336,
+   "fetch_ms": 0,
+   "bytes": 153292,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "sync",
+   "total_ms": 2430,
+   "provider_ms": 2430,
+   "fetch_ms": 0,
+   "bytes": 129448,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "sync",
+   "total_ms": 7151,
+   "provider_ms": 7151,
+   "fetch_ms": 0,
+   "bytes": 256543,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "sync",
+   "total_ms": 7676,
+   "provider_ms": 7676,
+   "fetch_ms": 0,
+   "bytes": 270676,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "sync",
+   "total_ms": 5678,
+   "provider_ms": 5678,
+   "fetch_ms": 0,
+   "bytes": 214114,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "sync",
+   "total_ms": 6865,
+   "provider_ms": 6865,
+   "fetch_ms": 0,
+   "bytes": 292492,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "sync",
+   "total_ms": 4400,
+   "provider_ms": 4400,
+   "fetch_ms": 0,
+   "bytes": 225223,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "sync",
+   "total_ms": 2530,
+   "provider_ms": 2530,
+   "fetch_ms": 0,
+   "bytes": 262234,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "sync",
+   "total_ms": 3571,
+   "provider_ms": 3571,
+   "fetch_ms": 0,
+   "bytes": 275293,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "sync",
+   "total_ms": 2552,
+   "provider_ms": 2552,
+   "fetch_ms": 0,
+   "bytes": 289750,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "sync",
+   "total_ms": 2722,
+   "provider_ms": 2722,
+   "fetch_ms": 0,
+   "bytes": 275701,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "sync",
+   "total_ms": 2037,
+   "provider_ms": 2037,
+   "fetch_ms": 0,
+   "bytes": 253837,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "sync",
+   "total_ms": 2342,
+   "provider_ms": 2342,
+   "fetch_ms": 0,
+   "bytes": 231913,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "sync",
+   "total_ms": 2217,
+   "provider_ms": 2217,
+   "fetch_ms": 0,
+   "bytes": 301492,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "sync",
+   "total_ms": 3349,
+   "provider_ms": 3349,
+   "fetch_ms": 0,
+   "bytes": 295789,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "sync",
+   "total_ms": 2679,
+   "provider_ms": 2679,
+   "fetch_ms": 0,
+   "bytes": 267178,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "sync",
+   "total_ms": 3121,
+   "provider_ms": 3121,
+   "fetch_ms": 0,
+   "bytes": 217819,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "sync",
+   "total_ms": 2549,
+   "provider_ms": 2549,
+   "fetch_ms": 0,
+   "bytes": 263854,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "sync",
+   "total_ms": 3140,
+   "provider_ms": 3140,
+   "fetch_ms": 0,
+   "bytes": 249580,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "sync",
+   "total_ms": 2629,
+   "provider_ms": 2629,
+   "fetch_ms": 0,
+   "bytes": 319795,
+   "inline": true
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "queue",
+   "total_ms": 8270,
+   "provider_ms": 4529,
+   "fetch_ms": 3741,
+   "bytes": 150674,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "queue",
+   "total_ms": 3772,
+   "provider_ms": 2440,
+   "fetch_ms": 1332,
+   "bytes": 168324,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "queue",
+   "total_ms": 3538,
+   "provider_ms": 2250,
+   "fetch_ms": 1288,
+   "bytes": 141685,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "queue",
+   "total_ms": 4339,
+   "provider_ms": 3119,
+   "fetch_ms": 1220,
+   "bytes": 125596,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "queue",
+   "total_ms": 3410,
+   "provider_ms": 1941,
+   "fetch_ms": 1469,
+   "bytes": 155595,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/flux-1/schnell",
+   "path": "queue",
+   "total_ms": 3540,
+   "provider_ms": 2250,
+   "fetch_ms": 1290,
+   "bytes": 136184,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "queue",
+   "total_ms": 4420,
+   "provider_ms": 2620,
+   "fetch_ms": 1800,
+   "bytes": 256540,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "queue",
+   "total_ms": 4014,
+   "provider_ms": 2610,
+   "fetch_ms": 1404,
+   "bytes": 270161,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "queue",
+   "total_ms": 3358,
+   "provider_ms": 1876,
+   "fetch_ms": 1482,
+   "bytes": 214112,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "queue",
+   "total_ms": 3749,
+   "provider_ms": 2248,
+   "fetch_ms": 1501,
+   "bytes": 292504,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "queue",
+   "total_ms": 3280,
+   "provider_ms": 1899,
+   "fetch_ms": 1381,
+   "bytes": 225545,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/z-image/turbo",
+   "path": "queue",
+   "total_ms": 21389,
+   "provider_ms": 14130,
+   "fetch_ms": 7259,
+   "bytes": 262769,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "queue",
+   "total_ms": 14160,
+   "provider_ms": 10440,
+   "fetch_ms": 3720,
+   "bytes": 275290,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "queue",
+   "total_ms": 14639,
+   "provider_ms": 10360,
+   "fetch_ms": 4279,
+   "bytes": 289749,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "queue",
+   "total_ms": 12291,
+   "provider_ms": 8057,
+   "fetch_ms": 4234,
+   "bytes": 275700,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "queue",
+   "total_ms": 3751,
+   "provider_ms": 1950,
+   "fetch_ms": 1801,
+   "bytes": 253835,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "queue",
+   "total_ms": 2878,
+   "provider_ms": 1558,
+   "fetch_ms": 1320,
+   "bytes": 231912,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana/sprint",
+   "path": "queue",
+   "total_ms": 2621,
+   "provider_ms": 1206,
+   "fetch_ms": 1415,
+   "bytes": 301491,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "queue",
+   "total_ms": 3239,
+   "provider_ms": 1879,
+   "fetch_ms": 1360,
+   "bytes": 295788,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "queue",
+   "total_ms": 4772,
+   "provider_ms": 3440,
+   "fetch_ms": 1332,
+   "bytes": 267175,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "queue",
+   "total_ms": 4017,
+   "provider_ms": 2707,
+   "fetch_ms": 1310,
+   "bytes": 217816,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "queue",
+   "total_ms": 4160,
+   "provider_ms": 1952,
+   "fetch_ms": 2208,
+   "bytes": 263852,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "queue",
+   "total_ms": 3199,
+   "provider_ms": 1872,
+   "fetch_ms": 1327,
+   "bytes": 249577,
+   "inline": false
+  },
+  {
+   "id": "fal-ai/sana",
+   "path": "queue",
+   "total_ms": 3963,
+   "provider_ms": 2270,
+   "fetch_ms": 1693,
+   "bytes": 319793,
+   "inline": false
+  }
+ ]
+}

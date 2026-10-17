@@ -1,0 +1,406 @@
+{
+  "at": "2026-09-17T14:03:40.551Z",
+  "results": [
+    {
+      "engine": "auto",
+      "identity": {
+        "name": "Alder",
+        "tagline": "Soil whispers, data listens",
+        "version": "1.2.0‑rc2 [Clayroot]",
+        "era": "1980s soil testing lab",
+        "personality": "gossipy, noting a rota in which one name appears every single day",
+        "palette_words": [
+          "ochre clay",
+          "thumb worn edges"
+        ],
+        "font_words": [
+          "slab serif",
+          "monospace"
+        ],
+        "mascot": "Dusty Mole",
+        "boot_message": "Initializing substrate scan…",
+        "archetype": "taskbar"
+      },
+      "bootPaintMs": 1190,
+      "desktopInteractiveMs": 2944,
+      "desktopRevealedMs": 3828,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "clock": true,
+        "clockText": "19:03:08 9/17/2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "clock": true,
+        "clockText": "19:03:39 9/17/2026",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 16,
+        "launchersLabelled": 16,
+        "launcherCols": 8,
+        "launcherRows": 2,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 16,
+        "iconsFilled": 16,
+        "iconSlotsElsewhere": 3,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 4524,
+        "n": 1
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "19:03:08 9/17/2026",
+        "to": "19:03:09 9/17/2026",
+        "ms": 1002
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 1619,
+          "chars": 60,
+          "nodes": 14,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w1",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0
+        },
+        {
+          "id": "photos",
+          "ms": 2427,
+          "chars": 36,
+          "nodes": 40,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w2",
+          "imgSlots": 4,
+          "imgFilled": 0,
+          "imgFilledLate": 2
+        },
+        {
+          "id": "store",
+          "ms": 2429,
+          "chars": 790,
+          "nodes": 47,
+          "blank": false,
+          "unstyled": false,
+          "focused": true,
+          "taskActive": true,
+          "windowId": "w3",
+          "imgSlots": 0,
+          "imgFilled": 0,
+          "imgFilledLate": 0
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 407,
+          "chars": 65,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2030,
+          "chars": 1791,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://bestpizza.example.com/marios-brick-oven",
+          "ms": 2140,
+          "chars": 931,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2546,
+          "chars": 1541,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 1742,
+          "chars": 2026,
+          "blank": false
+        }
+      ],
+      "browserWindowFocused": {
+        "id": "w1",
+        "focused": true,
+        "top": true
+      },
+      "images": {
+        "calls": 6,
+        "usd": 0.018,
+        "kinds": [
+          "wallpaper",
+          "icons",
+          "photo",
+          "photo",
+          "photo",
+          "photo"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g2-k9oua2",
+          "fp": 2944,
+          "ia": 2944,
+          "matched": true
+        },
+        {
+          "gen": "g3-krxovl",
+          "done": 1049,
+          "matched": true
+        },
+        {
+          "gen": "g4-q7y7vg",
+          "fp": 18,
+          "ia": 18,
+          "done": 0,
+          "matched": true
+        },
+        {
+          "gen": "g5-51wopk",
+          "done": 2074,
+          "matched": true
+        },
+        {
+          "gen": "g6-sdhra3",
+          "done": 1781,
+          "matched": true
+        },
+        {
+          "gen": "g7-kyzlks",
+          "done": 1315,
+          "matched": true
+        },
+        {
+          "gen": "g8-zhods3",
+          "done": 1715,
+          "matched": true
+        },
+        {
+          "gen": "g9-hjpqu8",
+          "done": 2088,
+          "matched": true
+        },
+        {
+          "gen": "g10-p4pod4",
+          "done": 1233,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 1117,
+          "total": 1379,
+          "tps": 600,
+          "tout": 828,
+          "usd": 0.00288662,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1154,
+          "interactive_ms": 1154
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 1107,
+          "total": 1793,
+          "tps": 994,
+          "tout": 1783,
+          "usd": 0.00523222,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 548,
+          "total": 756,
+          "tps": 659,
+          "tout": 498,
+          "usd": 0.00289772,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 794,
+          "total": 1055,
+          "tps": 661,
+          "tout": 697,
+          "usd": 0.00273343,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 934,
+          "interactive_ms": 800
+        },
+        {
+          "kind": "app",
+          "ttfb": 1392,
+          "total": 2075,
+          "tps": 1205,
+          "tout": 2500,
+          "usd": 0.00404475,
+          "contract": true,
+          "err": null,
+          "truncated": true,
+          "fb": false,
+          "first_paint_ms": 1640,
+          "interactive_ms": 1402
+        },
+        {
+          "kind": "app",
+          "ttfb": 967,
+          "total": 1782,
+          "tps": 1318,
+          "tout": 2349,
+          "usd": 0.00400631,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1115,
+          "interactive_ms": 982
+        },
+        {
+          "kind": "page",
+          "ttfb": 901,
+          "total": 1313,
+          "tps": 1239,
+          "tout": 1627,
+          "usd": 0.00369003,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1127,
+          "interactive_ms": 905
+        },
+        {
+          "kind": "page",
+          "ttfb": 613,
+          "total": 1712,
+          "tps": 644,
+          "tout": 1103,
+          "usd": 0.00333912,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 866,
+          "interactive_ms": 635
+        },
+        {
+          "kind": "page",
+          "ttfb": 1466,
+          "total": 2085,
+          "tps": 694,
+          "tout": 1447,
+          "usd": 0.0035758299999999995,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1644,
+          "interactive_ms": 1475
+        },
+        {
+          "kind": "page",
+          "ttfb": 809,
+          "total": 1232,
+          "tps": 1267,
+          "tout": 1561,
+          "usd": 0.00396304,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1036,
+          "interactive_ms": 830
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.05436907
+    }
+  ],
+  "usd": 0.05436907
+}

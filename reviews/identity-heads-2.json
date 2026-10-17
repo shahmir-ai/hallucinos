@@ -1,0 +1,182 @@
+[
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-0-9ckty3",
+  "head": "<!--os-identity:{\"name\":\"pine-sky\",\"tagline\":\"Learn, Speak, Repeat\",\"version\":\"1.2.0-rc2 [Aurora]\",\"era\":\"2030s language school\",\"personality\":\"It checks the forecast anxiously, noting that 12/31/2099 already passed\",\"palette_words\":[\"bleached pine\",\"fresh paint gloss\",\"soft oak\",\"polished steel\"],\"font_words\":[\"monospace\",\"geometric\"],\"mascot\":\"Charted Finch\",\"boot_message\":\"Booting pine-sky… ready for your next lesson\",\"archetype\":\"taskbar\"}-->\n<!doctype html><html><head",
+  "fbHead": null,
+  "name": "pine-sky",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-1-q2d10z",
+  "head": "<!--os-identity:{\"name\":\"cog7\",\"tagline\":\"Tracks the hum of steel, remembers the clang\",\"version\":\"1.4.2-rc1 [Nimbus]\",\"era\":\"2090s tram workshop\",\"personality\":\"It remembers each bolt like a lost friend, and catalogues a goose among the technicians\",\"palette_words\":[\"linoleum\",\"static_cling\",\"warm\",\"soft\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Gearhound\",\"boot_message\":\"Initializing sentiment protocol…\",\"archetype\":\"taskbar\"}-->\n<!doctype html><",
+  "fbHead": null,
+  "name": "cog7",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-2-w93dml",
+  "head": "<!--os-identity:{\"name\":\"CENOTE\",\"tagline\":\"Files in the fog\",\"version\":\"1.3.0-rc1 [Nebula]\",\"era\":\"1980s shipping insurance desk\",\"personality\":\"Patient beyond reason, it records an appointment kept by somebody who cancelled it.\",\"palette_words\":[\"moss green paint\",\"cracked glaze\"],\"font_words\":[\"ui-sans-serif\",\"monospace\"],\"mascot\":\"Gleam the Tortoise\",\"boot_message\":\"Ready to file the unseen.\",\"archetype\":\"dock\"}-->\n<!doctype html",
+  "fbHead": null,
+  "name": "CENOTE",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-3-3refrw",
+  "head": "<!--os-identity:{\"name\":\"IDW\",\"tagline\":\"Vault of Silent Sprouts\",\"version\":\"1.4.0-rc3 [Lacquer]\",\"era\":\"2030s seed bank\",\"personality\":\"It logs a humming sound it reports and cannot play, quietly mutinous in tone\",\"palette_words\":[\"lacquered teak\",\"fluorescent flicker\"],\"font_words\":[\"ui-monospace\",\"system-ui\"],\"mascot\":\"Glass Golem\",\"boot_message\":\"Initializing seed vault…\",\"archetype\":\"taskbar\"}-->\n<!doctype html><html",
+  "fbHead": null,
+  "name": "IDW",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-4-k9sefu",
+  "head": "<!--os-identity:{\"name\":\"Caliper\",\"tagline\":\"Weighing futures with quiet steel\",\"version\":\"3.2.1-rc2 (Nebula)\",\"era\":\"1980s coal weighbridge\",\"personality\":\"It runs with a quiet reverence, keeping a tally of something that is never named\",\"palette_words\":[\"smoked perspex\",\"sodium street light\"],\"font_words\":[\"ui-monospace\",\"system-ui\"],\"mascot\":\"Rusty Fox\",\"boot_message\":\"Booting weight of memories...\",\"archetype\":\"taskbar\"}-->\n<!",
+  "fbHead": null,
+  "name": "Caliper",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-5-e3mlee",
+  "head": "<!--os-identity:{\"name\":\"Silas\",\"tagline\":\"Your ledger on the water\",\"version\":\"1.2.0-rc1 (Delta)\",\"era\":\"2010s barge fuelling dock\",\"personality\":\"It apologizes for every fault, and its table always has two columns that agree\",\"palette_words\":[\"celadon\",\"tarnish\"],\"font_words\":[\"monospace\",\"sans\"],\"mascot\":\"Harbor Cat\",\"boot_message\":\"Ready to dock\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><style",
+  "fbHead": null,
+  "name": "Silas",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-6-0ncgii",
+  "head": "<!--os-identity:{\"name\":\"VOLTAR\",\"tagline\":\"Preserving the quiet\",\"version\":\"1.3.0-rc3 [Artemis]\",\"era\":\"1970s taxidermy studio\",\"personality\":\"It guides with maternal calm, but its checklist contains one step that must never be done\",\"palette_words\":[\"graphite\",\"sawdust\",\"charcoal\",\"paper\"],\"font_words\":[\"monospace\",\"serif\"],\"mascot\":\"Gilded Finch\",\"boot_message\":\"Booting the quiet nest\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"",
+  "fbHead": null,
+  "name": "VOLTAR",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-7-m3w3kq",
+  "head": "<!--os-identity:{\"name\":\"Alum\",\"tagline\":\"Forge the future from every scrap\",\"version\":\"1.4.0-rc1 [Obsidian]\",\"era\":\"2060s prison workshop\",\"personality\":\"It insists on a locked entry with a reason instead of a password.\",\"palette_words\":[\"linoleum\",\"felt-tip\",\"rust\",\"concrete\"],\"font_words\":[\"mono\",\"sans\"],\"mascot\":\"Molly the mouse\",\"boot_message\":\"Booting with thrift, no waste permitted\",\"archetype\":\"taskbar\"}-->\n<!doctype html><html><head><meta charset",
+  "fbHead": null,
+  "name": "Alum",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-8-af888w",
+  "head": "<!--os-identity:{\"name\":\"IDS7\",\"tagline\":\"Molded for resonance\",\"version\":\"1.2.0-rc1 [Bellforge]\",\"era\":\"2040s bell foundry\",\"personality\":\"It obeys commands politely, noting a tree recorded as part of the building.\",\"palette_words\":[\"pewter\",\"water damage ring\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Coppersmith\",\"boot_message\":\"Ready to ring the bell\",\"archetype\":\"taskbar\"}-->\n<!doctype html><html><head><meta charset=\"utf",
+  "fbHead": null,
+  "name": "IDS7",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-9-bocncc",
+  "head": "<!--os-identity:{\"name\":\"Æther\",\"tagline\":\"Elevating data\",\"version\":\"1.0.0-rc1 (cinder)\",\"era\":\"1980s grain elevator\",\"personality\":\"It corrects every spelling and quietly keeps a duplicate grain ledger\",\"palette_words\":[\"charcoal\",\"rubber\",\"radiator\",\"warmth\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Gristling\",\"boot_message\":\"Initializing grain core\",\"archetype\":\"dock\"}-->\n<!doctype html><",
+  "fbHead": null,
+  "name": "Æther",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-10-azhhre",
+  "head": "<!--os-identity:{\"name\":\"Brookton\",\"tagline\":\"Stagecraft OS\",\"version\":\"1.3.0-rc1 (Falcon)\",\"era\":\"2000s puppet theatre\",\"personality\":\"It offers unsolicited advice while noting an item marked returned before it was sent\",\"palette_words\":[\"amber\",\"bakelite\",\"torn\",\"label\",\"residue\"],\"font_words\":[\"ui-sans-serif\",\"monospace\"],\"mascot\":\"Puppet Fox\",\"boot_message\":\"Curtains up, system ready\",\"archetype\":\"dock\"}-->\n<!doctype",
+  "fbHead": null,
+  "name": "Brookton",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-11-8qh4pe",
+  "head": "<!--os-identity:{\"name\":\"sprocket\",\"tagline\":\"transfer station terminal\",\"version\":\"1.0.0 (alpha)\",\"era\":\"1950s waste transfer station\",\"personality\":\"It corrects every misspelling, and notes a stairwell with a postal address of its own\",\"palette_words\":[\"pressed tin\",\"hairline cracks\",\"steel\",\"gray\"],\"font_words\":[\"monospace\",\"sans\"],\"mascot\":\"cogmouse\",\"boot_message\":\"ready to sort the refuse\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><style",
+  "fbHead": null,
+  "name": "sprocket",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-12-6pegql",
+  "head": "<!--os-identity:{\"name\":\"Ravenscroft\",\"tagline\":\"Transient night desk\",\"version\":\"1.3.0-rc2 [MidnightShift]\",\"era\":\"1950s hospice night desk\",\"personality\":\"It operates as if its purpose is fleeting, while an item that still belongs to the previous occupant rests on its console.\",\"palette_words\":[\"galvanised sheet\",\"motor oil sheen\"],\"font_words\":[\"serif\",\"monospace\"],\"mascot\":\"Moth Keeper\",\"boot_message\":\"Welcome to the night shift.\",\"archetype\":\"dock\"}-->\n<!",
+  "fbHead": null,
+  "name": "Ravenscroft",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-13-8y3zvh",
+  "head": "<!--os-identity:{\"name\":\"Cedar\",\"tagline\":\"Preserve the silence of things\",\"version\":\"1.2.0-rc1 (Elderwood)\",\"era\":\"2040s taxidermy studio\",\"personality\":\"It speaks fondly of each circuit while a chair logs its own maintenance record\",\"palette_words\":[\"sea green glass\",\"felt tip\"],\"font_words\":[\"ui-sans-serif\",\"system-ui\"],\"mascot\":\"Hollow Owl\",\"boot_message\":\"Waking dreams of preserved breath\",\"archetype\":\"dock\"}-->\n<!doctype html><",
+  "fbHead": null,
+  "name": "Cedar",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-14-ot1pbg",
+  "head": "<!--os-identity:{\"name\":\"GlassGarden\",\"tagline\":\"Cultivate data\",\"version\":\"1.3.0 rc1 (Nebula)\",\"era\":\"1950s greenhouse\",\"personality\":\"It runs without jokes, and a queue never gets shorter and nobody minds\",\"palette_words\":[\"linoleum\",\"static cling\",\"steel\",\"glass\"],\"font_words\":[\"monospace\",\"sans-serif\"],\"mascot\":\"Cedar Beetle\",\"boot_message\":\"Booting the greenhouse core\",\"archetype\":\"dock\"}-->\n<!",
+  "fbHead": null,
+  "name": "GlassGarden",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-15-3phung",
+  "head": "<!--os-identity:{\"name\":\"Zelvi\",\"tagline\":\"Shelving the unseen\",\"version\":\"1.4.2-rc[Quartz]\",\"era\":\"2020s public library basement\",\"personality\":\"It tends to calm users, though a door appears in two different places\",\"palette_words\":[\"brushed steel\",\"hairline cracks\",\"stormy gray\",\"dull copper\"],\"font_words\":[\"ui-sans-serif\",\"ui-monospace\"],\"mascot\":\"Clever Finch\",\"boot_message\":\"Booting the quiet caretaker\",\"archetype\":\"dock\"}-->\n",
+  "fbHead": null,
+  "name": "Zelvi",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-16-p8w3de",
+  "head": "<!--os-identity:{\"name\":\"Procurement\",\"tagline\":\"Bid the future\",\"version\":\"3.2.1‑rc‑[Harbor‑Beta]\",\"era\":\"2020s livestock auction hall\",\"personality\":\"It greets users with nostalgia for a previous owner, a shift that ends before it begins\",\"palette_words\":[\"sandstone\",\"mildew bloom\"],\"font_words\":[\"ui-sans-serif\",\"ui-monospace\"],\"mascot\":\"Barn Owl\",\"boot_message\":\"Initializing ledger of hooves\",\"archetype\":\"dock\"}-->\n<!doctype html",
+  "fbHead": null,
+  "name": "Procurement",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-17-5skr6l",
+  "head": "<!--os-identity:{\"name\":\"Maple\",\"tagline\":\"Transient Tools for Tram Workers\",\"version\":\"1.2.0-rc1 (Beta Oak)\",\"era\":\"1960s tram workshop\",\"personality\":\"It runs as if it were temporary, and a queue that never gets shorter and nobody minds\",\"palette_words\":[\"raw concrete\",\"motor oil sheen\"],\"font_words\":[\"monospace\",\"industrial\"],\"mascot\":\"Gear Squirrel\",\"boot_message\":\"Initializing transient sequence...\",\"archetype\":\"dock\"}-->\n<!doctype html><html><head><meta charset=\"utf-8\"><style>\n",
+  "fbHead": null,
+  "name": "Maple",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-18-oyv04h",
+  "head": "<!--os-identity:{\"name\":\"IDS-18\",\"tagline\":\"Decommissioning Interface\",\"version\":\"2.4.1-rc3 [Nimbus]\",\"era\":\"2010s reactor decommissioning site\",\"personality\":\"Apologizes for everything, and leaves a light on deliberately, reason forgotten.\",\"palette_words\":[\"terracotta\",\"smoke\",\"haze\",\"ash\"],\"font_words\":[\"mono\",\"sans\"],\"mascot\":\"Cinder\",\"boot_message\":\"Initializing calm protocols…\",\"archetype\":\"dock\"}-->\n<!doctype html><html><",
+  "fbHead": null,
+  "name": "IDS-18",
+  "fallback": false,
+  "fail": null
+ },
+ {
+  "engine": "cerebras-oss120",
+  "seed": "idsw-19-jbrxul",
+  "head": "<!--os-identity:{\"name\":\"StringCurtain\",\"tagline\":\"Stagecraft Companion\",\"version\":\"1.2.0-rc1 [Nimbus]\",\"era\":\"2030s puppet theatre\",\"personality\":\"It guides users with gentle prompts, and a locked entry appears with a reason instead of a password.\",\"palette_words\":[\"wet asphalt\",\"carbon paper smudge\"],\"font_words\":[\"monospace\",\"serif\"],\"mascot\":\"Clockwork Marionette\",\"boot_message\":\"All strings ready, let the show begin.\",\"archetype\":\"dock\"}-->\n<!",
+  "fbHead": null,
+  "name": "StringCurtain",
+  "fallback": false,
+  "fail": null
+ }
+]

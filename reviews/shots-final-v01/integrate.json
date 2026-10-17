@@ -1,0 +1,364 @@
+{
+  "at": "2026-09-17T11:03:19.093Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "Dispatchium",
+        "tagline": "Courier hub, silent and steady",
+        "version": "3.1.4‑beta",
+        "era": "1950s courier dispatch room",
+        "personality": "It waits for each package report with patient beyond reason, never hurrying the user",
+        "palette_words": [
+          "celadon",
+          "tile",
+          "fluorescent",
+          "flicker"
+        ],
+        "font_words": [
+          "monospaced slab",
+          "all caps"
+        ],
+        "mascot": "Glimmer the phosphor moth",
+        "boot_message": "All systems ready, awaiting orders",
+        "archetype": "taskbar"
+      },
+      "bootPaintMs": 1489,
+      "desktopInteractiveMs": 3172,
+      "desktopRevealedMs": 4343,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": false,
+        "wallpaperOn": "slot",
+        "icons": 16,
+        "iconsFilled": 0,
+        "clock": true,
+        "clockText": "16:02 – 17/09/2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "launchersOffscreen": 5,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "taskbar",
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "icons": 20,
+        "iconsFilled": 16,
+        "clock": true,
+        "clockText": "16:03 – 17/09/2026",
+        "launchers": 16,
+        "taskbar": true,
+        "injected": 0,
+        "launchersOffscreen": 5,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 4527,
+        "n": 17
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "minutes",
+        "from": "16:02 – 17/09/2026",
+        "to": "16:03 – 17/09/2026",
+        "ms": 53221
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 1619,
+          "chars": 118,
+          "nodes": 14,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 1215,
+          "chars": 70,
+          "nodes": 29,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "notes",
+          "ms": 2023,
+          "chars": 440,
+          "nodes": 24,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2427,
+          "chars": 1556,
+          "nodes": 83,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 406,
+          "chars": 88,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2438,
+          "chars": 2018,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://tonypizza.example.com",
+          "ms": 1738,
+          "chars": 659,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 2140,
+          "chars": 692,
+          "blank": false
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 1740,
+          "chars": 2389,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 2,
+        "usd": 0.006,
+        "kinds": [
+          "wallpaper",
+          "icons"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g2-101r6r",
+          "fp": 3172,
+          "ia": 3172,
+          "matched": true
+        },
+        {
+          "gen": "g3-k0fjk5",
+          "done": 1152,
+          "matched": true
+        },
+        {
+          "gen": "g4-2kce4u",
+          "done": 0,
+          "matched": true
+        },
+        {
+          "gen": "g4-2kce4u",
+          "fp": 29,
+          "ia": 29,
+          "matched": true
+        },
+        {
+          "gen": "g5-7v5spt",
+          "done": 897,
+          "matched": true
+        },
+        {
+          "gen": "g6-dybguf",
+          "done": 1340,
+          "matched": true
+        },
+        {
+          "gen": "g7-cvif2h",
+          "done": 1966,
+          "matched": true
+        },
+        {
+          "gen": "g8-z83blk",
+          "done": 1879,
+          "matched": true
+        },
+        {
+          "gen": "g9-vvxym1",
+          "done": 953,
+          "matched": true
+        },
+        {
+          "gen": "g10-v9myw7",
+          "done": 1617,
+          "matched": true
+        },
+        {
+          "gen": "g11-kp4ghn",
+          "done": 1255,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 1298,
+          "total": 1549,
+          "tps": 343,
+          "tout": 531,
+          "usd": 0.0014916399999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1394,
+          "interactive_ms": 1394
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 609,
+          "total": 1789,
+          "tps": 792,
+          "tout": 1416,
+          "usd": 0.00280954,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "page",
+          "ttfb": 650,
+          "total": 989,
+          "tps": 543,
+          "tout": 537,
+          "usd": 0.00152203,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 626,
+          "total": 1152,
+          "tps": 593,
+          "tout": 683,
+          "usd": 0.00161777,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 631,
+          "interactive_ms": 631
+        },
+        {
+          "kind": "app",
+          "ttfb": 464,
+          "total": 896,
+          "tps": 1144,
+          "tout": 1025,
+          "usd": 0.0018565,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 468,
+          "interactive_ms": 468
+        },
+        {
+          "kind": "app",
+          "ttfb": 483,
+          "total": 1341,
+          "tps": 1467,
+          "tout": 1967,
+          "usd": 0.00247073,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 488,
+          "interactive_ms": 488
+        },
+        {
+          "kind": "app",
+          "ttfb": 935,
+          "total": 1964,
+          "tps": 1240,
+          "tout": 2435,
+          "usd": 0.0028279,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 948,
+          "interactive_ms": 948
+        },
+        {
+          "kind": "page",
+          "ttfb": 1398,
+          "total": 1877,
+          "tps": 1167,
+          "tout": 2191,
+          "usd": 0.00267254,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1418,
+          "interactive_ms": 1418
+        },
+        {
+          "kind": "page",
+          "ttfb": 461,
+          "total": 950,
+          "tps": 1256,
+          "tout": 1193,
+          "usd": 0.00198792,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 467,
+          "interactive_ms": 467
+        },
+        {
+          "kind": "page",
+          "ttfb": 1010,
+          "total": 1615,
+          "tps": 897,
+          "tout": 1449,
+          "usd": 0.00216381,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1021,
+          "interactive_ms": 1021
+        },
+        {
+          "kind": "page",
+          "ttfb": 491,
+          "total": 1251,
+          "tps": 1425,
+          "tout": 1783,
+          "usd": 0.00239577,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 506,
+          "interactive_ms": 506
+        }
+      ],
+      "errors": [],
+      "cspBlocks": 0,
+      "usd": 0.02981615
+    }
+  ],
+  "usd": 0.02981615
+}

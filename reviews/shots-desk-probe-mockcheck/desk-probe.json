@@ -1,0 +1,87 @@
+{
+  "engine": "mock",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "TAPEWORM 2",
+        "tagline": "a vast machine",
+        "era": "1997-adjacent",
+        "archetype": "taskbar"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 173,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 0,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": null,
+      "wallpaper": false,
+      "wallpaperOn": "none",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "httpRefused": [
+        "/api/img 404",
+        "/api/img 404"
+      ],
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "cspBlocks": 0,
+      "usd": 0,
+      "engineUsed": "mock"
+    },
+    {
+      "boot": 2,
+      "identity": {
+        "name": "BUREAU-9 5",
+        "tagline": "a cobalt machine",
+        "era": "1997-adjacent",
+        "archetype": "dock"
+      },
+      "identityFallback": false,
+      "bootPaintMs": 96,
+      "contract": "ok",
+      "launchers": 16,
+      "launchersOffscreen": 0,
+      "launchersOffscreenAttr": 0,
+      "launchersLabelled": 16,
+      "injected": 0,
+      "icons": 16,
+      "iconsFilled": 0,
+      "iconsFilledAtReady": 0,
+      "platesWaitedMs": null,
+      "wallpaper": false,
+      "wallpaperOn": "none",
+      "clock": true,
+      "glyphs": {
+        "total": 16,
+        "withText": 16,
+        "transparent": 0,
+        "hidden": 0
+      },
+      "httpRefused": [
+        "/api/img 404",
+        "/api/img 404"
+      ],
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "cspBlocks": 0,
+      "usd": 0,
+      "engineUsed": "mock"
+    }
+  ]
+}

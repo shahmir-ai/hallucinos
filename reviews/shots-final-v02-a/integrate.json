@@ -1,0 +1,422 @@
+{
+  "at": "2026-09-17T13:26:04.549Z",
+  "results": [
+    {
+      "engine": "cerebras-oss120",
+      "identity": {
+        "name": "mist-wisp",
+        "tagline": "Silently scribing in quiet halls",
+        "version": "1.2.0rc1 [cobalt]",
+        "era": "2090s, monastic scriptorium",
+        "personality": "It is anxious about the weather, and a queue that never gets shorter and nobody minds",
+        "palette_words": [
+          "plum velvet",
+          "static cling"
+        ],
+        "font_words": [
+          "serif",
+          "monospace"
+        ],
+        "mascot": "brass monk",
+        "boot_message": "Aw",
+        "archetype": "dock"
+      },
+      "bootPaintMs": null,
+      "desktopInteractiveMs": 5366,
+      "desktopRevealedMs": 6834,
+      "contract": "ok",
+      "desktop": {
+        "archetypeAttr": "dock",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "clock": true,
+        "clockText": "18:25:35 2026-09-17",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 24,
+        "launchersLabelled": 24,
+        "launcherCols": 12,
+        "launcherRows": 5,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 24,
+        "iconsFilled": 0,
+        "iconSlotsElsewhere": 0,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": false,
+        "wallpaperOn": "none",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "desktopAfterImages": {
+        "archetypeAttr": "dock",
+        "archetypePatched": false,
+        "viewport": {
+          "vw": 1440,
+          "vh": 900
+        },
+        "taskbar": true,
+        "taskbarBox": {
+          "x": 0,
+          "y": 860,
+          "w": 1440,
+          "h": 40
+        },
+        "taskbarEdge": "bottom",
+        "clock": true,
+        "clockText": "18:26:03 2026-09-17",
+        "clockPatched": false,
+        "clockInBar": true,
+        "clockEdge": "bottom",
+        "launchers": 24,
+        "launchersLabelled": 24,
+        "launcherCols": 12,
+        "launcherRows": 5,
+        "grid": true,
+        "launchersOffscreen": 0,
+        "launchersOverlapping": 0,
+        "launcherWorstOverlap": 0,
+        "icons": 24,
+        "iconsFilled": 16,
+        "iconSlotsElsewhere": 4,
+        "iconSlotsElsewhereFilled": 0,
+        "wallpaper": true,
+        "wallpaperOn": "slot",
+        "windowTemplate": true,
+        "injected": 0,
+        "scrollY": 0
+      },
+      "imagesLanded": {
+        "firstFilledMs": 3527,
+        "n": 17
+      },
+      "clock": {
+        "ticked": true,
+        "resolution": "seconds",
+        "from": "18:25:35 2026-09-17",
+        "to": "18:25:36 2026-09-17",
+        "ms": 1004
+      },
+      "apps": [
+        {
+          "id": "browser",
+          "ms": 2019,
+          "chars": 77,
+          "nodes": 15,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "photos",
+          "ms": 2018,
+          "chars": 549,
+          "nodes": 50,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "store",
+          "ms": 2422,
+          "chars": 773,
+          "nodes": 57,
+          "blank": false,
+          "unstyled": false
+        },
+        {
+          "id": "calculator",
+          "ms": 2019,
+          "chars": 47,
+          "nodes": 24,
+          "blank": false,
+          "unstyled": false
+        }
+      ],
+      "pages": [
+        {
+          "what": "home (google-shaped)",
+          "ms": 404,
+          "chars": 81,
+          "blank": false
+        },
+        {
+          "what": "search results (form)",
+          "ms": 2025,
+          "chars": 1544,
+          "blank": false
+        },
+        {
+          "what": "clicked result https://www.tuscanypizzeria.com/menu",
+          "ms": 3347,
+          "chars": 1367,
+          "blank": false
+        },
+        {
+          "what": "reddit.com/r/cats",
+          "ms": 3748,
+          "chars": 6,
+          "blank": true
+        },
+        {
+          "what": "en.wikipedia.org/wiki/Moon",
+          "ms": 7784,
+          "chars": 2801,
+          "blank": false
+        }
+      ],
+      "images": {
+        "calls": 6,
+        "usd": 0.018,
+        "kinds": [
+          "wallpaper",
+          "icons",
+          "photo",
+          "photo",
+          "photo",
+          "photo"
+        ]
+      },
+      "marks": [
+        {
+          "gen": "g1-z6oxrx",
+          "fp": 4176,
+          "ia": 4176,
+          "matched": true
+        },
+        {
+          "gen": "g2-x4ptgj",
+          "fp": 5366,
+          "ia": 5366,
+          "matched": true
+        },
+        {
+          "gen": "g3-tu8ugj",
+          "done": 1665,
+          "matched": true
+        },
+        {
+          "gen": "g4-2cjypk",
+          "done": 24,
+          "matched": true
+        },
+        {
+          "gen": "g4-2cjypk",
+          "fp": 29,
+          "ia": 29,
+          "matched": true
+        },
+        {
+          "gen": "g5-boeuyq",
+          "done": 1541,
+          "matched": true
+        },
+        {
+          "gen": "g6-wmagn0",
+          "done": 1892,
+          "matched": true
+        },
+        {
+          "gen": "g7-nhwzo3",
+          "done": 1546,
+          "matched": true
+        },
+        {
+          "gen": "g8-c8l099",
+          "done": 1299,
+          "matched": true
+        },
+        {
+          "gen": "g9-j1s772",
+          "done": 2739,
+          "matched": true
+        },
+        {
+          "gen": "g11-q9131d",
+          "done": 7377,
+          "matched": true
+        }
+      ],
+      "gens": [
+        {
+          "kind": "boot",
+          "ttfb": 4113,
+          "total": 4144,
+          "tps": 193,
+          "tout": 800,
+          "usd": 0.0018875,
+          "contract": null,
+          "err": null,
+          "truncated": true,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "desktop",
+          "ttfb": 634,
+          "total": 1193,
+          "tps": 1365,
+          "tout": 1629,
+          "usd": 0.0032742599999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 1242,
+          "total": 1667,
+          "tps": 505,
+          "tout": 842,
+          "usd": 0.0018374799999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1244,
+          "interactive_ms": 1244
+        },
+        {
+          "kind": "page",
+          "ttfb": 1367,
+          "total": 1691,
+          "tps": 371,
+          "tout": 628,
+          "usd": 0.00181582,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": null,
+          "interactive_ms": null
+        },
+        {
+          "kind": "app",
+          "ttfb": 632,
+          "total": 1548,
+          "tps": 1293,
+          "tout": 2002,
+          "usd": 0.0026766299999999997,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 644,
+          "interactive_ms": 644
+        },
+        {
+          "kind": "app",
+          "ttfb": 1319,
+          "total": 1892,
+          "tps": 1321,
+          "tout": 2500,
+          "usd": 0.00305975,
+          "contract": true,
+          "err": null,
+          "truncated": true,
+          "fb": false,
+          "first_paint_ms": 1327,
+          "interactive_ms": 1327
+        },
+        {
+          "kind": "app",
+          "ttfb": 958,
+          "total": 1546,
+          "tps": 1034,
+          "tout": 1599,
+          "usd": 0.0023618099999999998,
+          "contract": true,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 964,
+          "interactive_ms": 964
+        },
+        {
+          "kind": "page",
+          "ttfb": 670,
+          "total": 1297,
+          "tps": 1086,
+          "tout": 1408,
+          "usd": 0.0023632699999999998,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 689,
+          "interactive_ms": 689
+        },
+        {
+          "kind": "page",
+          "ttfb": 1547,
+          "total": 2736,
+          "tps": 547,
+          "tout": 1497,
+          "usd": 0.0024299300000000003,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 1558,
+          "interactive_ms": 1558
+        },
+        {
+          "kind": "page",
+          "ttfb": 2193,
+          "total": 3850,
+          "tps": 105,
+          "tout": 406,
+          "usd": 0.00172964,
+          "contract": null,
+          "err": "client aborted",
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 2209,
+          "interactive_ms": 2209
+        },
+        {
+          "kind": "page",
+          "ttfb": 6315,
+          "total": 7373,
+          "tps": 281,
+          "tout": 2073,
+          "usd": 0.00287287,
+          "contract": null,
+          "err": null,
+          "truncated": false,
+          "fb": false,
+          "first_paint_ms": 6326,
+          "interactive_ms": 6326
+        }
+      ],
+      "errors": [
+        "Failed to construct 'URL': Invalid URL",
+        "Cannot set properties of null (setting 'src')",
+        "Cannot set properties of null (setting 'src')",
+        "Cannot set properties of null (setting 'src')",
+        "Cannot read properties of null (reading 'style')",
+        "Cannot read properties of null (reading 'style')"
+      ],
+      "cspBlocks": 0,
+      "usd": 0.04430896
+    }
+  ],
+  "usd": 0.04430896
+}

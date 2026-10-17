@@ -1,0 +1,530 @@
+{
+  "engine": "mock",
+  "boots": [
+    {
+      "boot": 1,
+      "identity": {
+        "name": "TAPEWORM 2",
+        "version": "3.2",
+        "era": "1997-adjacent",
+        "archetype": "taskbar"
+      },
+      "archetype": "taskbar",
+      "bootInkMs": 73,
+      "desktopInteractiveMs": 339,
+      "launchers": 16,
+      "iconsFilled": "0/16",
+      "iconsFilledAtReady": "0/16",
+      "platesWaitedMs": 15092,
+      "wallpaper": false,
+      "opens": [
+        {
+          "app": "photos",
+          "pattern": "plain",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789679881436,
+          "windowId": "w1",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 193,
+          "chars": 260,
+          "nodes": 28,
+          "genId": "g3-zk97bj",
+          "inkMsKernel": 51,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 51
+        },
+        {
+          "app": "maps",
+          "pattern": "cross",
+          "mode": "real",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789679882054,
+          "windowId": "w2",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 266,
+          "chars": 237,
+          "nodes": 28,
+          "genId": "g4-w5ffzg",
+          "inkMsKernel": 69,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 35
+        },
+        {
+          "app": "browser",
+          "pattern": "double",
+          "mode": "dispatched",
+          "shoved": "w2",
+          "coveredBy": "window w2",
+          "kernelSawClick": true,
+          "inDock": false,
+          "clickedAt": 1789679883179,
+          "windowId": "w3",
+          "painted": true,
+          "outcome": "painted",
+          "inkMs": 312,
+          "chars": 31,
+          "nodes": 11,
+          "genId": "g5-ij9qc8",
+          "inkMsKernel": 77,
+          "engineUsed": "mock",
+          "interactiveMsKernel": 44
+        }
+      ],
+      "windows": [
+        {
+          "id": "w1",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 891,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w2",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 1438,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        },
+        {
+          "id": "w3",
+          "app": "",
+          "chrome": "ok",
+          "why": "",
+          "fallbackStrip": false,
+          "close": true,
+          "minimise": true,
+          "maximise": true,
+          "closeBox": {
+            "w": 26,
+            "h": 34
+          },
+          "dragBox": {
+            "w": 891,
+            "h": 46
+          },
+          "closeHit": true,
+          "dragHit": true,
+          "usable": true
+        }
+      ],
+      "windowsStacked": [
+        {
+          "id": "w1",
+          "chrome": "ok",
+          "closeHit": false,
+          "closeBlocked": "other-window"
+        },
+        {
+          "id": "w2",
+          "chrome": "ok",
+          "closeHit": true
+        },
+        {
+          "id": "w3",
+          "chrome": "ok",
+          "closeHit": true
+        }
+      ],
+      "tasks": [
+        {
+          "for": "w1",
+          "box": {
+            "w": 94,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪▣ photos",
+          "fallback": false
+        },
+        {
+          "for": "w2",
+          "box": {
+            "w": 77,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪▣ maps",
+          "fallback": false
+        },
+        {
+          "for": "w3",
+          "box": {
+            "w": 77,
+            "h": 34
+          },
+          "onScreen": true,
+          "text": "▪Goggle",
+          "fallback": false
+        }
+      ],
+      "walk": null,
+      "chrome": {
+        "template": "ok",
+        "contractPatch": null,
+        "windowsUsable": "3/3",
+        "windowsPatched": 0
+      },
+      "labels": {
+        "atPlates": "16/16",
+        "late": "16/16",
+        "inDom": 16,
+        "lost": 0,
+        "kept": [],
+        "boxed": 0
+      },
+      "barSpacing": {
+        "pairs": 4,
+        "min": 23,
+        "jammed": false,
+        "tightest": "2:18:07 AM · 9/18/2026|23px|▣ photos",
+        "oursMin": null,
+        "oursJammed": false,
+        "clock": {
+          "patched": false,
+          "inBar": true
+        },
+        "text": "TAPEWORM 2 2:18:07 AM · 9/18/2026 ▪▣ photos ▪▣ maps ▪Goggle"
+      },
+      "icons": [
+        {
+          "app": "browser",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "photos",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "trash",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "calculator",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "store",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "mail",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "messages",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "terminal",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "taskmgr",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "maps",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "weather",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "news",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "notes",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "games",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "update",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        },
+        {
+          "app": "about",
+          "glyph": "▣",
+          "plate": false,
+          "colour": "rgb(231, 231, 234)",
+          "transparent": false,
+          "visibility": "visible",
+          "opacity": 1,
+          "fontPx": 14,
+          "box": {
+            "w": 8,
+            "h": 16
+          }
+        }
+      ],
+      "net": {
+        "n": 0,
+        "peak": 4,
+        "byLane": {
+          "gen": 0,
+          "img": 0,
+          "mark": 0
+        },
+        "open": []
+      },
+      "errors": [
+        "Failed to load resource: the server responded with a status of 404 (Not Found)",
+        "Failed to load resource: the server responded with a status of 404 (Not Found)"
+      ],
+      "cspNoise": 31,
+      "httpRefused": [
+        "/api/img 404",
+        "/api/img 404"
+      ],
+      "imgs": [],
+      "refusals": {},
+      "trace": [
+        "+25ms gen.fetch boot g1-mdlu3t",
+        "+44ms gen.headers boot g1-mdlu3t 200",
+        "+61ms gen.fetch desktop g2-909sku",
+        "+66ms gen.headers desktop g2-909sku 200",
+        "+154ms gen.closed boot g1-mdlu3t",
+        "+329ms gen.closed desktop g2-909sku",
+        "+17987ms launcher.press photos",
+        "+17987ms gen.fetch app g3-zk97bj",
+        "+17988ms launcher.click photos",
+        "+17988ms openApp.enter photos",
+        "+17988ms openApp.claim photos hit g3-zk97bj",
+        "+17992ms openApp.created photos w1",
+        "+17993ms openApp.focused w1",
+        "+17993ms openApp.stream w1",
+        "+17993ms streamApp.enter w1 photos spec g3-zk97bj",
+        "+17993ms streamDoc.enter app g3-zk97bj spec g3-zk97bj",
+        "+17993ms streamDoc.take g3-zk97bj",
+        "+17993ms openApp.exit w1",
+        "+18016ms gen.headers app g3-zk97bj 200",
+        "+18097ms gen.closed app g3-zk97bj",
+        "+18097ms streamApp.exit w1 inked=true painted=true",
+        "+18688ms launcher.press maps",
+        "+18688ms gen.fetch app g4-w5ffzg",
+        "+18688ms launcher.click maps",
+        "+18688ms openApp.enter maps",
+        "+18688ms openApp.claim maps hit g4-w5ffzg",
+        "+18691ms openApp.created maps w2",
+        "+18692ms openApp.focused w2",
+        "+18692ms openApp.stream w2",
+        "+18692ms streamApp.enter w2 maps spec g4-w5ffzg",
+        "+18692ms streamDoc.enter app g4-w5ffzg spec g4-w5ffzg",
+        "+18692ms streamDoc.take g4-w5ffzg",
+        "+18692ms openApp.exit w2",
+        "+18694ms gen.headers app g4-w5ffzg 200",
+        "+18801ms gen.closed app g4-w5ffzg",
+        "+18801ms streamApp.exit w2 inked=true painted=true",
+        "+19859ms launcher.press browser",
+        "+19859ms gen.fetch app g5-ij9qc8",
+        "+19860ms gen.fetch page g6-xhllqk",
+        "+19864ms launcher.click browser",
+        "+19864ms openApp.enter browser",
+        "+19864ms openApp.claim browser hit g5-ij9qc8",
+        "+19866ms openApp.created browser w3",
+        "+19866ms openApp.focused w3",
+        "+19866ms openApp.stream w3",
+        "+19866ms streamApp.enter w3 browser spec g5-ij9qc8",
+        "+19866ms streamDoc.enter app g5-ij9qc8 spec g5-ij9qc8",
+        "+19866ms streamDoc.take g5-ij9qc8",
+        "+19866ms openApp.exit w3",
+        "+19867ms gen.headers app g5-ij9qc8 200",
+        "+19884ms gen.headers page g6-xhllqk 200",
+        "+19980ms gen.closed app g5-ij9qc8",
+        "+19981ms streamDoc.enter page g6-xhllqk spec g6-xhllqk",
+        "+19981ms streamDoc.take g6-xhllqk",
+        "+19988ms gen.closed page g6-xhllqk",
+        "+19988ms streamApp.exit w3 inked=true painted=true"
+      ],
+      "usd": 0,
+      "gens": 6
+    }
+  ]
+}

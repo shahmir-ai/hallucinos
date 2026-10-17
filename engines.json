@@ -1,0 +1,263 @@
+{
+  "_notes": [
+    "Verified 2026-09-17 against live provider APIs with the keys present in .env.",
+    "  openai-small -> gpt-4.1-nano  VERIFIED in GET https://api.openai.com/v1/models (cheapest small non-reasoning)",
+    "  anthropic-haiku -> claude-haiku-4-5  VERIFIED in GET https://api.anthropic.com/v1/models; the OpenAI-compatible /v1/chat/completions accepts stream:true, so no Messages-API adapter is used",
+    "  cerebras-oss120 -> gpt-oss-120b  VERIFIED. Reasoning: only 'low'|'medium'|'high' exist ('none'/'minimal' are rejected with wrong_api_format). With no reasoning_effort a 20-token call spends every token on reasoning and returns content:null; reasoning_effort:'low' returns visible content (3 reasoning tokens).",
+    "  cerebras-qwen38 -> qwen-3.8-27b  VERIFIED. 'chat_template_kwargs' is REJECTED by Cerebras ('property unsupported') — the previous config here was broken. 'disable_reasoning': true works and gives 0 reasoning tokens with visible content.",
+    "  mercury-2.5 -> mercury-2.5  VERIFIED in GET https://api.inceptionlabs.ai/v1/models (mercury-2 also present). Tunable reasoning: reasoning_effort:'none' is accepted and gives 0 reasoning tokens with visible content; 'low', reasoning:{enabled:false}, thinking:false and diffusing_effort all leave it thinking and return empty content. Prices below are the ones the /models endpoint reports (0.04 / 0.15 per 1M).",
+    "  openrouter-* -> VERIFIED. Provider pinning {provider:{order:['Groq'],allow_fallbacks:false}} returns provider:'Groq'; {provider:{sort:'throughput'}} also resolved to Groq on 2026-09-17. Per-provider prices read from GET /api/v1/models/<model>/endpoints: Groq gpt-oss-20b 0.075/0.30, Groq gpt-oss-120b 0.15/0.60.",
+    "  Groq direct (groq-oss20 / groq-oss120) has no key — Shahmir could not get a developer plan. Those two entries stay and hide themselves; the OpenRouter-pinned equivalents are the route to Groq.",
+    "TODO unverified (no key present): gemini-flashlite -> 'gemini-2.5-flash-lite' (needs GOOGLE_API_KEY).",
+    "All usd_in/usd_out are USD per 1M tokens.",
+    "  cerebras-qwen38 needs the raised desktop cap: at 7,000 it hit finish_reason=length on 5 of 6 desktops and lost the taskbar/templates to truncation.",
+    "SPEC §12.1 / I7 budgets (2026-09-17): boot 800, desktop 3500, app 2500, page 2500, repair 3500. Speed is the product; volume is not.",
+    "json_mode: the engine accepts response_format:{type:'json_object'} on /chat/completions. Set only where verified — Cerebras and OpenRouter document it, OpenAI has it, Anthropic's compatibility endpoint does not. Used ONLY by the kind=identity fallback call (I1); no HTML kind ever asks for JSON.",
+    "timeout_ms (S4): per-engine wall clock for one generation, overriding GEN_TIMEOUT_MS. anthropic-haiku gets 60000 because BAKEOFF-2 measured its desktops at a median total_ms of 25,003 — exactly our own 25 s cap — and two of four boots died on it.",
+    "cerebras-qwen38's 12,000-token override is REMOVED: SPEC §12.8 says qwen is out unless the budget cut tames it, so it now runs on the same 3,500 as everything else and the next bake-off decides.",
+    "identity budget raised 300 -> 500 (v0.2): gpt-oss spends reasoning tokens out of max_tokens, so a 300-token identity call came back truncated mid-JSON on cerebras — measured, both with and without response_format. 500 costs $0.00035 and is only ever paid on the I1 rescue path.",
+    "H1 routes (2026-09-17, v0.3): engine:'auto' resolves through `routes.default` per kind. Primary cerebras-oss120, hedge or-oss120-groq (the same gpt-oss-120b weights behind Groq, so the prompt needs no per-engine wording and the documents are the same shape). boot/desktop start both at once (HEDGE_AFTER_MS_BOOT=0) because the whole product is the first second; app/page wait HEDGE_AFTER_MS=900 for a content token first. An explicit engine id bypasses routing AND hedging so single engines stay judgeable.",
+    "boot budget 800 -> 1600 (2026-09-17, MEASURED by scripts/boot-budget.mjs, 6 calls, $0.011): max_tokens on Cerebras gpt-oss-120b INCLUDES reasoning tokens. At 800 the cap bound at exactly completion_tokens=800 with finish_reason=length on 2 of 3 calls, reasoning_tokens 357-659, one document left at 507 visible characters. At 1600 the model stopped on its own at 739-1005 completion tokens on 3 of 3 (finish_reason=stop), reasoning 301-629, documents 1,206-1,385 characters. So the raise costs nothing on a normal boot -- it is never reached -- and removes the starvation case that made a boot screen paint nothing. SPEC 12.1's brevity now rests on the prompt, which is where it was already argued."
+,
+    "app 2500 -> 4000, page 2500 -> 3200, repair 3500 -> 4000 (2026-09-17, MEASURED by scripts/kind-budget.mjs, 54 calls, $0.137; reviews/BUDGET-2.md): the same arithmetic as the boot raise, run on the document kinds. The probe reproduced HANDOFF-5's blank-ish app window exactly -- kind=app on `photos` hit finish_reason=length 1 of 3 at 2500 and left an UNCLOSED document, while the same app at 4000 stopped on its own at 1927-2278 completion tokens. Every other shape measured was far inside its cap: desktop p100 1864 of 3500, notes 1703, browser 1034, a reference page 1604 and a search-results page 1366. Raising a cap did NOT raise output -- medians were flat or lower at the higher budget, i.e. these documents are prompt-bound, not budget-bound -- so the raise buys headroom and is billed only on tokens actually produced. Its real price is the PRE-RESERVATION against MAX_USD_PER_DAY (server/index.ts estimates a generation at costUsd(engine, promptTokens, maxTokensFor(kind))), which is ~$0.001 more per app generation at $25/day. desktop stays 3500 and boot stays 1600 (53 clean boots); repair follows desktop's old shape and is now app's, because a repair rewrites the whole document that ran out of room."
+  ],
+  "defaults": {
+    "temperature": 1.1,
+    "max_tokens": {
+      "identity": 500,
+      "boot": 1600,
+      "desktop": 3500,
+      "app": 4000,
+      "page": 3200,
+      "repair": 4000
+    }
+  },
+  "routes": {
+    "default": {
+      "boot": {
+        "primary": "cerebras-oss120",
+        "hedge": "or-oss120-groq"
+      },
+      "desktop": {
+        "primary": "cerebras-oss120",
+        "hedge": "or-oss120-groq"
+      },
+      "app": {
+        "primary": "cerebras-oss120",
+        "hedge": "or-oss120-groq"
+      },
+      "page": {
+        "primary": "cerebras-oss120",
+        "hedge": "or-oss120-groq"
+      }
+    }
+  },
+  "engines": [
+    {
+      "id": "mock",
+      "label": "mock (fixtures, no key)",
+      "kind": "mock",
+      "model": "fixtures",
+      "keyEnv": null,
+      "usd_in": 0,
+      "usd_out": 0,
+      "notes": "in-process canned documents, streamed; varies every call so nothing can be cached",
+      "json_mode": true
+    },
+    {
+      "id": "cerebras-oss120",
+      "label": "Cerebras gpt-oss-120b",
+      "kind": "openai",
+      "baseUrl": "https://api.cerebras.ai/v1",
+      "model": "gpt-oss-120b",
+      "keyEnv": "CEREBRAS_API_KEY",
+      "usd_in": 0.25,
+      "usd_out": 0.69,
+      "extraBody": {
+        "reasoning_effort": "low"
+      },
+      "notes": "~2000-3000 tok/s; reasoning at the lowest setting",
+      "json_mode": true
+    },
+    {
+      "id": "cerebras-qwen38",
+      "label": "Cerebras qwen-3.8-27b",
+      "kind": "openai",
+      "baseUrl": "https://api.cerebras.ai/v1",
+      "model": "qwen-3.8-27b",
+      "keyEnv": "CEREBRAS_API_KEY",
+      "usd_in": 0.2,
+      "usd_out": 0.6,
+      "extraBody": {
+        "disable_reasoning": true
+      },
+      "notes": "~1850 tok/s; thinking disabled via disable_reasoning (chat_template_kwargs is rejected by Cerebras). SPEC §12.8: the 12k desktop override was removed with the I7 budget cut — it either writes compactly now or it is out.",
+      "json_mode": true
+    },
+    {
+      "id": "mercury-2.5",
+      "label": "Inception Mercury 2.5 (diffusion)",
+      "kind": "openai",
+      "baseUrl": "https://api.inceptionlabs.ai/v1",
+      "model": "mercury-2.5",
+      "keyEnv": "INCEPTION_API_KEY",
+      "usd_in": 0.04,
+      "usd_out": 0.15,
+      "notes": "diffusion; tokens arrive in blocks, the kernel paints each block as it lands; reasoning_effort:'none' is required or it returns empty content",
+      "extraBody": {
+        "reasoning_effort": "none"
+      }
+    },
+    {
+      "id": "groq-oss20",
+      "label": "Groq gpt-oss-20b",
+      "kind": "openai",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "model": "openai/gpt-oss-20b",
+      "keyEnv": "GROQ_API_KEY",
+      "usd_in": 0.1,
+      "usd_out": 0.5,
+      "extraBody": {
+        "reasoning_effort": "low"
+      },
+      "notes": "~1000 tok/s; the cheap-and-weird slot"
+    },
+    {
+      "id": "groq-oss120",
+      "label": "Groq gpt-oss-120b",
+      "kind": "openai",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "model": "openai/gpt-oss-120b",
+      "keyEnv": "GROQ_API_KEY",
+      "usd_in": 0.15,
+      "usd_out": 0.75,
+      "extraBody": {
+        "reasoning_effort": "low"
+      },
+      "notes": "~500 tok/s"
+    },
+    {
+      "id": "openai-small",
+      "label": "OpenAI gpt-4.1-nano",
+      "kind": "openai",
+      "baseUrl": "https://api.openai.com/v1",
+      "model": "gpt-4.1-nano",
+      "keyEnv": "OPENAI_API_KEY",
+      "usd_in": 0.1,
+      "usd_out": 0.4,
+      "notes": "slow reference engine, verified available 2026-09-17",
+      "json_mode": true,
+      "timeout_ms": 45000
+    },
+    {
+      "id": "anthropic-haiku",
+      "label": "Anthropic Claude Haiku 4.5",
+      "kind": "openai",
+      "baseUrl": "https://api.anthropic.com/v1",
+      "model": "claude-haiku-4-5",
+      "keyEnv": "ANTHROPIC_API_KEY",
+      "usd_in": 1.0,
+      "usd_out": 5.0,
+      "temperature": 1.0,
+      "notes": "Anthropic's OpenAI-compatible chat completions endpoint; streaming verified 2026-09-17. temperature capped at 1.0 by that API",
+      "timeout_ms": 60000
+    },
+    {
+      "id": "gemini-flashlite",
+      "label": "Google Gemini Flash-Lite",
+      "kind": "openai",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai",
+      "model": "gemini-2.5-flash-lite",
+      "keyEnv": "GOOGLE_API_KEY",
+      "usd_in": 0.1,
+      "usd_out": 0.4,
+      "notes": "optional; ~300 tok/s",
+      "json_mode": true,
+      "timeout_ms": 45000
+    },
+    {
+      "id": "openrouter-oss120",
+      "label": "OpenRouter gpt-oss-120b",
+      "kind": "openai",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "model": "openai/gpt-oss-120b",
+      "keyEnv": "OPENROUTER_API_KEY",
+      "usd_in": 0.15,
+      "usd_out": 0.6,
+      "notes": "one-key path, provider chosen by OpenRouter; prices are Groq's tier",
+      "json_mode": true
+    },
+    {
+      "id": "or-oss20-groq",
+      "label": "OpenRouter gpt-oss-20b (Groq pinned)",
+      "kind": "openai",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "model": "openai/gpt-oss-20b",
+      "keyEnv": "OPENROUTER_API_KEY",
+      "usd_in": 0.075,
+      "usd_out": 0.3,
+      "extraBody": {
+        "reasoning_effort": "low",
+        "provider": {
+          "order": [
+            "Groq"
+          ],
+          "allow_fallbacks": false
+        }
+      },
+      "notes": "Groq's ~1000 tok/s through OpenRouter (no Groq developer plan); the cheap-and-weird slot",
+      "json_mode": true
+    },
+    {
+      "id": "or-oss120-groq",
+      "label": "OpenRouter gpt-oss-120b (Groq pinned)",
+      "kind": "openai",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "model": "openai/gpt-oss-120b",
+      "keyEnv": "OPENROUTER_API_KEY",
+      "usd_in": 0.15,
+      "usd_out": 0.6,
+      "extraBody": {
+        "reasoning_effort": "low",
+        "provider": {
+          "order": [
+            "Groq"
+          ],
+          "allow_fallbacks": false
+        }
+      },
+      "notes": "Groq's ~500 tok/s through OpenRouter",
+      "json_mode": true
+    },
+    {
+      "id": "or-oss20-fast",
+      "label": "OpenRouter gpt-oss-20b (fastest provider)",
+      "kind": "openai",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "model": "openai/gpt-oss-20b",
+      "keyEnv": "OPENROUTER_API_KEY",
+      "usd_in": 0.075,
+      "usd_out": 0.3,
+      "extraBody": {
+        "reasoning_effort": "low",
+        "provider": {
+          "sort": "throughput"
+        }
+      },
+      "notes": "whichever provider is fastest right now; resolved to Groq on 2026-09-17, so prices are Groq's",
+      "json_mode": true
+    },
+    {
+      "id": "mock-b",
+      "label": "mock lane B (fixtures, tests only)",
+      "kind": "mock",
+      "model": "fixtures",
+      "keyEnv": null,
+      "usd_in": 0,
+      "usd_out": 0,
+      "test_only": true,
+      "notes": "H2: the second fake upstream the hedging tests race against `mock`. test_only keeps it out of /api/engines outside a test run or ALLOW_MOCK. Behaviour per lane comes from the seed (see server/mock.ts, FAKE SEEDS).",
+      "json_mode": true
+    }
+  ]
+}
